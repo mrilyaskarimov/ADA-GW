@@ -9,7 +9,10 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+ //n! is divided by n anyways. so, (n-1)! should be divisible by n. but some multiplication of dividents of factorial can make n.
+    int factorial;
+    scanf("%d", &factorial);
+    for (int i = 2; i; i <=  factorial -1; i++){
+    
+    }
 }

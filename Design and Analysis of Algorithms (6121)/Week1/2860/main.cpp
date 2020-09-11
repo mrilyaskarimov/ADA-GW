@@ -1,4 +1,4 @@
-//
+// 100%
 //  main.cpp
 //  Week1
 //
@@ -15,9 +15,9 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     long long  start, end, res = 0; //10^9..
     scanf("%lld %lld", &start, &end);
-    for (long i=start; i<= end; i++){
-        res += i;
-    }
+
+    //Maybe finding average? so (5-2+1)*(( 5 + 2 ) / 2)
+    res = (end-start+1)*(start + end)/2;
     printf("%lld\n", res);
     return 0;
 }

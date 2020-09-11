@@ -7,9 +7,23 @@
 //
 
 #include <iostream>
+int memoization [47]; //
+int fib (int n){
+    
+    if (n == 0 || n == 1){
+       return 1;
+    }
+    if (memoization[n] !=0){
+        return memoization[n];
+    }
+    else{
+        memoization[n] = fib(n-1) + fib(n-2);
+        return memoization[n];
+    }
+}
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    int n;
+    scanf("%d", &n);
+    printf("%d", fib(n));
 }

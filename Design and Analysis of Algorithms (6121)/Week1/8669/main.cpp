@@ -1,4 +1,4 @@
-//
+// 91%
 //  main.cpp
 //  8669
 //
@@ -8,8 +8,23 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    unsigned int dividend;
+    scanf("%d", &dividend);
+    for (unsigned int i=1; i*i<=dividend; i++){
+        if (dividend % i == 0){
+            printf("%d ",i);
+        }
+        if(dividend/i != i){
+            printf("%d ", i);
+        }
+        else{
+            
+        }
+  
+        
+    }
+    printf("%d ", dividend);
 }
