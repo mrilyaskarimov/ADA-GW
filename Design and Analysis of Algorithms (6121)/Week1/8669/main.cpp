@@ -7,24 +7,32 @@
 //
 
 #include <iostream>
-
+#include <algorithm>
+#include <vector>
 using namespace std;
 
+vector<int> divs;
+
 int main(int argc, const char * argv[]) {
-    unsigned int dividend;
+    int dividend;
     scanf("%d", &dividend);
-    for (unsigned int i=1; i*i<=dividend; i++){
-        if (dividend % i == 0){
-            printf("%d ",i);
-        }
-        if(dividend/i != i){
-            printf("%d ", i);
-        }
-        else{
-            
-        }
-  
-        
+    for (int i = 1; i*i <= dividend; i++){
+        if (dividend%i==0){
+            if (dividend/i!=i){
+//                printf("%d %d\n", i, dividend/i);
+                divs.push_back(i);
+                divs.push_back(dividend/i);
+            }
+            else{
+//                printf("%d\n", i);
+                divs.push_back(i);
+                
+            }
+       }
     }
-    printf("%d ", dividend);
+    sort(divs.begin(), divs.end());
+    
+    for (auto x : divs)
+           printf("%d ",x);
 }
+
