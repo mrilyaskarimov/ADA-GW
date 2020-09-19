@@ -13,12 +13,13 @@ using namespace std;
 stack <int> st;
 
 int main(int argc, const char * argv[]) {
-    int count, num, num2;
+    int count, num, num2, maj ;
     scanf("%d", &count);
+    int a[count];
     
     for (int i = 1; i <= count; i++){
-        scanf("%d", &num);
-        if(num == 1){
+        scanf("%d", &a[i]);
+        if(a[i] == 1){
             scanf("%d", &num2);
             st.push(num2);
         }
