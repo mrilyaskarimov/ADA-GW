@@ -117,7 +117,33 @@ public:
         printf("%d ", head->data);
         
     }
-
+    // -- PROBLEM Has Cycles -- 4
+    int hasCycle(ListNode *head)
+    {
+        ListNode *p, *q;
+        if(head == NULL) return 0;
+        p = q = head;
+        while(q->next && q ->next->next){
+            p = p ->next;
+            q = q ->next ->next;
+            if(p == q) return 1;
+        }
+        return 0;
+    }
+    
+    ListNode* detectCycle(ListNode *head)
+    {
+        ListNode *p, *q, *temp;
+        if(head == NULL) return NULL;
+        p = q = head;
+        while(q->next && q->next->next){
+            temp = p;
+            p  = p->next;
+            q = q->next->next;
+            if(p == q ) return temp;
+        }
+        return NULL;
+    }
 };
 
 
