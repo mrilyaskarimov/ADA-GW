@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8F38493B251BAD0600F4DDE5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F38493A251BAD0600F4DDE5 /* main.cpp */; };
 		8F384949251BB01F00F4DDE5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F384948251BB01F00F4DDE5 /* main.cpp */; };
+		8F384956251C716000F4DDE5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F384955251C716000F4DDE5 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8F384951251C716000F4DDE5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,8 @@
 		8F38493A251BAD0600F4DDE5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F384946251BB01F00F4DDE5 /* Problem A */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem A"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F384948251BB01F00F4DDE5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F384953251C716000F4DDE5 /* HackerEarthProblemDoubleEndQueue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerEarthProblemDoubleEndQueue; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F384955251C716000F4DDE5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F384950251C716000F4DDE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +81,7 @@
 			children = (
 				8F384939251BAD0600F4DDE5 /* Week3.1 */,
 				8F384947251BB01F00F4DDE5 /* Problem A */,
+				8F384954251C716000F4DDE5 /* HackerEarthProblemDoubleEndQueue */,
 				8F384938251BAD0600F4DDE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +91,7 @@
 			children = (
 				8F384937251BAD0600F4DDE5 /* Week3.1 */,
 				8F384946251BB01F00F4DDE5 /* Problem A */,
+				8F384953251C716000F4DDE5 /* HackerEarthProblemDoubleEndQueue */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +110,14 @@
 				8F384948251BB01F00F4DDE5 /* main.cpp */,
 			);
 			path = "Problem A";
+			sourceTree = "<group>";
+		};
+		8F384954251C716000F4DDE5 /* HackerEarthProblemDoubleEndQueue */ = {
+			isa = PBXGroup;
+			children = (
+				8F384955251C716000F4DDE5 /* main.cpp */,
+			);
+			path = HackerEarthProblemDoubleEndQueue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +157,23 @@
 			productReference = 8F384946251BB01F00F4DDE5 /* Problem A */;
 			productType = "com.apple.product-type.tool";
 		};
+		8F384952251C716000F4DDE5 /* HackerEarthProblemDoubleEndQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F384957251C716000F4DDE5 /* Build configuration list for PBXNativeTarget "HackerEarthProblemDoubleEndQueue" */;
+			buildPhases = (
+				8F38494F251C716000F4DDE5 /* Sources */,
+				8F384950251C716000F4DDE5 /* Frameworks */,
+				8F384951251C716000F4DDE5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerEarthProblemDoubleEndQueue;
+			productName = HackerEarthProblemDoubleEndQueue;
+			productReference = 8F384953251C716000F4DDE5 /* HackerEarthProblemDoubleEndQueue */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -140,6 +186,9 @@
 						CreatedOnToolsVersion = 12.0;
 					};
 					8F384945251BB01F00F4DDE5 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					8F384952251C716000F4DDE5 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -159,6 +208,7 @@
 			targets = (
 				8F384936251BAD0600F4DDE5 /* Week3.1 */,
 				8F384945251BB01F00F4DDE5 /* Problem A */,
+				8F384952251C716000F4DDE5 /* HackerEarthProblemDoubleEndQueue */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +227,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F384949251BB01F00F4DDE5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F38494F251C716000F4DDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F384956251C716000F4DDE5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +392,26 @@
 			};
 			name = Release;
 		};
+		8F384958251C716000F4DDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F384959251C716000F4DDE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -360,6 +438,15 @@
 			buildConfigurations = (
 				8F38494A251BB01F00F4DDE5 /* Debug */,
 				8F38494B251BB01F00F4DDE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F384957251C716000F4DDE5 /* Build configuration list for PBXNativeTarget "HackerEarthProblemDoubleEndQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F384958251C716000F4DDE5 /* Debug */,
+				8F384959251C716000F4DDE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
