@@ -15,6 +15,13 @@
 		8F25FF74251E5906002DDC03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F25FF73251E5906002DDC03 /* main.cpp */; };
 		8F25FF85251E5ED4002DDC03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F25FF84251E5ED4002DDC03 /* main.cpp */; };
 		8F25FF97251E5F58002DDC03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F25FF96251E5F58002DDC03 /* main.cpp */; };
+		8F41CE2C2520740E0006DBD7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F41CE2B2520740E0006DBD7 /* main.cpp */; };
+		8F41CE402520855B0006DBD7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F41CE3F2520855B0006DBD7 /* main.cpp */; };
+		8F41CE55252088980006DBD7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F41CE54252088980006DBD7 /* main.cpp */; };
+		8F41CE6B25208FD50006DBD7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F41CE6A25208FD50006DBD7 /* main.cpp */; };
+		8F41CE9A252095290006DBD7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F41CE99252095290006DBD7 /* main.cpp */; };
+		8F41CEB225209FE20006DBD7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F41CEB125209FE20006DBD7 /* main.cpp */; };
+		8F41CECB2520A88E0006DBD7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F41CECA2520A88E0006DBD7 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +97,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8F41CE272520740E0006DBD7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F41CE3B2520855B0006DBD7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F41CE50252088980006DBD7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F41CE6625208FD50006DBD7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F41CE95252095290006DBD7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F41CEAD25209FE10006DBD7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F41CEC62520A88E0006DBD7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +179,20 @@
 		8F25FF84251E5ED4002DDC03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F25FF94251E5F58002DDC03 /* Problem J */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem J"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F25FF96251E5F58002DDC03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F41CE292520740E0006DBD7 /* Problem E */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem E"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F41CE2B2520740E0006DBD7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F41CE3D2520855B0006DBD7 /* Problem I - Degree of vertices */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem I - Degree of vertices"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F41CE3F2520855B0006DBD7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F41CE52252088980006DBD7 /* Problem J -  Degrees of vertices by a list of edges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem J -  Degrees of vertices by a list of edges"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F41CE54252088980006DBD7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F41CE6825208FD50006DBD7 /* Problem K - umber of hanging vertices */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem K - umber of hanging vertices"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F41CE6A25208FD50006DBD7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F41CE97252095290006DBD7 /* Problem L - Regular graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem L - Regular graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F41CE99252095290006DBD7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F41CEAF25209FE10006DBD7 /* Problem N - Complete Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem N - Complete Graph"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F41CEB125209FE20006DBD7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F41CEC82520A88E0006DBD7 /* Problem C - Colored rain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem C - Colored rain"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F41CECA2520A88E0006DBD7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +252,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F41CE262520740E0006DBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41CE3A2520855B0006DBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41CE4F252088980006DBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41CE6525208FD50006DBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41CE94252095290006DBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41CEAC25209FE10006DBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41CEC52520A88E0006DBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -182,6 +315,13 @@
 				8F25FF72251E5906002DDC03 /* Problem G */,
 				8F25FF83251E5ED4002DDC03 /* Problem H */,
 				8F25FF95251E5F58002DDC03 /* Problem J */,
+				8F41CE2A2520740E0006DBD7 /* Problem E */,
+				8F41CE3E2520855B0006DBD7 /* Problem I - Degree of vertices */,
+				8F41CE53252088980006DBD7 /* Problem J -  Degrees of vertices by a list of edges */,
+				8F41CE6925208FD50006DBD7 /* Problem K - Number of hanging vertices 1 */,
+				8F41CE98252095290006DBD7 /* Problem L - Regular graph */,
+				8F41CEB025209FE20006DBD7 /* Problem N - Complete Graph */,
+				8F41CEC92520A88E0006DBD7 /* Problem C - Colored rain */,
 				8F25FF29251E51B6002DDC03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,6 +337,13 @@
 				8F25FF71251E5906002DDC03 /* Problem G */,
 				8F25FF82251E5ED4002DDC03 /* Problem H */,
 				8F25FF94251E5F58002DDC03 /* Problem J */,
+				8F41CE292520740E0006DBD7 /* Problem E */,
+				8F41CE3D2520855B0006DBD7 /* Problem I - Degree of vertices */,
+				8F41CE52252088980006DBD7 /* Problem J -  Degrees of vertices by a list of edges */,
+				8F41CE6825208FD50006DBD7 /* Problem K - umber of hanging vertices */,
+				8F41CE97252095290006DBD7 /* Problem L - Regular graph */,
+				8F41CEAF25209FE10006DBD7 /* Problem N - Complete Graph */,
+				8F41CEC82520A88E0006DBD7 /* Problem C - Colored rain */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,6 +410,62 @@
 				8F25FF96251E5F58002DDC03 /* main.cpp */,
 			);
 			path = "Problem J";
+			sourceTree = "<group>";
+		};
+		8F41CE2A2520740E0006DBD7 /* Problem E */ = {
+			isa = PBXGroup;
+			children = (
+				8F41CE2B2520740E0006DBD7 /* main.cpp */,
+			);
+			path = "Problem E";
+			sourceTree = "<group>";
+		};
+		8F41CE3E2520855B0006DBD7 /* Problem I - Degree of vertices */ = {
+			isa = PBXGroup;
+			children = (
+				8F41CE3F2520855B0006DBD7 /* main.cpp */,
+			);
+			path = "Problem I - Degree of vertices";
+			sourceTree = "<group>";
+		};
+		8F41CE53252088980006DBD7 /* Problem J -  Degrees of vertices by a list of edges */ = {
+			isa = PBXGroup;
+			children = (
+				8F41CE54252088980006DBD7 /* main.cpp */,
+			);
+			path = "Problem J -  Degrees of vertices by a list of edges";
+			sourceTree = "<group>";
+		};
+		8F41CE6925208FD50006DBD7 /* Problem K - Number of hanging vertices 1 */ = {
+			isa = PBXGroup;
+			children = (
+				8F41CE6A25208FD50006DBD7 /* main.cpp */,
+			);
+			path = "Problem K - Number of hanging vertices 1";
+			sourceTree = "<group>";
+		};
+		8F41CE98252095290006DBD7 /* Problem L - Regular graph */ = {
+			isa = PBXGroup;
+			children = (
+				8F41CE99252095290006DBD7 /* main.cpp */,
+			);
+			path = "Problem L - Regular graph";
+			sourceTree = "<group>";
+		};
+		8F41CEB025209FE20006DBD7 /* Problem N - Complete Graph */ = {
+			isa = PBXGroup;
+			children = (
+				8F41CEB125209FE20006DBD7 /* main.cpp */,
+			);
+			path = "Problem N - Complete Graph";
+			sourceTree = "<group>";
+		};
+		8F41CEC92520A88E0006DBD7 /* Problem C - Colored rain */ = {
+			isa = PBXGroup;
+			children = (
+				8F41CECA2520A88E0006DBD7 /* main.cpp */,
+			);
+			path = "Problem C - Colored rain";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,6 +607,125 @@
 			productReference = 8F25FF94251E5F58002DDC03 /* Problem J */;
 			productType = "com.apple.product-type.tool";
 		};
+		8F41CE282520740E0006DBD7 /* Problem E */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F41CE2F2520740E0006DBD7 /* Build configuration list for PBXNativeTarget "Problem E" */;
+			buildPhases = (
+				8F41CE252520740E0006DBD7 /* Sources */,
+				8F41CE262520740E0006DBD7 /* Frameworks */,
+				8F41CE272520740E0006DBD7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem E";
+			productName = "Problem E";
+			productReference = 8F41CE292520740E0006DBD7 /* Problem E */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F41CE3C2520855B0006DBD7 /* Problem I - Degree of vertices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F41CE412520855B0006DBD7 /* Build configuration list for PBXNativeTarget "Problem I - Degree of vertices" */;
+			buildPhases = (
+				8F41CE392520855B0006DBD7 /* Sources */,
+				8F41CE3A2520855B0006DBD7 /* Frameworks */,
+				8F41CE3B2520855B0006DBD7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem I - Degree of vertices";
+			productName = "Problem I - Degree of vertices";
+			productReference = 8F41CE3D2520855B0006DBD7 /* Problem I - Degree of vertices */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F41CE51252088980006DBD7 /* Problem J -  Degrees of vertices by a list of edges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F41CE56252088980006DBD7 /* Build configuration list for PBXNativeTarget "Problem J -  Degrees of vertices by a list of edges" */;
+			buildPhases = (
+				8F41CE4E252088980006DBD7 /* Sources */,
+				8F41CE4F252088980006DBD7 /* Frameworks */,
+				8F41CE50252088980006DBD7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem J -  Degrees of vertices by a list of edges";
+			productName = "Problem J -  Degrees of vertices by a list of edges";
+			productReference = 8F41CE52252088980006DBD7 /* Problem J -  Degrees of vertices by a list of edges */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F41CE6725208FD50006DBD7 /* Problem K - umber of hanging vertices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F41CE6C25208FD50006DBD7 /* Build configuration list for PBXNativeTarget "Problem K - umber of hanging vertices" */;
+			buildPhases = (
+				8F41CE6425208FD50006DBD7 /* Sources */,
+				8F41CE6525208FD50006DBD7 /* Frameworks */,
+				8F41CE6625208FD50006DBD7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem K - umber of hanging vertices";
+			productName = "Problem K - umber of hanging vertices";
+			productReference = 8F41CE6825208FD50006DBD7 /* Problem K - umber of hanging vertices */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F41CE96252095290006DBD7 /* Problem L - Regular graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F41CE9B252095290006DBD7 /* Build configuration list for PBXNativeTarget "Problem L - Regular graph" */;
+			buildPhases = (
+				8F41CE93252095290006DBD7 /* Sources */,
+				8F41CE94252095290006DBD7 /* Frameworks */,
+				8F41CE95252095290006DBD7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem L - Regular graph";
+			productName = "Problem L - Regular graph";
+			productReference = 8F41CE97252095290006DBD7 /* Problem L - Regular graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F41CEAE25209FE10006DBD7 /* Problem N - Complete Graph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F41CEB325209FE20006DBD7 /* Build configuration list for PBXNativeTarget "Problem N - Complete Graph" */;
+			buildPhases = (
+				8F41CEAB25209FE10006DBD7 /* Sources */,
+				8F41CEAC25209FE10006DBD7 /* Frameworks */,
+				8F41CEAD25209FE10006DBD7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem N - Complete Graph";
+			productName = "Problem N - Complete Graph";
+			productReference = 8F41CEAF25209FE10006DBD7 /* Problem N - Complete Graph */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F41CEC72520A88E0006DBD7 /* Problem C - Colored rain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F41CECC2520A88E0006DBD7 /* Build configuration list for PBXNativeTarget "Problem C - Colored rain" */;
+			buildPhases = (
+				8F41CEC42520A88E0006DBD7 /* Sources */,
+				8F41CEC52520A88E0006DBD7 /* Frameworks */,
+				8F41CEC62520A88E0006DBD7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem C - Colored rain";
+			productName = "Problem C - Colored rain";
+			productReference = 8F41CEC82520A88E0006DBD7 /* Problem C - Colored rain */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -436,6 +758,27 @@
 					8F25FF93251E5F58002DDC03 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					8F41CE282520740E0006DBD7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F41CE3C2520855B0006DBD7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F41CE51252088980006DBD7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F41CE6725208FD50006DBD7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F41CE96252095290006DBD7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F41CEAE25209FE10006DBD7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F41CEC72520A88E0006DBD7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 				};
 			};
 			buildConfigurationList = 8F25FF23251E51B6002DDC03 /* Build configuration list for PBXProject "Week3.2" */;
@@ -459,6 +802,13 @@
 				8F25FF70251E5906002DDC03 /* Problem G */,
 				8F25FF81251E5ED4002DDC03 /* Problem H */,
 				8F25FF93251E5F58002DDC03 /* Problem J */,
+				8F41CE282520740E0006DBD7 /* Problem E */,
+				8F41CE3C2520855B0006DBD7 /* Problem I - Degree of vertices */,
+				8F41CE51252088980006DBD7 /* Problem J -  Degrees of vertices by a list of edges */,
+				8F41CE6725208FD50006DBD7 /* Problem K - umber of hanging vertices */,
+				8F41CE96252095290006DBD7 /* Problem L - Regular graph */,
+				8F41CEAE25209FE10006DBD7 /* Problem N - Complete Graph */,
+				8F41CEC72520A88E0006DBD7 /* Problem C - Colored rain */,
 			);
 		};
 /* End PBXProject section */
@@ -525,6 +875,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F25FF97251E5F58002DDC03 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41CE252520740E0006DBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F41CE2C2520740E0006DBD7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41CE392520855B0006DBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F41CE402520855B0006DBD7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41CE4E252088980006DBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F41CE55252088980006DBD7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41CE6425208FD50006DBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F41CE6B25208FD50006DBD7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41CE93252095290006DBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F41CE9A252095290006DBD7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41CEAB25209FE10006DBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F41CEB225209FE20006DBD7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F41CEC42520A88E0006DBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F41CECB2520A88E0006DBD7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -802,6 +1208,146 @@
 			};
 			name = Release;
 		};
+		8F41CE2D2520740E0006DBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F41CE2E2520740E0006DBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F41CE422520855B0006DBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F41CE432520855B0006DBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F41CE57252088980006DBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F41CE58252088980006DBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F41CE6D25208FD50006DBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F41CE6E25208FD50006DBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F41CE9C252095290006DBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F41CE9D252095290006DBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F41CEB425209FE20006DBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F41CEB525209FE20006DBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F41CECD2520A88E0006DBD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F41CECE2520A88E0006DBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -882,6 +1428,69 @@
 			buildConfigurations = (
 				8F25FF99251E5F58002DDC03 /* Debug */,
 				8F25FF9A251E5F58002DDC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F41CE2F2520740E0006DBD7 /* Build configuration list for PBXNativeTarget "Problem E" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F41CE2D2520740E0006DBD7 /* Debug */,
+				8F41CE2E2520740E0006DBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F41CE412520855B0006DBD7 /* Build configuration list for PBXNativeTarget "Problem I - Degree of vertices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F41CE422520855B0006DBD7 /* Debug */,
+				8F41CE432520855B0006DBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F41CE56252088980006DBD7 /* Build configuration list for PBXNativeTarget "Problem J -  Degrees of vertices by a list of edges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F41CE57252088980006DBD7 /* Debug */,
+				8F41CE58252088980006DBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F41CE6C25208FD50006DBD7 /* Build configuration list for PBXNativeTarget "Problem K - umber of hanging vertices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F41CE6D25208FD50006DBD7 /* Debug */,
+				8F41CE6E25208FD50006DBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F41CE9B252095290006DBD7 /* Build configuration list for PBXNativeTarget "Problem L - Regular graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F41CE9C252095290006DBD7 /* Debug */,
+				8F41CE9D252095290006DBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F41CEB325209FE20006DBD7 /* Build configuration list for PBXNativeTarget "Problem N - Complete Graph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F41CEB425209FE20006DBD7 /* Debug */,
+				8F41CEB525209FE20006DBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F41CECC2520A88E0006DBD7 /* Build configuration list for PBXNativeTarget "Problem C - Colored rain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F41CECD2520A88E0006DBD7 /* Debug */,
+				8F41CECE2520A88E0006DBD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

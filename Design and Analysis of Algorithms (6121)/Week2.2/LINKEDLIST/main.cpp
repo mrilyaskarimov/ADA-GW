@@ -144,7 +144,22 @@ public:
         }
         return NULL;
     }
+    ListNode* merge(ListNode *l1, ListNode *l2)
+    {
+        ListNode *rest;
+        if(l1 == NULL) return l2;
+        if(l2 == NULL) return l1;
+        if(l1->data > l2->data){
+            rest = l2;
+        }
+        else{
+            rest = l1;
+        }
+        if()
+    }
+
 };
+
 
 
 ListNode *temp;
