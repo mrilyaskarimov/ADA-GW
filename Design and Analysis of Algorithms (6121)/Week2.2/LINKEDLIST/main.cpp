@@ -137,27 +137,95 @@ public:
         if(head == NULL) return NULL;
         p = q = head;
         while(q->next && q->next->next){
-            temp = p;
             p  = p->next;
             q = q->next->next;
-            if(p == q ) return temp;
+            if(p == q ) {
+                while(head->next&&p->next){
+                    head=head->next;
+                    p=p->next;
+                    if(p==head) return p;
+                }
+            }
         }
         return NULL;
     }
     ListNode* merge(ListNode *l1, ListNode *l2)
     {
-        ListNode *rest;
-        if(l1 == NULL) return l2;
-        if(l2 == NULL) return l1;
-        if(l1->data > l2->data){
-            rest = l2;
+        ListNode *head_rest = new ListNode(0);
+        ListNode *result = new ListNode(0);
+        head_rest = result;
+        while(1){
+            if(l1 == NULL){
+                result ->next = l2;
+                break;
+            }
+            if(l2 == NULL){
+                result ->next = l1;
+                break;
+            }
+            
+            if(l1->data > l2->data){
+                result ->next = l2;
+                l2 = l2->next;
+            }
+            else{
+                result ->next = l1;
+                l1 = l1->next;
+            }
         }
-        else{
-            rest = l1;
-        }
-        if()
+        return head_rest ->next;
     }
-
+    ListNode *intersection(ListNode *l1, ListNode *l2)
+        {
+            ListNode *tmp1 = l1;
+            ListNode *tmp2 = l2;
+            
+            int lenA = 0 , lenB =0, temp = 0;
+            while(tmp1!= NULL){
+                lenA++;
+                tmp1=tmp1->next;
+            }
+            while(tmp2!= NULL){
+                lenB++;
+                tmp2=tmp2->next;
+            }
+            if(lenA > lenB){
+                temp = lenA - lenB;
+                while(temp!=0){
+                    l1 = l1 ->next;
+                    temp--;
+                }
+            }
+            else{
+                temp = lenB - lenA;
+                while(temp!=0){
+                    l2 = l2 ->next;
+                    temp--;
+                }
+            }
+            while(l1 != NULL){
+                if(l1->data == l2->data){
+                    return l1;
+                }
+                else{
+                    l1 = l1->next;
+                    l2 = l2->next;
+                }
+            }
+            return 0;
+        }
+    ListNode* reverse(ListNode* head)
+    {
+        ListNode *prev = NULL, *next_node, *current;
+        if(head==NULL) return NULL;
+        while(current!=NULL){
+            next_node = current->next;
+            current->next = prev;
+            prev = current;
+            current = next_node;
+        }
+        return head;
+    }
 };
 
 
