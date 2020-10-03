@@ -6,13 +6,15 @@
 //
 
 #include <stdio.h>
-
+#include <algorithm>
+using namespace std;
 class TreeNode
 {
 public:
   int val;
   TreeNode *left;
   TreeNode *right;
+
   TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
@@ -39,6 +41,51 @@ public:
     else
       Insert(tree->right, val);
   }
+    int minDepth(TreeNode *tree){
+        if(tree == NULL) return 0;
+        if(tree->left !=NULL) return 1+ minDepth(tree->left);
+        if(tree->right != NULL) return 1 + minDepth(tree->right);
+        
+        return 1 +  min(minDepth(tree->left), minDepth(tree->right));
+    }
+    int sumLeft(TreeNode *tree)
+    {
+        if(tree == NULL)
+        if((tree->left != NULL) &&(tree->left->left == NULL) && (tree->left->right == NULL))
+        return tree->left->val + sumLeft(tree->right);
+        
+        return sumLeft(tree->left) + sumLeft(tree->right);
+    }
+    TreeNode *Maximum(TreeNode *tree)
+    {
+        if(tree == NULL) return NULL;
+        while(tree->right!=NULL) tree= tree->right;
+        return tree;
+    }
+//    TreeNode *Prev(TreeNode *tree)
+//    {
+//        if(tree->left!=NULL) return Maximum(tree->left);
+//        TreeNode *prev = tree->parent;
+//        while(prev!=NULL && tree = prev->left){
+//            tree= prev;
+//            prev = prev->parent;
+//        }
+//        return prev;
+//    }
+    bool isSame(TreeNode *tree1, TreeNode *tree2)
+    {
+        if(tree1  == NULL & tree2  == NULL) return 1;
+        if(tree1 !=NULL && tree2 == NULL) return 0;
+        if(tree2 !=NULL && tree1 == NULL) return 0;
+        
+        return isSame(tree1->left, tree2->left) && isSame(tree2->right, tree1->right);
+    }
+//    bool isBalanced(TreeNode* root)
+//    {
+//        if(root == NULL) return 1;
+//        if(root)
+//    }
+    
 };
 
 class Solution
