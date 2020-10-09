@@ -7,9 +7,18 @@
 //
 
 #include <iostream>
-
+long long test(long long ai, long long n){
+    if(n == 1) {
+        return ai*ai%10000;
+      
+    }
+    return ai*test(ai, n-1)%10000;
+}
+using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    long long ai, n;
+    scanf("%lld %lld", &ai, &n);
+    printf("%lld",test(ai,n));
+    
+    
 }

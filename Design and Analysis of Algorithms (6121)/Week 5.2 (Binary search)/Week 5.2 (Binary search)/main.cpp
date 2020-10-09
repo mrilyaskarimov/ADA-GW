@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  Problem A
+//  Week 5.2 (Binary search)
 //
-//  Created by Ilyas Karimov on 9/30/20.
+//  Created by Ilyas Karimov on 10/9/20.
 //
 
 #include <iostream>

@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F1913E7252CDEBF00FE6689 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1913E6252CDEBF00FE6689 /* main.cpp */; };
-		8F25E6E12524E73C00307860 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F25E6E02524E73C00307860 /* main.cpp */; };
+		8F7625BB2530C45600AD76B5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F7625BA2530C45600AD76B5 /* main.cpp */; };
+		8F7625C92530C5CE00AD76B5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F7625C82530C5CE00AD76B5 /* main.cpp */; };
+		8F7625D62530C6C400AD76B5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F7625D52530C6C400AD76B5 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8F1913E2252CDEBF00FE6689 /* CopyFiles */ = {
+		8F7625B52530C45600AD76B5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -21,7 +22,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		8F25E6DB2524E73C00307860 /* CopyFiles */ = {
+		8F7625C42530C5CE00AD76B5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -30,7 +31,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		8F25E6EA2524EFE500307860 /* CopyFiles */ = {
+		8F7625D12530C6C400AD76B5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -42,29 +43,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8F1913E4252CDEBF00FE6689 /* Problem A (Is it a Heap?) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem A (Is it a Heap?)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F1913E6252CDEBF00FE6689 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		8F25E6DD2524E73C00307860 /* Week4.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week4.1; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F25E6E02524E73C00307860 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		8F25E6EC2524EFE500307860 /* Problem A */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem A"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7625B72530C45600AD76B5 /* Week 5.2 (Binary search) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Week 5.2 (Binary search)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7625BA2530C45600AD76B5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F7625C62530C5CE00AD76B5 /* Problem A (Square root) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem A (Square root)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7625C82530C5CE00AD76B5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F7625D32530C6C400AD76B5 /* Problem B (The root of a cubic equation) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (The root of a cubic equation)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7625D52530C6C400AD76B5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8F1913E1252CDEBF00FE6689 /* Frameworks */ = {
+		8F7625B42530C45600AD76B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F25E6DA2524E73C00307860 /* Frameworks */ = {
+		8F7625C32530C5CE00AD76B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F25E6E92524EFE500307860 /* Frameworks */ = {
+		8F7625D02530C6C400AD76B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,115 +76,124 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8F1913E5252CDEBF00FE6689 /* Problem A (Is it a Heap?) */ = {
+		8F7625AE2530C45600AD76B5 = {
 			isa = PBXGroup;
 			children = (
-				8F1913E6252CDEBF00FE6689 /* main.cpp */,
-			);
-			path = "Problem A (Is it a Heap?)";
-			sourceTree = "<group>";
-		};
-		8F25E6D42524E73C00307860 = {
-			isa = PBXGroup;
-			children = (
-				8F25E6DF2524E73C00307860 /* Week4.1 */,
-				8F1913E5252CDEBF00FE6689 /* Problem A (Is it a Heap?) */,
-				8F25E6DE2524E73C00307860 /* Products */,
+				8F7625B92530C45600AD76B5 /* Week 5.2 (Binary search) */,
+				8F7625C72530C5CE00AD76B5 /* Problem A (Square root) */,
+				8F7625D42530C6C400AD76B5 /* Problem B (The root of a cubic equation) */,
+				8F7625B82530C45600AD76B5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8F25E6DE2524E73C00307860 /* Products */ = {
+		8F7625B82530C45600AD76B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F25E6DD2524E73C00307860 /* Week4.1 */,
-				8F25E6EC2524EFE500307860 /* Problem A */,
-				8F1913E4252CDEBF00FE6689 /* Problem A (Is it a Heap?) */,
+				8F7625B72530C45600AD76B5 /* Week 5.2 (Binary search) */,
+				8F7625C62530C5CE00AD76B5 /* Problem A (Square root) */,
+				8F7625D32530C6C400AD76B5 /* Problem B (The root of a cubic equation) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8F25E6DF2524E73C00307860 /* Week4.1 */ = {
+		8F7625B92530C45600AD76B5 /* Week 5.2 (Binary search) */ = {
 			isa = PBXGroup;
 			children = (
-				8F25E6E02524E73C00307860 /* main.cpp */,
+				8F7625BA2530C45600AD76B5 /* main.cpp */,
 			);
-			path = Week4.1;
+			path = "Week 5.2 (Binary search)";
+			sourceTree = "<group>";
+		};
+		8F7625C72530C5CE00AD76B5 /* Problem A (Square root) */ = {
+			isa = PBXGroup;
+			children = (
+				8F7625C82530C5CE00AD76B5 /* main.cpp */,
+			);
+			path = "Problem A (Square root)";
+			sourceTree = "<group>";
+		};
+		8F7625D42530C6C400AD76B5 /* Problem B (The root of a cubic equation) */ = {
+			isa = PBXGroup;
+			children = (
+				8F7625D52530C6C400AD76B5 /* main.cpp */,
+			);
+			path = "Problem B (The root of a cubic equation)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F1913E3252CDEBF00FE6689 /* Problem A (Is it a Heap?) */ = {
+		8F7625B62530C45600AD76B5 /* Week 5.2 (Binary search) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F1913E8252CDEBF00FE6689 /* Build configuration list for PBXNativeTarget "Problem A (Is it a Heap?)" */;
+			buildConfigurationList = 8F7625BE2530C45600AD76B5 /* Build configuration list for PBXNativeTarget "Week 5.2 (Binary search)" */;
 			buildPhases = (
-				8F1913E0252CDEBF00FE6689 /* Sources */,
-				8F1913E1252CDEBF00FE6689 /* Frameworks */,
-				8F1913E2252CDEBF00FE6689 /* CopyFiles */,
+				8F7625B32530C45600AD76B5 /* Sources */,
+				8F7625B42530C45600AD76B5 /* Frameworks */,
+				8F7625B52530C45600AD76B5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Problem A (Is it a Heap?)";
-			productName = "Problem A (Is it a Heap?)";
-			productReference = 8F1913E4252CDEBF00FE6689 /* Problem A (Is it a Heap?) */;
+			name = "Week 5.2 (Binary search)";
+			productName = "Week 5.2 (Binary search)";
+			productReference = 8F7625B72530C45600AD76B5 /* Week 5.2 (Binary search) */;
 			productType = "com.apple.product-type.tool";
 		};
-		8F25E6DC2524E73C00307860 /* Week4.1 */ = {
+		8F7625C52530C5CE00AD76B5 /* Problem A (Square root) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F25E6E42524E73C00307860 /* Build configuration list for PBXNativeTarget "Week4.1" */;
+			buildConfigurationList = 8F7625CA2530C5CE00AD76B5 /* Build configuration list for PBXNativeTarget "Problem A (Square root)" */;
 			buildPhases = (
-				8F25E6D92524E73C00307860 /* Sources */,
-				8F25E6DA2524E73C00307860 /* Frameworks */,
-				8F25E6DB2524E73C00307860 /* CopyFiles */,
+				8F7625C22530C5CE00AD76B5 /* Sources */,
+				8F7625C32530C5CE00AD76B5 /* Frameworks */,
+				8F7625C42530C5CE00AD76B5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Week4.1;
-			productName = Week4.1;
-			productReference = 8F25E6DD2524E73C00307860 /* Week4.1 */;
+			name = "Problem A (Square root)";
+			productName = "Problem A (Square root)";
+			productReference = 8F7625C62530C5CE00AD76B5 /* Problem A (Square root) */;
 			productType = "com.apple.product-type.tool";
 		};
-		8F25E6EB2524EFE500307860 /* Problem A */ = {
+		8F7625D22530C6C400AD76B5 /* Problem B (The root of a cubic equation) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F25E6F02524EFE500307860 /* Build configuration list for PBXNativeTarget "Problem A" */;
+			buildConfigurationList = 8F7625D72530C6C400AD76B5 /* Build configuration list for PBXNativeTarget "Problem B (The root of a cubic equation)" */;
 			buildPhases = (
-				8F25E6E82524EFE500307860 /* Sources */,
-				8F25E6E92524EFE500307860 /* Frameworks */,
-				8F25E6EA2524EFE500307860 /* CopyFiles */,
+				8F7625CF2530C6C400AD76B5 /* Sources */,
+				8F7625D02530C6C400AD76B5 /* Frameworks */,
+				8F7625D12530C6C400AD76B5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Problem A";
-			productName = "Problem A";
-			productReference = 8F25E6EC2524EFE500307860 /* Problem A */;
+			name = "Problem B (The root of a cubic equation)";
+			productName = "Problem B (The root of a cubic equation)";
+			productReference = 8F7625D32530C6C400AD76B5 /* Problem B (The root of a cubic equation) */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8F25E6D52524E73C00307860 /* Project object */ = {
+		8F7625AF2530C45600AD76B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					8F1913E3252CDEBF00FE6689 = {
+					8F7625B62530C45600AD76B5 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
-					8F25E6DC2524E73C00307860 = {
+					8F7625C52530C5CE00AD76B5 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
-					8F25E6EB2524EFE500307860 = {
+					8F7625D22530C6C400AD76B5 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 8F25E6D82524E73C00307860 /* Build configuration list for PBXProject "Week4.1" */;
+			buildConfigurationList = 8F7625B22530C45600AD76B5 /* Build configuration list for PBXProject "Week 5.2 (Binary search)" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -190,66 +201,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 8F25E6D42524E73C00307860;
-			productRefGroup = 8F25E6DE2524E73C00307860 /* Products */;
+			mainGroup = 8F7625AE2530C45600AD76B5;
+			productRefGroup = 8F7625B82530C45600AD76B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F25E6DC2524E73C00307860 /* Week4.1 */,
-				8F25E6EB2524EFE500307860 /* Problem A */,
-				8F1913E3252CDEBF00FE6689 /* Problem A (Is it a Heap?) */,
+				8F7625B62530C45600AD76B5 /* Week 5.2 (Binary search) */,
+				8F7625C52530C5CE00AD76B5 /* Problem A (Square root) */,
+				8F7625D22530C6C400AD76B5 /* Problem B (The root of a cubic equation) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8F1913E0252CDEBF00FE6689 /* Sources */ = {
+		8F7625B32530C45600AD76B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1913E7252CDEBF00FE6689 /* main.cpp in Sources */,
+				8F7625BB2530C45600AD76B5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F25E6D92524E73C00307860 /* Sources */ = {
+		8F7625C22530C5CE00AD76B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F25E6E12524E73C00307860 /* main.cpp in Sources */,
+				8F7625C92530C5CE00AD76B5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F25E6E82524EFE500307860 /* Sources */ = {
+		8F7625CF2530C6C400AD76B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7625D62530C6C400AD76B5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8F1913E9252CDEBF00FE6689 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55394Y5CD2;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		8F1913EA252CDEBF00FE6689 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55394Y5CD2;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		8F25E6E22524E73C00307860 /* Debug */ = {
+		8F7625BC2530C45600AD76B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,7 +300,7 @@
 			};
 			name = Debug;
 		};
-		8F25E6E32524E73C00307860 /* Release */ = {
+		8F7625BD2530C45600AD76B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -360,7 +352,7 @@
 			};
 			name = Release;
 		};
-		8F25E6E52524E73C00307860 /* Debug */ = {
+		8F7625BF2530C45600AD76B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -370,7 +362,7 @@
 			};
 			name = Debug;
 		};
-		8F25E6E62524E73C00307860 /* Release */ = {
+		8F7625C02530C45600AD76B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -380,7 +372,7 @@
 			};
 			name = Release;
 		};
-		8F25E6F12524EFE500307860 /* Debug */ = {
+		8F7625CB2530C5CE00AD76B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -390,7 +382,27 @@
 			};
 			name = Debug;
 		};
-		8F25E6F22524EFE500307860 /* Release */ = {
+		8F7625CC2530C5CE00AD76B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F7625D82530C6C400AD76B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F7625D92530C6C400AD76B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -403,43 +415,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F1913E8252CDEBF00FE6689 /* Build configuration list for PBXNativeTarget "Problem A (Is it a Heap?)" */ = {
+		8F7625B22530C45600AD76B5 /* Build configuration list for PBXProject "Week 5.2 (Binary search)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F1913E9252CDEBF00FE6689 /* Debug */,
-				8F1913EA252CDEBF00FE6689 /* Release */,
+				8F7625BC2530C45600AD76B5 /* Debug */,
+				8F7625BD2530C45600AD76B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F25E6D82524E73C00307860 /* Build configuration list for PBXProject "Week4.1" */ = {
+		8F7625BE2530C45600AD76B5 /* Build configuration list for PBXNativeTarget "Week 5.2 (Binary search)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F25E6E22524E73C00307860 /* Debug */,
-				8F25E6E32524E73C00307860 /* Release */,
+				8F7625BF2530C45600AD76B5 /* Debug */,
+				8F7625C02530C45600AD76B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F25E6E42524E73C00307860 /* Build configuration list for PBXNativeTarget "Week4.1" */ = {
+		8F7625CA2530C5CE00AD76B5 /* Build configuration list for PBXNativeTarget "Problem A (Square root)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F25E6E52524E73C00307860 /* Debug */,
-				8F25E6E62524E73C00307860 /* Release */,
+				8F7625CB2530C5CE00AD76B5 /* Debug */,
+				8F7625CC2530C5CE00AD76B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F25E6F02524EFE500307860 /* Build configuration list for PBXNativeTarget "Problem A" */ = {
+		8F7625D72530C6C400AD76B5 /* Build configuration list for PBXNativeTarget "Problem B (The root of a cubic equation)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F25E6F12524EFE500307860 /* Debug */,
-				8F25E6F22524EFE500307860 /* Release */,
+				8F7625D82530C6C400AD76B5 /* Debug */,
+				8F7625D92530C6C400AD76B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8F25E6D52524E73C00307860 /* Project object */;
+	rootObject = 8F7625AF2530C45600AD76B5 /* Project object */;
 }

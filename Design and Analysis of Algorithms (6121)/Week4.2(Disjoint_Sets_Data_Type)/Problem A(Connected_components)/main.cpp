@@ -43,8 +43,10 @@ int main(void)
   }
 
   // count the number of representatives
-  for (i = 1; i <= n; i++)
-    if (mas[i] == i) count++;
-  printf("%d\n", count);
+    for (i = 1; i <= n; i++){
+        if (mas[i] == i) count++;
+        printf("%d\n", mas[i]);
+    }
+
   return 0;
 }

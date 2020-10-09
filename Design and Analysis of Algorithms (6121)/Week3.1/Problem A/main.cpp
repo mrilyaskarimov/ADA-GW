@@ -85,7 +85,23 @@ public:
 //        if(root == NULL) return 1;
 //        if(root)
 //    }
-    
+    bool isSymmetric(TreeNode *tree)
+    {
+        if(tree==NULL) return 1;
+        if(tree->left == tree->right) return 1;
+        return isSymmetric(tree->left) && isSymmetric(tree->right);
+    }
+    TreeNode* Invert(TreeNode* tree)
+    {
+        if(tree == NULL) return NULL;
+        
+        TreeNode *right, *left;
+        left = tree->left;
+        right = tree->right;
+        tree->left = right;
+        tree->right = left;
+    }
+
 };
 
 class Solution
