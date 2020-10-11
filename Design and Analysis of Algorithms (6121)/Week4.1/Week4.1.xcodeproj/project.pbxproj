@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		8F1913E7252CDEBF00FE6689 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1913E6252CDEBF00FE6689 /* main.cpp */; };
 		8F25E6E12524E73C00307860 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F25E6E02524E73C00307860 /* main.cpp */; };
+		8F6F59B02531C3A200A6CBF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F59AF2531C3A200A6CBF4 /* main.cpp */; };
+		8F6F59BF2531F26C00A6CBF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F59BE2531F26C00A6CBF4 /* main.cpp */; };
+		8F6F59CF2531F33B00A6CBF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F59CE2531F33B00A6CBF4 /* main.cpp */; };
+		8F6F59E02532BFCD00A6CBF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F59DF2532BFCD00A6CBF4 /* main.cpp */; };
+		8F6F59F22532C5E800A6CBF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F59F12532C5E800A6CBF4 /* main.cpp */; };
+		8F6F5A052532F48A00A6CBF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F5A042532F48A00A6CBF4 /* main.cpp */; };
+		8F6F5A1925330A0600A6CBF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F5A1825330A0600A6CBF4 /* main.cpp */; };
+		8F6F5A2E25333D3D00A6CBF4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F5A2D25333D3D00A6CBF4 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +47,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8F6F59AB2531C3A200A6CBF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F6F59BA2531F26C00A6CBF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F6F59CA2531F33B00A6CBF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F6F59DB2532BFCD00A6CBF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F6F59ED2532C5E800A6CBF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F6F5A002532F48A00A6CBF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F6F5A1425330A0500A6CBF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F6F5A2925333D3D00A6CBF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +127,22 @@
 		8F25E6DD2524E73C00307860 /* Week4.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week4.1; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F25E6E02524E73C00307860 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F25E6EC2524EFE500307860 /* Problem A */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem A"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6F59AD2531C3A200A6CBF4 /* Problem B (Max-hea[) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Max-hea[)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6F59AF2531C3A200A6CBF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F6F59BC2531F26C00A6CBF4 /* Problem D (Sorting Time) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem D (Sorting Time)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6F59BE2531F26C00A6CBF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F6F59CC2531F33B00A6CBF4 /* Problem C (Sorting) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem C (Sorting)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6F59CE2531F33B00A6CBF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F6F59DD2532BFCD00A6CBF4 /* Problem E (The result of the olympiad n) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem E (The result of the olympiad n)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6F59DF2532BFCD00A6CBF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F6F59EF2532C5E800A6CBF4 /* Problem F (Sort even and odd numbers) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem F (Sort even and odd numbers)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6F59F12532C5E800A6CBF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F6F5A022532F48A00A6CBF4 /* Problem G (Sort the points) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem G (Sort the points)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6F5A042532F48A00A6CBF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F6F5A1625330A0500A6CBF4 /* Problem H (Queue) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem H (Queue)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6F5A1825330A0600A6CBF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F6F5A2B25333D3D00A6CBF4 /* Problem I (Dr Who's Banquet) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem I (Dr Who's Banquet)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6F5A2D25333D3D00A6CBF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +167,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F6F59AA2531C3A200A6CBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F59B92531F26C00A6CBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F59C92531F33B00A6CBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F59DA2532BFCD00A6CBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F59EC2532C5E800A6CBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F59FF2532F48A00A6CBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F5A1325330A0500A6CBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F5A2825333D3D00A6CBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,6 +239,14 @@
 			children = (
 				8F25E6DF2524E73C00307860 /* Week4.1 */,
 				8F1913E5252CDEBF00FE6689 /* Problem A (Is it a Heap?) */,
+				8F6F59AE2531C3A200A6CBF4 /* Problem B (Max-hea[) */,
+				8F6F59BD2531F26C00A6CBF4 /* Problem D (Sorting Time) */,
+				8F6F59CD2531F33B00A6CBF4 /* Problem C (Sorting) */,
+				8F6F59DE2532BFCD00A6CBF4 /* Problem E (The result of the olympiad n) */,
+				8F6F59F02532C5E800A6CBF4 /* Problem F (Sort even and odd numbers) */,
+				8F6F5A032532F48A00A6CBF4 /* Problem G (Sort the points) */,
+				8F6F5A1725330A0600A6CBF4 /* Problem H (Queue) */,
+				8F6F5A2C25333D3D00A6CBF4 /* Problem I (Dr Who's Banquet) */,
 				8F25E6DE2524E73C00307860 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +257,14 @@
 				8F25E6DD2524E73C00307860 /* Week4.1 */,
 				8F25E6EC2524EFE500307860 /* Problem A */,
 				8F1913E4252CDEBF00FE6689 /* Problem A (Is it a Heap?) */,
+				8F6F59AD2531C3A200A6CBF4 /* Problem B (Max-hea[) */,
+				8F6F59BC2531F26C00A6CBF4 /* Problem D (Sorting Time) */,
+				8F6F59CC2531F33B00A6CBF4 /* Problem C (Sorting) */,
+				8F6F59DD2532BFCD00A6CBF4 /* Problem E (The result of the olympiad n) */,
+				8F6F59EF2532C5E800A6CBF4 /* Problem F (Sort even and odd numbers) */,
+				8F6F5A022532F48A00A6CBF4 /* Problem G (Sort the points) */,
+				8F6F5A1625330A0500A6CBF4 /* Problem H (Queue) */,
+				8F6F5A2B25333D3D00A6CBF4 /* Problem I (Dr Who's Banquet) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +275,70 @@
 				8F25E6E02524E73C00307860 /* main.cpp */,
 			);
 			path = Week4.1;
+			sourceTree = "<group>";
+		};
+		8F6F59AE2531C3A200A6CBF4 /* Problem B (Max-hea[) */ = {
+			isa = PBXGroup;
+			children = (
+				8F6F59AF2531C3A200A6CBF4 /* main.cpp */,
+			);
+			path = "Problem B (Max-hea[)";
+			sourceTree = "<group>";
+		};
+		8F6F59BD2531F26C00A6CBF4 /* Problem D (Sorting Time) */ = {
+			isa = PBXGroup;
+			children = (
+				8F6F59BE2531F26C00A6CBF4 /* main.cpp */,
+			);
+			path = "Problem D (Sorting Time)";
+			sourceTree = "<group>";
+		};
+		8F6F59CD2531F33B00A6CBF4 /* Problem C (Sorting) */ = {
+			isa = PBXGroup;
+			children = (
+				8F6F59CE2531F33B00A6CBF4 /* main.cpp */,
+			);
+			path = "Problem C (Sorting)";
+			sourceTree = "<group>";
+		};
+		8F6F59DE2532BFCD00A6CBF4 /* Problem E (The result of the olympiad n) */ = {
+			isa = PBXGroup;
+			children = (
+				8F6F59DF2532BFCD00A6CBF4 /* main.cpp */,
+			);
+			path = "Problem E (The result of the olympiad n)";
+			sourceTree = "<group>";
+		};
+		8F6F59F02532C5E800A6CBF4 /* Problem F (Sort even and odd numbers) */ = {
+			isa = PBXGroup;
+			children = (
+				8F6F59F12532C5E800A6CBF4 /* main.cpp */,
+			);
+			path = "Problem F (Sort even and odd numbers)";
+			sourceTree = "<group>";
+		};
+		8F6F5A032532F48A00A6CBF4 /* Problem G (Sort the points) */ = {
+			isa = PBXGroup;
+			children = (
+				8F6F5A042532F48A00A6CBF4 /* main.cpp */,
+			);
+			path = "Problem G (Sort the points)";
+			sourceTree = "<group>";
+		};
+		8F6F5A1725330A0600A6CBF4 /* Problem H (Queue) */ = {
+			isa = PBXGroup;
+			children = (
+				8F6F5A1825330A0600A6CBF4 /* main.cpp */,
+			);
+			path = "Problem H (Queue)";
+			sourceTree = "<group>";
+		};
+		8F6F5A2C25333D3D00A6CBF4 /* Problem I (Dr Who's Banquet) */ = {
+			isa = PBXGroup;
+			children = (
+				8F6F5A2D25333D3D00A6CBF4 /* main.cpp */,
+			);
+			path = "Problem I (Dr Who's Banquet)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +395,142 @@
 			productReference = 8F25E6EC2524EFE500307860 /* Problem A */;
 			productType = "com.apple.product-type.tool";
 		};
+		8F6F59AC2531C3A200A6CBF4 /* Problem B (Max-hea[) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6F59B32531C3A200A6CBF4 /* Build configuration list for PBXNativeTarget "Problem B (Max-hea[)" */;
+			buildPhases = (
+				8F6F59A92531C3A200A6CBF4 /* Sources */,
+				8F6F59AA2531C3A200A6CBF4 /* Frameworks */,
+				8F6F59AB2531C3A200A6CBF4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem B (Max-hea[)";
+			productName = "Problem B (Max-hea[)";
+			productReference = 8F6F59AD2531C3A200A6CBF4 /* Problem B (Max-hea[) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F6F59BB2531F26C00A6CBF4 /* Problem D (Sorting Time) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6F59C02531F26C00A6CBF4 /* Build configuration list for PBXNativeTarget "Problem D (Sorting Time)" */;
+			buildPhases = (
+				8F6F59B82531F26C00A6CBF4 /* Sources */,
+				8F6F59B92531F26C00A6CBF4 /* Frameworks */,
+				8F6F59BA2531F26C00A6CBF4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem D (Sorting Time)";
+			productName = "Problem D (Sorting Time)";
+			productReference = 8F6F59BC2531F26C00A6CBF4 /* Problem D (Sorting Time) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F6F59CB2531F33B00A6CBF4 /* Problem C (Sorting) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6F59D02531F33B00A6CBF4 /* Build configuration list for PBXNativeTarget "Problem C (Sorting)" */;
+			buildPhases = (
+				8F6F59C82531F33B00A6CBF4 /* Sources */,
+				8F6F59C92531F33B00A6CBF4 /* Frameworks */,
+				8F6F59CA2531F33B00A6CBF4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem C (Sorting)";
+			productName = "Problem C (Sorting)";
+			productReference = 8F6F59CC2531F33B00A6CBF4 /* Problem C (Sorting) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F6F59DC2532BFCD00A6CBF4 /* Problem E (The result of the olympiad n) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6F59E12532BFCD00A6CBF4 /* Build configuration list for PBXNativeTarget "Problem E (The result of the olympiad n)" */;
+			buildPhases = (
+				8F6F59D92532BFCD00A6CBF4 /* Sources */,
+				8F6F59DA2532BFCD00A6CBF4 /* Frameworks */,
+				8F6F59DB2532BFCD00A6CBF4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem E (The result of the olympiad n)";
+			productName = "Problem E (The result of the olympiad n)";
+			productReference = 8F6F59DD2532BFCD00A6CBF4 /* Problem E (The result of the olympiad n) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F6F59EE2532C5E800A6CBF4 /* Problem F (Sort even and odd numbers) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6F59F32532C5E800A6CBF4 /* Build configuration list for PBXNativeTarget "Problem F (Sort even and odd numbers)" */;
+			buildPhases = (
+				8F6F59EB2532C5E800A6CBF4 /* Sources */,
+				8F6F59EC2532C5E800A6CBF4 /* Frameworks */,
+				8F6F59ED2532C5E800A6CBF4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem F (Sort even and odd numbers)";
+			productName = "Problem F (Sort even and odd numbers)";
+			productReference = 8F6F59EF2532C5E800A6CBF4 /* Problem F (Sort even and odd numbers) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F6F5A012532F48A00A6CBF4 /* Problem G (Sort the points) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6F5A062532F48A00A6CBF4 /* Build configuration list for PBXNativeTarget "Problem G (Sort the points)" */;
+			buildPhases = (
+				8F6F59FE2532F48A00A6CBF4 /* Sources */,
+				8F6F59FF2532F48A00A6CBF4 /* Frameworks */,
+				8F6F5A002532F48A00A6CBF4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem G (Sort the points)";
+			productName = "Problem G (Sort the points)";
+			productReference = 8F6F5A022532F48A00A6CBF4 /* Problem G (Sort the points) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F6F5A1525330A0500A6CBF4 /* Problem H (Queue) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6F5A1A25330A0600A6CBF4 /* Build configuration list for PBXNativeTarget "Problem H (Queue)" */;
+			buildPhases = (
+				8F6F5A1225330A0500A6CBF4 /* Sources */,
+				8F6F5A1325330A0500A6CBF4 /* Frameworks */,
+				8F6F5A1425330A0500A6CBF4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem H (Queue)";
+			productName = "Problem H (Queue)";
+			productReference = 8F6F5A1625330A0500A6CBF4 /* Problem H (Queue) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F6F5A2A25333D3D00A6CBF4 /* Problem I (Dr Who's Banquet) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6F5A2F25333D3D00A6CBF4 /* Build configuration list for PBXNativeTarget "Problem I (Dr Who's Banquet)" */;
+			buildPhases = (
+				8F6F5A2725333D3D00A6CBF4 /* Sources */,
+				8F6F5A2825333D3D00A6CBF4 /* Frameworks */,
+				8F6F5A2925333D3D00A6CBF4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem I (Dr Who's Banquet)";
+			productName = "Problem I (Dr Who's Banquet)";
+			productReference = 8F6F5A2B25333D3D00A6CBF4 /* Problem I (Dr Who's Banquet) */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,6 +546,30 @@
 						CreatedOnToolsVersion = 12.0.1;
 					};
 					8F25E6EB2524EFE500307860 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F6F59AC2531C3A200A6CBF4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F6F59BB2531F26C00A6CBF4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F6F59CB2531F33B00A6CBF4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F6F59DC2532BFCD00A6CBF4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F6F59EE2532C5E800A6CBF4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F6F5A012532F48A00A6CBF4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F6F5A1525330A0500A6CBF4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F6F5A2A25333D3D00A6CBF4 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
@@ -198,6 +590,14 @@
 				8F25E6DC2524E73C00307860 /* Week4.1 */,
 				8F25E6EB2524EFE500307860 /* Problem A */,
 				8F1913E3252CDEBF00FE6689 /* Problem A (Is it a Heap?) */,
+				8F6F59AC2531C3A200A6CBF4 /* Problem B (Max-hea[) */,
+				8F6F59BB2531F26C00A6CBF4 /* Problem D (Sorting Time) */,
+				8F6F59CB2531F33B00A6CBF4 /* Problem C (Sorting) */,
+				8F6F59DC2532BFCD00A6CBF4 /* Problem E (The result of the olympiad n) */,
+				8F6F59EE2532C5E800A6CBF4 /* Problem F (Sort even and odd numbers) */,
+				8F6F5A012532F48A00A6CBF4 /* Problem G (Sort the points) */,
+				8F6F5A1525330A0500A6CBF4 /* Problem H (Queue) */,
+				8F6F5A2A25333D3D00A6CBF4 /* Problem I (Dr Who's Banquet) */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +623,70 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F59A92531C3A200A6CBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6F59B02531C3A200A6CBF4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F59B82531F26C00A6CBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6F59BF2531F26C00A6CBF4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F59C82531F33B00A6CBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6F59CF2531F33B00A6CBF4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F59D92532BFCD00A6CBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6F59E02532BFCD00A6CBF4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F59EB2532C5E800A6CBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6F59F22532C5E800A6CBF4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F59FE2532F48A00A6CBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6F5A052532F48A00A6CBF4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F5A1225330A0500A6CBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6F5A1925330A0600A6CBF4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6F5A2725333D3D00A6CBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6F5A2E25333D3D00A6CBF4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +864,166 @@
 			};
 			name = Release;
 		};
+		8F6F59B12531C3A200A6CBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6F59B22531C3A200A6CBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F6F59C12531F26C00A6CBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6F59C22531F26C00A6CBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F6F59D12531F33B00A6CBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6F59D22531F33B00A6CBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F6F59E22532BFCD00A6CBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6F59E32532BFCD00A6CBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F6F59F42532C5E800A6CBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6F59F52532C5E800A6CBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F6F5A072532F48A00A6CBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6F5A082532F48A00A6CBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F6F5A1B25330A0600A6CBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6F5A1C25330A0600A6CBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F6F5A3025333D3D00A6CBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6F5A3125333D3D00A6CBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -435,6 +1059,78 @@
 			buildConfigurations = (
 				8F25E6F12524EFE500307860 /* Debug */,
 				8F25E6F22524EFE500307860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6F59B32531C3A200A6CBF4 /* Build configuration list for PBXNativeTarget "Problem B (Max-hea[)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6F59B12531C3A200A6CBF4 /* Debug */,
+				8F6F59B22531C3A200A6CBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6F59C02531F26C00A6CBF4 /* Build configuration list for PBXNativeTarget "Problem D (Sorting Time)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6F59C12531F26C00A6CBF4 /* Debug */,
+				8F6F59C22531F26C00A6CBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6F59D02531F33B00A6CBF4 /* Build configuration list for PBXNativeTarget "Problem C (Sorting)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6F59D12531F33B00A6CBF4 /* Debug */,
+				8F6F59D22531F33B00A6CBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6F59E12532BFCD00A6CBF4 /* Build configuration list for PBXNativeTarget "Problem E (The result of the olympiad n)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6F59E22532BFCD00A6CBF4 /* Debug */,
+				8F6F59E32532BFCD00A6CBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6F59F32532C5E800A6CBF4 /* Build configuration list for PBXNativeTarget "Problem F (Sort even and odd numbers)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6F59F42532C5E800A6CBF4 /* Debug */,
+				8F6F59F52532C5E800A6CBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6F5A062532F48A00A6CBF4 /* Build configuration list for PBXNativeTarget "Problem G (Sort the points)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6F5A072532F48A00A6CBF4 /* Debug */,
+				8F6F5A082532F48A00A6CBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6F5A1A25330A0600A6CBF4 /* Build configuration list for PBXNativeTarget "Problem H (Queue)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6F5A1B25330A0600A6CBF4 /* Debug */,
+				8F6F5A1C25330A0600A6CBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6F5A2F25333D3D00A6CBF4 /* Build configuration list for PBXNativeTarget "Problem I (Dr Who's Banquet)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6F5A3025333D3D00A6CBF4 /* Debug */,
+				8F6F5A3125333D3D00A6CBF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

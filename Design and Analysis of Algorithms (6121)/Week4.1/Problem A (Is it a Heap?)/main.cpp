@@ -8,21 +8,21 @@
 #include <iostream>
 
 using namespace std;
-int arr[2000000001];
+int arr[2000001];
 
 int main(int argc, const char * argv[]) {
     memset(arr, 0, sizeof(arr));
-    int num;
+    int num, count = 0;
     scanf("%d", &num);
     for(int i=1;i<=num;i++){
-        scanf("%d", &arr[num]);
+        scanf("%d", &arr[i]);
     }
     for(int i=2; i<=num; i++){
         if(arr[i/2]>arr[i]) {
-            puts("NO");
-            return 0;
+            count++;
         }
-        puts("YES");
-        return 0;
     }
+    if(count == 0 ) puts ("YES");
+    else  puts("NO");
+ 
 }
