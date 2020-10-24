@@ -58,21 +58,6 @@ void heapify(Member a[], int i, int n)
     }
 }
 
-int f(int a, int b){
-    if(a%2){
-        if(b%2){
-            return a<b;
-        }else
-            return 1;
-    }else{
-        if(b%2){
-            return 0;
-        }else{
-            return a>b;
-        }
-    }
-}
-
 void BuildHeap(Member a[], int n)
 {
   for (int i = n / 2; i > 0; i--)

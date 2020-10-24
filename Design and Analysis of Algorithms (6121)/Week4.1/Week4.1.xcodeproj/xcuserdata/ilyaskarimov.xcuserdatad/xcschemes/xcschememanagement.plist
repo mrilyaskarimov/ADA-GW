@@ -7,7 +7,7 @@
 		<key>Problem A (Is it a Heap?).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>6</integer>
 		</dict>
 		<key>Problem A.xcscheme_^#shared#^_</key>
 		<dict>
@@ -17,37 +17,37 @@
 		<key>Problem B (Max-hea[).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Problem C (Sorting).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>7</integer>
 		</dict>
 		<key>Problem D (Sorting Time).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Problem E (The result of the olympiad n).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>8</integer>
 		</dict>
 		<key>Problem F (Sort even and odd numbers).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Problem G (Sort the points).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Problem H (Queue).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>9</integer>
 		</dict>
 		<key>Problem I (Dr Who's Banquet).xcscheme_^#shared#^_</key>
 		<dict>
@@ -57,7 +57,7 @@
 		<key>Week4.1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>

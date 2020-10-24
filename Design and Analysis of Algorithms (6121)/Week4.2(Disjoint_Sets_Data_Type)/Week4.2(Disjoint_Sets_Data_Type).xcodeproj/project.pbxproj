@@ -13,6 +13,7 @@
 		8F82EAAE252F2847006EE49B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F82EAAD252F2847006EE49B /* main.cpp */; };
 		8FB1D00F252F9697002E3A91 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FB1D00E252F9697002E3A91 /* main.cpp */; };
 		8FB1D01F252F9C11002E3A91 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FB1D01E252F9C11002E3A91 /* main.cpp */; };
+		8FC6FB31253C07AD004DC499 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6FB30253C07AD004DC499 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8FC6FB13253B7FC4004DC499 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FC6FB2C253C07AD004DC499 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +104,9 @@
 		8FB1D00E252F9697002E3A91 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8FB1D01C252F9C11002E3A91 /* Problem E (Cut a graph) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem E (Cut a graph)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB1D01E252F9C11002E3A91 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FC6FB15253B7FC4004DC499 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC6FB2E253C07AD004DC499 /* Problem F (Dangerous route) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem F (Dangerous route)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC6FB30253C07AD004DC499 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +152,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FC6FB12253B7FC4004DC499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC6FB2B253C07AD004DC499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -142,6 +178,7 @@
 				8F82EAAC252F2847006EE49B /* Problem C (Roads) */,
 				8FB1D00D252F9697002E3A91 /* Problem D (Mail of the sponsor) */,
 				8FB1D01D252F9C11002E3A91 /* Problem E (Cut a graph) */,
+				8FC6FB2F253C07AD004DC499 /* Problem F (Dangerous route) */,
 				8F450C6425278F7D00362D30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +192,8 @@
 				8F82EAAB252F2847006EE49B /* Problem C (Roads) */,
 				8FB1D00C252F9697002E3A91 /* Problem D (Mail of the sponsor) */,
 				8FB1D01C252F9C11002E3A91 /* Problem E (Cut a graph) */,
+				8FC6FB15253B7FC4004DC499 /* test */,
+				8FC6FB2E253C07AD004DC499 /* Problem F (Dangerous route) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,6 +244,14 @@
 				8FB1D01E252F9C11002E3A91 /* main.cpp */,
 			);
 			path = "Problem E (Cut a graph)";
+			sourceTree = "<group>";
+		};
+		8FC6FB2F253C07AD004DC499 /* Problem F (Dangerous route) */ = {
+			isa = PBXGroup;
+			children = (
+				8FC6FB30253C07AD004DC499 /* main.cpp */,
+			);
+			path = "Problem F (Dangerous route)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +359,40 @@
 			productReference = 8FB1D01C252F9C11002E3A91 /* Problem E (Cut a graph) */;
 			productType = "com.apple.product-type.tool";
 		};
+		8FC6FB14253B7FC4004DC499 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC6FB1B253B7FC4004DC499 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				8FC6FB11253B7FC4004DC499 /* Sources */,
+				8FC6FB12253B7FC4004DC499 /* Frameworks */,
+				8FC6FB13253B7FC4004DC499 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = 8FC6FB15253B7FC4004DC499 /* test */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FC6FB2D253C07AD004DC499 /* Problem F (Dangerous route) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC6FB32253C07AD004DC499 /* Build configuration list for PBXNativeTarget "Problem F (Dangerous route)" */;
+			buildPhases = (
+				8FC6FB2A253C07AD004DC499 /* Sources */,
+				8FC6FB2B253C07AD004DC499 /* Frameworks */,
+				8FC6FB2C253C07AD004DC499 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem F (Dangerous route)";
+			productName = "Problem F (Dangerous route)";
+			productReference = 8FC6FB2E253C07AD004DC499 /* Problem F (Dangerous route) */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -338,6 +419,12 @@
 					8FB1D01B252F9C11002E3A91 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					8FC6FB14253B7FC4004DC499 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8FC6FB2D253C07AD004DC499 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 				};
 			};
 			buildConfigurationList = 8F450C5E25278F7D00362D30 /* Build configuration list for PBXProject "Week4.2(Disjoint_Sets_Data_Type)" */;
@@ -359,6 +446,8 @@
 				8F82EAAA252F2847006EE49B /* Problem C (Roads) */,
 				8FB1D00B252F9697002E3A91 /* Problem D (Mail of the sponsor) */,
 				8FB1D01B252F9C11002E3A91 /* Problem E (Cut a graph) */,
+				8FC6FB14253B7FC4004DC499 /* test */,
+				8FC6FB2D253C07AD004DC499 /* Problem F (Dangerous route) */,
 			);
 		};
 /* End PBXProject section */
@@ -409,6 +498,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FB1D01F252F9C11002E3A91 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC6FB11253B7FC4004DC499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC6FB2A253C07AD004DC499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC6FB31253C07AD004DC499 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +750,46 @@
 			};
 			name = Release;
 		};
+		8FC6FB19253B7FC4004DC499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FC6FB1A253B7FC4004DC499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FC6FB33253C07AD004DC499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FC6FB34253C07AD004DC499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -708,6 +852,24 @@
 			buildConfigurations = (
 				8FB1D021252F9C11002E3A91 /* Debug */,
 				8FB1D022252F9C11002E3A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC6FB1B253B7FC4004DC499 /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC6FB19253B7FC4004DC499 /* Debug */,
+				8FC6FB1A253B7FC4004DC499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC6FB32253C07AD004DC499 /* Build configuration list for PBXNativeTarget "Problem F (Dangerous route)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC6FB33253C07AD004DC499 /* Debug */,
+				8FC6FB34253C07AD004DC499 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
