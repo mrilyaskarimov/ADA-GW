@@ -47,6 +47,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8F2E23052549D687006E4721 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8F6F59AB2531C3A200A6CBF4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,6 +136,7 @@
 		8F25E6DD2524E73C00307860 /* Week4.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week4.1; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F25E6E02524E73C00307860 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F25E6EC2524EFE500307860 /* Problem A */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem A"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2E23072549D687006E4721 /* Week7.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week7.1; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6F59AD2531C3A200A6CBF4 /* Problem B (Max-hea[) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Max-hea[)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6F59AF2531C3A200A6CBF4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F6F59BC2531F26C00A6CBF4 /* Problem D (Sorting Time) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem D (Sorting Time)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +171,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8F25E6E92524EFE500307860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2E23042549D687006E4721 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,6 +282,7 @@
 				8F6F5A022532F48A00A6CBF4 /* Problem G (Sort the points) */,
 				8F6F5A1625330A0500A6CBF4 /* Problem H (Queue) */,
 				8F6F5A2B25333D3D00A6CBF4 /* Problem I (Dr Who's Banquet) */,
+				8F2E23072549D687006E4721 /* Week7.1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -393,6 +411,23 @@
 			name = "Problem A";
 			productName = "Problem A";
 			productReference = 8F25E6EC2524EFE500307860 /* Problem A */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F2E23062549D687006E4721 /* Week7.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F2E230D2549D687006E4721 /* Build configuration list for PBXNativeTarget "Week7.1" */;
+			buildPhases = (
+				8F2E23032549D687006E4721 /* Sources */,
+				8F2E23042549D687006E4721 /* Frameworks */,
+				8F2E23052549D687006E4721 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Week7.1;
+			productName = Week7.1;
+			productReference = 8F2E23072549D687006E4721 /* Week7.1 */;
 			productType = "com.apple.product-type.tool";
 		};
 		8F6F59AC2531C3A200A6CBF4 /* Problem B (Max-hea[) */ = {
@@ -548,6 +583,9 @@
 					8F25E6EB2524EFE500307860 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					8F2E23062549D687006E4721 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					8F6F59AC2531C3A200A6CBF4 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -598,6 +636,7 @@
 				8F6F5A012532F48A00A6CBF4 /* Problem G (Sort the points) */,
 				8F6F5A1525330A0500A6CBF4 /* Problem H (Queue) */,
 				8F6F5A2A25333D3D00A6CBF4 /* Problem I (Dr Who's Banquet) */,
+				8F2E23062549D687006E4721 /* Week7.1 */,
 			);
 		};
 /* End PBXProject section */
@@ -620,6 +659,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8F25E6E82524EFE500307860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2E23032549D687006E4721 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -864,6 +910,26 @@
 			};
 			name = Release;
 		};
+		8F2E230B2549D687006E4721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F2E230C2549D687006E4721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8F6F59B12531C3A200A6CBF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1059,6 +1125,15 @@
 			buildConfigurations = (
 				8F25E6F12524EFE500307860 /* Debug */,
 				8F25E6F22524EFE500307860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F2E230D2549D687006E4721 /* Build configuration list for PBXNativeTarget "Week7.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F2E230B2549D687006E4721 /* Debug */,
+				8F2E230C2549D687006E4721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

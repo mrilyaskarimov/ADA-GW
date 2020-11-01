@@ -13,6 +13,10 @@
 		8FCE1CBA252E266C0049649F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FCE1CB9252E266C0049649F /* main.cpp */; };
 		8FCE1CC9252E2C220049649F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FCE1CC8252E2C220049649F /* main.cpp */; };
 		8FCE1CF0252E41530049649F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FCE1CEF252E41530049649F /* main.cpp */; };
+		8FEC37D9254B1C6D00F74E54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC37D8254B1C6D00F74E54 /* main.cpp */; };
+		8FEC37ED254BF20B00F74E54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC37EC254BF20B00F74E54 /* main.cpp */; };
+		8FEC3802254BF32500F74E54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC3801254BF32500F74E54 /* main.cpp */; };
+		8FEC3818254BF33400F74E54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC3817254BF33400F74E54 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +92,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8FEC37D4254B1C6D00F74E54 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FEC37E8254BF20B00F74E54 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FEC37FD254BF32500F74E54 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FEC3813254BF33400F74E54 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +145,14 @@
 		8FCE1CD6252E3E330049649F /* Problem E (Sorting Time) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem E (Sorting Time)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCE1CED252E41530049649F /* Problem F (Sorting Time) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem F (Sorting Time)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCE1CEF252E41530049649F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FEC37D6254B1C6D00F74E54 /* Problem D (Merge Three Sequences) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem D (Merge Three Sequences)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEC37D8254B1C6D00F74E54 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FEC37EA254BF20B00F74E54 /* Problem H (Train Swapping) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem H (Train Swapping)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEC37EC254BF20B00F74E54 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FEC37FF254BF32500F74E54 /* Problem I ("Sort" station) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem I (\"Sort\" station)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEC3801254BF32500F74E54 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FEC3815254BF33400F74E54 /* Problem J (Ultraquick Sort) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem J (Ultraquick Sort)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEC3817254BF33400F74E54 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +212,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FEC37D3254B1C6D00F74E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEC37E7254BF20B00F74E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEC37FC254BF32500F74E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEC3812254BF33400F74E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -184,6 +260,10 @@
 				8FCE1CC7252E2C220049649F /* Problem B (The sum of the largest and the smallest) */,
 				8FCE1CEE252E41530049649F /* Problem F (Sorting Time) */,
 				8F8A2D65252ED0FE00034E0A /* Problem E (Sort) */,
+				8FEC37D7254B1C6D00F74E54 /* Problem D (Merge Three Sequences) */,
+				8FEC37EB254BF20B00F74E54 /* Problem H (Train Swapping) */,
+				8FEC3800254BF32500F74E54 /* Problem I ("Sort" station) */,
+				8FEC3816254BF33400F74E54 /* Problem J (Ultraquick Sort) */,
 				8FCE1C8B252E23320049649F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -199,6 +279,10 @@
 				8FCE1CD6252E3E330049649F /* Problem E (Sorting Time) */,
 				8FCE1CED252E41530049649F /* Problem F (Sorting Time) */,
 				8F8A2D64252ED0FE00034E0A /* Problem E (Sort) */,
+				8FEC37D6254B1C6D00F74E54 /* Problem D (Merge Three Sequences) */,
+				8FEC37EA254BF20B00F74E54 /* Problem H (Train Swapping) */,
+				8FEC37FF254BF32500F74E54 /* Problem I ("Sort" station) */,
+				8FEC3815254BF33400F74E54 /* Problem J (Ultraquick Sort) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,6 +325,38 @@
 				8FCE1CEF252E41530049649F /* main.cpp */,
 			);
 			path = "Problem F (Sorting Time)";
+			sourceTree = "<group>";
+		};
+		8FEC37D7254B1C6D00F74E54 /* Problem D (Merge Three Sequences) */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC37D8254B1C6D00F74E54 /* main.cpp */,
+			);
+			path = "Problem D (Merge Three Sequences)";
+			sourceTree = "<group>";
+		};
+		8FEC37EB254BF20B00F74E54 /* Problem H (Train Swapping) */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC37EC254BF20B00F74E54 /* main.cpp */,
+			);
+			path = "Problem H (Train Swapping)";
+			sourceTree = "<group>";
+		};
+		8FEC3800254BF32500F74E54 /* Problem I ("Sort" station) */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC3801254BF32500F74E54 /* main.cpp */,
+			);
+			path = "Problem I (\"Sort\" station)";
+			sourceTree = "<group>";
+		};
+		8FEC3816254BF33400F74E54 /* Problem J (Ultraquick Sort) */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC3817254BF33400F74E54 /* main.cpp */,
+			);
+			path = "Problem J (Ultraquick Sort)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +498,74 @@
 			productReference = 8FCE1CED252E41530049649F /* Problem F (Sorting Time) */;
 			productType = "com.apple.product-type.tool";
 		};
+		8FEC37D5254B1C6D00F74E54 /* Problem D (Merge Three Sequences) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEC37DC254B1C6D00F74E54 /* Build configuration list for PBXNativeTarget "Problem D (Merge Three Sequences)" */;
+			buildPhases = (
+				8FEC37D2254B1C6D00F74E54 /* Sources */,
+				8FEC37D3254B1C6D00F74E54 /* Frameworks */,
+				8FEC37D4254B1C6D00F74E54 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem D (Merge Three Sequences)";
+			productName = "Problem D (Merge Three Sequences)";
+			productReference = 8FEC37D6254B1C6D00F74E54 /* Problem D (Merge Three Sequences) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FEC37E9254BF20B00F74E54 /* Problem H (Train Swapping) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEC37F0254BF20B00F74E54 /* Build configuration list for PBXNativeTarget "Problem H (Train Swapping)" */;
+			buildPhases = (
+				8FEC37E6254BF20B00F74E54 /* Sources */,
+				8FEC37E7254BF20B00F74E54 /* Frameworks */,
+				8FEC37E8254BF20B00F74E54 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem H (Train Swapping)";
+			productName = "Problem H (Train Swapping)";
+			productReference = 8FEC37EA254BF20B00F74E54 /* Problem H (Train Swapping) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FEC37FE254BF32500F74E54 /* Problem I ("Sort" station) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEC3803254BF32500F74E54 /* Build configuration list for PBXNativeTarget "Problem I ("Sort" station)" */;
+			buildPhases = (
+				8FEC37FB254BF32500F74E54 /* Sources */,
+				8FEC37FC254BF32500F74E54 /* Frameworks */,
+				8FEC37FD254BF32500F74E54 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem I (\"Sort\" station)";
+			productName = "Problem I (\"Sort\" station)";
+			productReference = 8FEC37FF254BF32500F74E54 /* Problem I ("Sort" station) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FEC3814254BF33400F74E54 /* Problem J (Ultraquick Sort) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEC3819254BF33400F74E54 /* Build configuration list for PBXNativeTarget "Problem J (Ultraquick Sort)" */;
+			buildPhases = (
+				8FEC3811254BF33400F74E54 /* Sources */,
+				8FEC3812254BF33400F74E54 /* Frameworks */,
+				8FEC3813254BF33400F74E54 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem J (Ultraquick Sort)";
+			productName = "Problem J (Ultraquick Sort)";
+			productReference = 8FEC3815254BF33400F74E54 /* Problem J (Ultraquick Sort) */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -414,6 +598,18 @@
 					8FCE1CEC252E41530049649F = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					8FEC37D5254B1C6D00F74E54 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8FEC37E9254BF20B00F74E54 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8FEC37FE254BF32500F74E54 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8FEC3814254BF33400F74E54 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 				};
 			};
 			buildConfigurationList = 8FCE1C85252E23320049649F /* Build configuration list for PBXProject "Week5.1 (Merge Sort)" */;
@@ -437,6 +633,10 @@
 				8FCE1CD5252E3E330049649F /* Problem E (Sorting Time) */,
 				8FCE1CEC252E41530049649F /* Problem F (Sorting Time) */,
 				8F8A2D63252ED0FE00034E0A /* Problem E (Sort) */,
+				8FEC37D5254B1C6D00F74E54 /* Problem D (Merge Three Sequences) */,
+				8FEC37E9254BF20B00F74E54 /* Problem H (Train Swapping) */,
+				8FEC37FE254BF32500F74E54 /* Problem I ("Sort" station) */,
+				8FEC3814254BF33400F74E54 /* Problem J (Ultraquick Sort) */,
 			);
 		};
 /* End PBXProject section */
@@ -501,6 +701,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FCE1CF0252E41530049649F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEC37D2254B1C6D00F74E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEC37D9254B1C6D00F74E54 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEC37E6254BF20B00F74E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEC37ED254BF20B00F74E54 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEC37FB254BF32500F74E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEC3802254BF32500F74E54 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEC3811254BF33400F74E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEC3818254BF33400F74E54 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,6 +1010,86 @@
 			};
 			name = Release;
 		};
+		8FEC37DA254B1C6D00F74E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FEC37DB254B1C6D00F74E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FEC37EE254BF20B00F74E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FEC37EF254BF20B00F74E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FEC3804254BF32500F74E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FEC3805254BF32500F74E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FEC381A254BF33400F74E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FEC381B254BF33400F74E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -858,6 +1170,42 @@
 			buildConfigurations = (
 				8FCE1CF2252E41530049649F /* Debug */,
 				8FCE1CF3252E41530049649F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEC37DC254B1C6D00F74E54 /* Build configuration list for PBXNativeTarget "Problem D (Merge Three Sequences)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEC37DA254B1C6D00F74E54 /* Debug */,
+				8FEC37DB254B1C6D00F74E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEC37F0254BF20B00F74E54 /* Build configuration list for PBXNativeTarget "Problem H (Train Swapping)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEC37EE254BF20B00F74E54 /* Debug */,
+				8FEC37EF254BF20B00F74E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEC3803254BF32500F74E54 /* Build configuration list for PBXNativeTarget "Problem I ("Sort" station)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEC3804254BF32500F74E54 /* Debug */,
+				8FEC3805254BF32500F74E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEC3819254BF33400F74E54 /* Build configuration list for PBXNativeTarget "Problem J (Ultraquick Sort)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEC381A254BF33400F74E54 /* Debug */,
+				8FEC381B254BF33400F74E54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
