@@ -9,30 +9,30 @@
 #define MAX 1000000000
 
 using namespace std;
-int m[MAX];
 
-int gcd (int a, int b){
+
+long long gcd (long long a, long long b){
     if(a==0) return b;
     if(b==0) return a;
     if(a >=b) return gcd (a%b, b);
     return gcd (a, b%a);
 }
-int lcm (int a, int b) {
+long long lcm (long long a, long long b) {
     return a*b/gcd(a,b);
 }
-int f(int a, int b, int n){
-    return n/a + n/b - n/lcm(a,b);
+
+long long f(long long a, long long b,long long c, long long n){
+    return n/a + n/b + n/c - n/lcm(a,b) - n/lcm(b,c) - n/lcm(a,c) + n/lcm(a, lcm(b,c));
 }
 
 int main(int argc, const char * argv[]) {
-    int a, b, n;
-    scanf("%d %d %d", &a, &b, &n);
-    int start = 1, end = MAX;
-    
+    long long a, b,c, n;
+    scanf("%lld %lld %lld %lld", &a, &b, &c, &n);
+    long long start = 1, end = MAX;
     while (start < end){
-      int mid = (start + end) / 2;
-      if (f(a,b,mid) < n) start = mid +1;
+      long long mid = (start + end) / 2;
+      if (f(a, b, c, mid) < n) start = mid +1;
       else end = mid;
     }
-    printf("%d", start);
+    printf("%lld", start);
 }

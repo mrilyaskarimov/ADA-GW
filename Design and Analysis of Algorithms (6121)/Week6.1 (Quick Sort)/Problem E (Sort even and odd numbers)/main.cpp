@@ -8,7 +8,10 @@
 #include <iostream>
 #define MAX 1001
 
+using namespace std;
+
 int a[MAX], n;
+
 int abs(int n)
 {
     if(n>0) return n;
@@ -20,12 +23,6 @@ int f(int a, int b){
     if(abs(a%2 == 0)) return a>b; // if even numbers, decreasing order
     else return a < b;              // if odd numbers, increasing order.
 }
-
-void swap(int i, int j)
-{
-  int temp = i; i = j; j = temp;
-}
-
 int Partition(int m[], int L, int R)
 {
   int x = m[R];
@@ -40,15 +37,16 @@ int Partition(int m[], int L, int R)
   return i + 1;
 }
 
-void QuickSort(int a[], int L, int R)
+void QuickSort(int m[], int L, int R)
 {
   if (L < R)
   {
-    int q = Partition(a, L, R);
-    QuickSort(a, L, q - 1);
-    QuickSort(a, q + 1, R);
+    int q = Partition(m, L, R);
+    QuickSort(m, L, q - 1);
+    QuickSort(m, q + 1, R);
   }
 }
+
 int main(int argc, const char * argv[]) {
     scanf("%d", &n);
     for(int i=1;i<=n;i++){
@@ -59,6 +57,5 @@ int main(int argc, const char * argv[]) {
     for (int i = 1; i <= n; i++){
         printf("%d ", a[i]);
     }
-    
     return 0;
 }

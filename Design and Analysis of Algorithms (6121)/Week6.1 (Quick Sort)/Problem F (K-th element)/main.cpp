@@ -33,6 +33,10 @@ int main(void)
   for (i = 1; i <= n; i++)
     scanf("%d", &v[i]);
 
-  printf("%d\n", kth(k, 1, n));
+    kth(k, 1, n);
+    for(int i=1;i<=n;i++){
+        printf("%d ", v[i]);
+    }
+    
   return 0;
 }
