@@ -7,12 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F30D687255472B4001355C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D686255472B4001355C7 /* main.cpp */; };
+		8F6A86C92552DD6500169B70 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6A86C82552DD6500169B70 /* main.cpp */; };
+		8F6A86D92552EB8E00169B70 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6A86D82552EB8E00169B70 /* main.cpp */; };
 		8FFBD1F5253B0BC50065D0ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FFBD1F4253B0BC50065D0ED /* main.cpp */; };
 		8FFBD203253B0BE70065D0ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FFBD202253B0BE70065D0ED /* main.cpp */; };
 		8FFBD210253B10110065D0ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FFBD20F253B10110065D0ED /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8F30D682255472B4001355C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F6A86B12552DB6A00169B70 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F6A86C42552DD6500169B70 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F6A86D42552EB8E00169B70 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8FFBD1EF253B0BC50065D0ED /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,6 +82,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8F30D684255472B4001355C7 /* Problem J (Cookie Selection) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem J (Cookie Selection)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F30D686255472B4001355C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F6A86B32552DB6A00169B70 /* Problem B (Minimum in the stack) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Minimum in the stack)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6A86C62552DD6500169B70 /* Problem B (Minimum in the Stack) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Minimum in the Stack)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6A86C82552DD6500169B70 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F6A86D62552EB8E00169B70 /* Problem I (Find the mean-2) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem I (Find the mean-2)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6A86D82552EB8E00169B70 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8FFBD1F1253B0BC50065D0ED /* Week6.2(Graded Quiz No1) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Week6.2(Graded Quiz No1)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFBD1F4253B0BC50065D0ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8FFBD200253B0BE70065D0ED /* Problem N (Sort the points by coordinates) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem N (Sort the points by coordinates)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +98,34 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8F30D681255472B4001355C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6A86B02552DB6A00169B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6A86C32552DD6500169B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6A86D32552EB8E00169B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8FFBD1EE253B0BC50065D0ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +150,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F30D685255472B4001355C7 /* Problem J (Cookie Selection) */ = {
+			isa = PBXGroup;
+			children = (
+				8F30D686255472B4001355C7 /* main.cpp */,
+			);
+			path = "Problem J (Cookie Selection)";
+			sourceTree = "<group>";
+		};
+		8F6A86C72552DD6500169B70 /* Problem B (Minimum in the Stack) */ = {
+			isa = PBXGroup;
+			children = (
+				8F6A86C82552DD6500169B70 /* main.cpp */,
+			);
+			path = "Problem B (Minimum in the Stack)";
+			sourceTree = "<group>";
+		};
+		8F6A86D72552EB8E00169B70 /* Problem I (Find the mean-2) */ = {
+			isa = PBXGroup;
+			children = (
+				8F6A86D82552EB8E00169B70 /* main.cpp */,
+			);
+			path = "Problem I (Find the mean-2)";
+			sourceTree = "<group>";
+		};
 		8FFBD1E8253B0BC50065D0ED = {
 			isa = PBXGroup;
 			children = (
 				8FFBD1F3253B0BC50065D0ED /* Week6.2(Graded Quiz No1) */,
 				8FFBD201253B0BE70065D0ED /* Problem N (Sort the points by coordinates) */,
 				8FFBD20E253B10110065D0ED /* Problem F (Power of Time) */,
+				8F6A86C72552DD6500169B70 /* Problem B (Minimum in the Stack) */,
+				8F6A86D72552EB8E00169B70 /* Problem I (Find the mean-2) */,
+				8F30D685255472B4001355C7 /* Problem J (Cookie Selection) */,
 				8FFBD1F2253B0BC50065D0ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +193,10 @@
 				8FFBD1F1253B0BC50065D0ED /* Week6.2(Graded Quiz No1) */,
 				8FFBD200253B0BE70065D0ED /* Problem N (Sort the points by coordinates) */,
 				8FFBD20D253B10110065D0ED /* Problem F (Power of Time) */,
+				8F6A86B32552DB6A00169B70 /* Problem B (Minimum in the stack) */,
+				8F6A86C62552DD6500169B70 /* Problem B (Minimum in the Stack) */,
+				8F6A86D62552EB8E00169B70 /* Problem I (Find the mean-2) */,
+				8F30D684255472B4001355C7 /* Problem J (Cookie Selection) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +228,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8F30D683255472B4001355C7 /* Problem J (Cookie Selection) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F30D68A255472B4001355C7 /* Build configuration list for PBXNativeTarget "Problem J (Cookie Selection)" */;
+			buildPhases = (
+				8F30D680255472B4001355C7 /* Sources */,
+				8F30D681255472B4001355C7 /* Frameworks */,
+				8F30D682255472B4001355C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem J (Cookie Selection)";
+			productName = "Problem J (Cookie Selection)";
+			productReference = 8F30D684255472B4001355C7 /* Problem J (Cookie Selection) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F6A86B22552DB6A00169B70 /* Problem B (Minimum in the stack) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6A86B92552DB6A00169B70 /* Build configuration list for PBXNativeTarget "Problem B (Minimum in the stack)" */;
+			buildPhases = (
+				8F6A86AF2552DB6A00169B70 /* Sources */,
+				8F6A86B02552DB6A00169B70 /* Frameworks */,
+				8F6A86B12552DB6A00169B70 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem B (Minimum in the stack)";
+			productName = "Problem B (Minimum in the stack)";
+			productReference = 8F6A86B32552DB6A00169B70 /* Problem B (Minimum in the stack) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F6A86C52552DD6500169B70 /* Problem B (Minimum in the Stack) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6A86CA2552DD6500169B70 /* Build configuration list for PBXNativeTarget "Problem B (Minimum in the Stack)" */;
+			buildPhases = (
+				8F6A86C22552DD6500169B70 /* Sources */,
+				8F6A86C32552DD6500169B70 /* Frameworks */,
+				8F6A86C42552DD6500169B70 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem B (Minimum in the Stack)";
+			productName = "Problem B (Minimum in the Stack)";
+			productReference = 8F6A86C62552DD6500169B70 /* Problem B (Minimum in the Stack) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F6A86D52552EB8E00169B70 /* Problem I (Find the mean-2) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6A86DA2552EB8E00169B70 /* Build configuration list for PBXNativeTarget "Problem I (Find the mean-2)" */;
+			buildPhases = (
+				8F6A86D22552EB8E00169B70 /* Sources */,
+				8F6A86D32552EB8E00169B70 /* Frameworks */,
+				8F6A86D42552EB8E00169B70 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem I (Find the mean-2)";
+			productName = "Problem I (Find the mean-2)";
+			productReference = 8F6A86D62552EB8E00169B70 /* Problem I (Find the mean-2) */;
+			productType = "com.apple.product-type.tool";
+		};
 		8FFBD1F0253B0BC50065D0ED /* Week6.2(Graded Quiz No1) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FFBD1F8253B0BC50065D0ED /* Build configuration list for PBXNativeTarget "Week6.2(Graded Quiz No1)" */;
@@ -180,8 +353,21 @@
 		8FFBD1E9253B0BC50065D0ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					8F30D683255472B4001355C7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F6A86B22552DB6A00169B70 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F6A86C52552DD6500169B70 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8F6A86D52552EB8E00169B70 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					8FFBD1F0253B0BC50065D0ED = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -209,11 +395,46 @@
 				8FFBD1F0253B0BC50065D0ED /* Week6.2(Graded Quiz No1) */,
 				8FFBD1FF253B0BE70065D0ED /* Problem N (Sort the points by coordinates) */,
 				8FFBD20C253B10110065D0ED /* Problem F (Power of Time) */,
+				8F6A86B22552DB6A00169B70 /* Problem B (Minimum in the stack) */,
+				8F6A86C52552DD6500169B70 /* Problem B (Minimum in the Stack) */,
+				8F6A86D52552EB8E00169B70 /* Problem I (Find the mean-2) */,
+				8F30D683255472B4001355C7 /* Problem J (Cookie Selection) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8F30D680255472B4001355C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F30D687255472B4001355C7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6A86AF2552DB6A00169B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6A86C22552DD6500169B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6A86C92552DD6500169B70 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6A86D22552EB8E00169B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6A86D92552EB8E00169B70 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8FFBD1ED253B0BC50065D0ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -241,6 +462,92 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8F30D688255472B4001355C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F30D689255472B4001355C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F6A86B72552DB6A00169B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8F6A86B82552DB6A00169B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8F6A86CB2552DD6500169B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6A86CC2552DD6500169B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F6A86DB2552EB8E00169B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6A86DC2552EB8E00169B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8FFBD1F6253B0BC50065D0ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,6 +722,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8F30D68A255472B4001355C7 /* Build configuration list for PBXNativeTarget "Problem J (Cookie Selection)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F30D688255472B4001355C7 /* Debug */,
+				8F30D689255472B4001355C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6A86B92552DB6A00169B70 /* Build configuration list for PBXNativeTarget "Problem B (Minimum in the stack)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6A86B72552DB6A00169B70 /* Debug */,
+				8F6A86B82552DB6A00169B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6A86CA2552DD6500169B70 /* Build configuration list for PBXNativeTarget "Problem B (Minimum in the Stack)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6A86CB2552DD6500169B70 /* Debug */,
+				8F6A86CC2552DD6500169B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6A86DA2552EB8E00169B70 /* Build configuration list for PBXNativeTarget "Problem I (Find the mean-2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6A86DB2552EB8E00169B70 /* Debug */,
+				8F6A86DC2552EB8E00169B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8FFBD1EC253B0BC50065D0ED /* Build configuration list for PBXProject "Week6.2(Graded Quiz No1)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

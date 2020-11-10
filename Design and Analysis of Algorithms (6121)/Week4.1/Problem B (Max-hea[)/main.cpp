@@ -9,6 +9,7 @@
 
 #define MAX 1001
 int a[MAX], n, i;
+
 int left(int i){
     return 2*i;
 }

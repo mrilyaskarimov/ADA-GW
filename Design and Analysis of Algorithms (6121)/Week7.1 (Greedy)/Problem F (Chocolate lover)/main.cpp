@@ -6,17 +6,14 @@
 //
 
 #include <iostream>
+#include <algorithm>
 
+using namespace std;
 int main(int argc, const char * argv[]) {
-    int d, a, b, sum = 0;
+    int d, a, b;
+    long long sum = 0;
     scanf("%d %d %d", &d, &a, &b);
-    if(d%2==1){
-        if(a>b) sum +=a;
-        else sum +=b;
-    }
-    d = d/2;
-    while(d--){
-        sum += a+b;
-    }
-    printf("%d", sum);
+    if(d%2==0) sum = (a+b)*d/2;
+    if(d%2==1) sum = max(((d+1)/2)*a + b*(d/2), ((d+1)/2)*b + a*(d/2));
+    printf("%lld", sum);
 }

@@ -25,6 +25,7 @@ int Partition(int L, int R)
   }
 }
 
+
 void QuickSort(int L, int R)
 {
   if (L < R)
@@ -45,4 +46,3 @@ int main(void)
   printf("\n");
   return 0;
 }
-
