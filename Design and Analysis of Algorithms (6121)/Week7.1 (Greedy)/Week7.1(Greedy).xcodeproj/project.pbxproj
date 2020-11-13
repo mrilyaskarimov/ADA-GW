@@ -16,6 +16,14 @@
 		8F6A864E2552D51000169B70 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6A864D2552D51000169B70 /* main.cpp */; };
 		8F6A86612552D52800169B70 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6A86602552D52800169B70 /* main.cpp */; };
 		8F6A86752552D53400169B70 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6A86742552D53400169B70 /* main.cpp */; };
+		8F8C7B5C255BD9B200D76D38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C7B5B255BD9B200D76D38 /* main.cpp */; };
+		8F8C7B73255BDA4F00D76D38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C7B72255BDA4F00D76D38 /* main.cpp */; };
+		8F8C7B8B255BDA8100D76D38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C7B8A255BDA8100D76D38 /* main.cpp */; };
+		8F8C7BA4255BDAA300D76D38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C7BA3255BDAA300D76D38 /* main.cpp */; };
+		8F8C7BBE255BDADA00D76D38 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8C7BBD255BDADA00D76D38 /* Cocoa.framework */; };
+		8F8C7BFF255BDB0300D76D38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C7BFE255BDB0300D76D38 /* main.cpp */; };
+		8F8C7C1B255BDB2D00D76D38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C7C1A255BDB2D00D76D38 /* main.cpp */; };
+		8F8C7C38255BDB5900D76D38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C7C37255BDB5900D76D38 /* main.cpp */; };
 		8FFD6B692551953F00717C4B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD6B682551953F00717C4B /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +118,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8F8C7B57255BD9B200D76D38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F8C7B6E255BDA4F00D76D38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F8C7B86255BDA8100D76D38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F8C7B9F255BDAA300D76D38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F8C7BFA255BDB0300D76D38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F8C7C16255BDB2D00D76D38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F8C7C33255BDB5900D76D38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8FFD6B642551953F00717C4B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,6 +212,22 @@
 		8F6A86722552D53400169B70 /* Problem I (Planting Trees) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem I (Planting Trees)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6A86742552D53400169B70 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F6A86872552D55700169B70 /* Problem J (Director's visitors) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem J (Director's visitors)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8C7B59255BD9B200D76D38 /* Problem J (The Directors’ Visitors) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem J (The Directors’ Visitors)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8C7B5B255BD9B200D76D38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8C7B70255BDA4F00D76D38 /* Problem K (Segments) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem K (Segments)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8C7B72255BDA4F00D76D38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8C7B88255BDA8100D76D38 /* Problem L (Add All) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem L (Add All)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8C7B8A255BDA8100D76D38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8C7BA1255BDAA300D76D38 /* Problem M (Shoemaker Problem) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem M (Shoemaker Problem)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8C7BA3255BDAA300D76D38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8C7BBB255BDADA00D76D38 /* Problem N (Elegant permuted sum).appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Problem N (Elegant permuted sum).appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8C7BBD255BDADA00D76D38 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8F8C7BFC255BDB0300D76D38 /* Problem N (Elegant permuted su) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem N (Elegant permuted su)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8C7BFE255BDB0300D76D38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8C7C18255BDB2D00D76D38 /* Problem O (Knapsack) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem O (Knapsack)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8C7C1A255BDB2D00D76D38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8C7C35255BDB5900D76D38 /* Problem P (Knapsack) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem P (Knapsack)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8C7C37255BDB5900D76D38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8FFD6B662551953F00717C4B /* Problem B (Saucepands and lids) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Saucepands and lids)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFD6B682551953F00717C4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -216,6 +303,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F8C7B56255BD9B200D76D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7B6D255BDA4F00D76D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7B85255BDA8100D76D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7B9E255BDAA300D76D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7BB8255BDADA00D76D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8C7BBE255BDADA00D76D38 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7BF9255BDB0300D76D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7C15255BDB2D00D76D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7C32255BDB5900D76D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8FFD6B632551953F00717C4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,6 +383,14 @@
 				8F6A864C2552D51000169B70 /* Problem G (Gas station) */,
 				8F6A865F2552D52800169B70 /* Problem H (Water) */,
 				8F6A86732552D53400169B70 /* Problem I (Planting Trees) */,
+				8F8C7B5A255BD9B200D76D38 /* Problem J (The Directors’ Visitors) */,
+				8F8C7B71255BDA4F00D76D38 /* Problem K (Segments) */,
+				8F8C7B89255BDA8100D76D38 /* Problem L (Add All) */,
+				8F8C7BA2255BDAA300D76D38 /* Problem M (Shoemaker Problem) */,
+				8F8C7BFD255BDB0300D76D38 /* Problem N (Elegant permuted su) */,
+				8F8C7C19255BDB2D00D76D38 /* Problem O (Knapsack) */,
+				8F8C7C36255BDB5900D76D38 /* Problem P (Knapsack) */,
+				8F8C7BBC255BDADA00D76D38 /* Frameworks */,
 				8F2E23302549D6A6006E4721 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -257,6 +409,14 @@
 				8F6A865E2552D52800169B70 /* Problem H (Water) */,
 				8F6A86722552D53400169B70 /* Problem I (Planting Trees) */,
 				8F6A86872552D55700169B70 /* Problem J (Director's visitors) */,
+				8F8C7B59255BD9B200D76D38 /* Problem J (The Directors’ Visitors) */,
+				8F8C7B70255BDA4F00D76D38 /* Problem K (Segments) */,
+				8F8C7B88255BDA8100D76D38 /* Problem L (Add All) */,
+				8F8C7BA1255BDAA300D76D38 /* Problem M (Shoemaker Problem) */,
+				8F8C7BBB255BDADA00D76D38 /* Problem N (Elegant permuted sum).appex */,
+				8F8C7BFC255BDB0300D76D38 /* Problem N (Elegant permuted su) */,
+				8F8C7C18255BDB2D00D76D38 /* Problem O (Knapsack) */,
+				8F8C7C35255BDB5900D76D38 /* Problem P (Knapsack) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -331,6 +491,70 @@
 				8F6A86742552D53400169B70 /* main.cpp */,
 			);
 			path = "Problem I (Planting Trees)";
+			sourceTree = "<group>";
+		};
+		8F8C7B5A255BD9B200D76D38 /* Problem J (The Directors’ Visitors) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8C7B5B255BD9B200D76D38 /* main.cpp */,
+			);
+			path = "Problem J (The Directors’ Visitors)";
+			sourceTree = "<group>";
+		};
+		8F8C7B71255BDA4F00D76D38 /* Problem K (Segments) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8C7B72255BDA4F00D76D38 /* main.cpp */,
+			);
+			path = "Problem K (Segments)";
+			sourceTree = "<group>";
+		};
+		8F8C7B89255BDA8100D76D38 /* Problem L (Add All) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8C7B8A255BDA8100D76D38 /* main.cpp */,
+			);
+			path = "Problem L (Add All)";
+			sourceTree = "<group>";
+		};
+		8F8C7BA2255BDAA300D76D38 /* Problem M (Shoemaker Problem) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8C7BA3255BDAA300D76D38 /* main.cpp */,
+			);
+			path = "Problem M (Shoemaker Problem)";
+			sourceTree = "<group>";
+		};
+		8F8C7BBC255BDADA00D76D38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8C7BBD255BDADA00D76D38 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F8C7BFD255BDB0300D76D38 /* Problem N (Elegant permuted su) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8C7BFE255BDB0300D76D38 /* main.cpp */,
+			);
+			path = "Problem N (Elegant permuted su)";
+			sourceTree = "<group>";
+		};
+		8F8C7C19255BDB2D00D76D38 /* Problem O (Knapsack) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8C7C1A255BDB2D00D76D38 /* main.cpp */,
+			);
+			path = "Problem O (Knapsack)";
+			sourceTree = "<group>";
+		};
+		8F8C7C36255BDB5900D76D38 /* Problem P (Knapsack) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8C7C37255BDB5900D76D38 /* main.cpp */,
+			);
+			path = "Problem P (Knapsack)";
 			sourceTree = "<group>";
 		};
 		8FFD6B672551953F00717C4B /* Problem B (Saucepands and lids) */ = {
@@ -514,6 +738,142 @@
 			productReference = 8F6A86872552D55700169B70 /* Problem J (Director's visitors) */;
 			productType = "com.apple.product-type.tool";
 		};
+		8F8C7B58255BD9B200D76D38 /* Problem J (The Directors’ Visitors) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8C7B5F255BD9B200D76D38 /* Build configuration list for PBXNativeTarget "Problem J (The Directors’ Visitors)" */;
+			buildPhases = (
+				8F8C7B55255BD9B200D76D38 /* Sources */,
+				8F8C7B56255BD9B200D76D38 /* Frameworks */,
+				8F8C7B57255BD9B200D76D38 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem J (The Directors’ Visitors)";
+			productName = "Problem J (The Directors’ Visitors)";
+			productReference = 8F8C7B59255BD9B200D76D38 /* Problem J (The Directors’ Visitors) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F8C7B6F255BDA4F00D76D38 /* Problem K (Segments) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8C7B74255BDA4F00D76D38 /* Build configuration list for PBXNativeTarget "Problem K (Segments)" */;
+			buildPhases = (
+				8F8C7B6C255BDA4F00D76D38 /* Sources */,
+				8F8C7B6D255BDA4F00D76D38 /* Frameworks */,
+				8F8C7B6E255BDA4F00D76D38 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem K (Segments)";
+			productName = "Problem K (Segments)";
+			productReference = 8F8C7B70255BDA4F00D76D38 /* Problem K (Segments) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F8C7B87255BDA8100D76D38 /* Problem L (Add All) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8C7B8C255BDA8100D76D38 /* Build configuration list for PBXNativeTarget "Problem L (Add All)" */;
+			buildPhases = (
+				8F8C7B84255BDA8100D76D38 /* Sources */,
+				8F8C7B85255BDA8100D76D38 /* Frameworks */,
+				8F8C7B86255BDA8100D76D38 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem L (Add All)";
+			productName = "Problem L (Add All)";
+			productReference = 8F8C7B88255BDA8100D76D38 /* Problem L (Add All) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F8C7BA0255BDAA300D76D38 /* Problem M (Shoemaker Problem) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8C7BA5255BDAA300D76D38 /* Build configuration list for PBXNativeTarget "Problem M (Shoemaker Problem)" */;
+			buildPhases = (
+				8F8C7B9D255BDAA300D76D38 /* Sources */,
+				8F8C7B9E255BDAA300D76D38 /* Frameworks */,
+				8F8C7B9F255BDAA300D76D38 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem M (Shoemaker Problem)";
+			productName = "Problem M (Shoemaker Problem)";
+			productReference = 8F8C7BA1255BDAA300D76D38 /* Problem M (Shoemaker Problem) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F8C7BBA255BDADA00D76D38 /* Problem N (Elegant permuted sum) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8C7BD5255BDADA00D76D38 /* Build configuration list for PBXNativeTarget "Problem N (Elegant permuted sum)" */;
+			buildPhases = (
+				8F8C7BB7255BDADA00D76D38 /* Sources */,
+				8F8C7BB8255BDADA00D76D38 /* Frameworks */,
+				8F8C7BB9255BDADA00D76D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem N (Elegant permuted sum)";
+			productName = "Problem N (Elegant permuted sum)";
+			productReference = 8F8C7BBB255BDADA00D76D38 /* Problem N (Elegant permuted sum).appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8F8C7BFB255BDB0300D76D38 /* Problem N (Elegant permuted su) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8C7C00255BDB0300D76D38 /* Build configuration list for PBXNativeTarget "Problem N (Elegant permuted su)" */;
+			buildPhases = (
+				8F8C7BF8255BDB0300D76D38 /* Sources */,
+				8F8C7BF9255BDB0300D76D38 /* Frameworks */,
+				8F8C7BFA255BDB0300D76D38 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem N (Elegant permuted su)";
+			productName = "Problem N (Elegant permuted su)";
+			productReference = 8F8C7BFC255BDB0300D76D38 /* Problem N (Elegant permuted su) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F8C7C17255BDB2D00D76D38 /* Problem O (Knapsack) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8C7C1C255BDB2D00D76D38 /* Build configuration list for PBXNativeTarget "Problem O (Knapsack)" */;
+			buildPhases = (
+				8F8C7C14255BDB2D00D76D38 /* Sources */,
+				8F8C7C15255BDB2D00D76D38 /* Frameworks */,
+				8F8C7C16255BDB2D00D76D38 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem O (Knapsack)";
+			productName = "Problem O (Knapsack)";
+			productReference = 8F8C7C18255BDB2D00D76D38 /* Problem O (Knapsack) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F8C7C34255BDB5900D76D38 /* Problem P (Knapsack) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8C7C39255BDB5900D76D38 /* Build configuration list for PBXNativeTarget "Problem P (Knapsack)" */;
+			buildPhases = (
+				8F8C7C31255BDB5900D76D38 /* Sources */,
+				8F8C7C32255BDB5900D76D38 /* Frameworks */,
+				8F8C7C33255BDB5900D76D38 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem P (Knapsack)";
+			productName = "Problem P (Knapsack)";
+			productReference = 8F8C7C35255BDB5900D76D38 /* Problem P (Knapsack) */;
+			productType = "com.apple.product-type.tool";
+		};
 		8FFD6B652551953F00717C4B /* Problem B (Saucepands and lids) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FFD6B6C2551953F00717C4B /* Build configuration list for PBXNativeTarget "Problem B (Saucepands and lids)" */;
@@ -537,7 +897,7 @@
 		8F2E23272549D6A6006E4721 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
+				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					8F2E232E2549D6A6006E4721 = {
@@ -570,6 +930,30 @@
 					8F6A86862552D55700169B70 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					8F8C7B58255BD9B200D76D38 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8F8C7B6F255BDA4F00D76D38 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8F8C7B87255BDA8100D76D38 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8F8C7BA0255BDAA300D76D38 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8F8C7BBA255BDADA00D76D38 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8F8C7BFB255BDB0300D76D38 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8F8C7C17255BDB2D00D76D38 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8F8C7C34255BDB5900D76D38 = {
+						CreatedOnToolsVersion = 12.1;
+					};
 					8FFD6B652551953F00717C4B = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -599,9 +983,27 @@
 				8F6A865D2552D52800169B70 /* Problem H (Water) */,
 				8F6A86712552D53400169B70 /* Problem I (Planting Trees) */,
 				8F6A86862552D55700169B70 /* Problem J (Director's visitors) */,
+				8F8C7B58255BD9B200D76D38 /* Problem J (The Directors’ Visitors) */,
+				8F8C7B6F255BDA4F00D76D38 /* Problem K (Segments) */,
+				8F8C7B87255BDA8100D76D38 /* Problem L (Add All) */,
+				8F8C7BA0255BDAA300D76D38 /* Problem M (Shoemaker Problem) */,
+				8F8C7BBA255BDADA00D76D38 /* Problem N (Elegant permuted sum) */,
+				8F8C7BFB255BDB0300D76D38 /* Problem N (Elegant permuted su) */,
+				8F8C7C17255BDB2D00D76D38 /* Problem O (Knapsack) */,
+				8F8C7C34255BDB5900D76D38 /* Problem P (Knapsack) */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F8C7BB9255BDADA00D76D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F2E232B2549D6A6006E4721 /* Sources */ = {
@@ -680,6 +1082,69 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7B55255BD9B200D76D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8C7B5C255BD9B200D76D38 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7B6C255BDA4F00D76D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8C7B73255BDA4F00D76D38 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7B84255BDA8100D76D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8C7B8B255BDA8100D76D38 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7B9D255BDAA300D76D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8C7BA4255BDAA300D76D38 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7BB7255BDADA00D76D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7BF8255BDB0300D76D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8C7BFF255BDB0300D76D38 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7C14255BDB2D00D76D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8C7C1B255BDB2D00D76D38 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8C7C31255BDB5900D76D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8C7C38255BDB5900D76D38 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1011,6 +1476,192 @@
 			};
 			name = Release;
 		};
+		8F8C7B5D255BD9B200D76D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8C7B5E255BD9B200D76D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F8C7B75255BDA4F00D76D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8C7B76255BDA4F00D76D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F8C7B8D255BDA8100D76D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8C7B8E255BDA8100D76D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F8C7BA6255BDAA300D76D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8C7BA7255BDAA300D76D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F8C7BD6255BDADA00D76D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Problem N (Elegant permuted sum)/Problem_N__Elegant_permuted_sum_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Problem N (Elegant permuted sum)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Algorithsm-6212-.Problem-N--Elegant-permuted-sum-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8F8C7BD7255BDADA00D76D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Problem N (Elegant permuted sum)/Problem_N__Elegant_permuted_sum_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Problem N (Elegant permuted sum)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "Algorithsm-6212-.Problem-N--Elegant-permuted-sum-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8F8C7C01255BDB0300D76D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8C7C02255BDB0300D76D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F8C7C1D255BDB2D00D76D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8C7C1E255BDB2D00D76D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F8C7C3A255BDB5900D76D38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8C7C3B255BDB5900D76D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8FFD6B6A2551953F00717C4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1129,6 +1780,78 @@
 			buildConfigurations = (
 				8F6A868C2552D55700169B70 /* Debug */,
 				8F6A868D2552D55700169B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8C7B5F255BD9B200D76D38 /* Build configuration list for PBXNativeTarget "Problem J (The Directors’ Visitors)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8C7B5D255BD9B200D76D38 /* Debug */,
+				8F8C7B5E255BD9B200D76D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8C7B74255BDA4F00D76D38 /* Build configuration list for PBXNativeTarget "Problem K (Segments)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8C7B75255BDA4F00D76D38 /* Debug */,
+				8F8C7B76255BDA4F00D76D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8C7B8C255BDA8100D76D38 /* Build configuration list for PBXNativeTarget "Problem L (Add All)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8C7B8D255BDA8100D76D38 /* Debug */,
+				8F8C7B8E255BDA8100D76D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8C7BA5255BDAA300D76D38 /* Build configuration list for PBXNativeTarget "Problem M (Shoemaker Problem)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8C7BA6255BDAA300D76D38 /* Debug */,
+				8F8C7BA7255BDAA300D76D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8C7BD5255BDADA00D76D38 /* Build configuration list for PBXNativeTarget "Problem N (Elegant permuted sum)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8C7BD6255BDADA00D76D38 /* Debug */,
+				8F8C7BD7255BDADA00D76D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8C7C00255BDB0300D76D38 /* Build configuration list for PBXNativeTarget "Problem N (Elegant permuted su)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8C7C01255BDB0300D76D38 /* Debug */,
+				8F8C7C02255BDB0300D76D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8C7C1C255BDB2D00D76D38 /* Build configuration list for PBXNativeTarget "Problem O (Knapsack)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8C7C1D255BDB2D00D76D38 /* Debug */,
+				8F8C7C1E255BDB2D00D76D38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8C7C39255BDB5900D76D38 /* Build configuration list for PBXNativeTarget "Problem P (Knapsack)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8C7C3A255BDB5900D76D38 /* Debug */,
+				8F8C7C3B255BDB5900D76D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
