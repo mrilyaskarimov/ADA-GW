@@ -7,27 +7,23 @@
 
 #include <iostream>
 #include <algorithm>
-#define MAX 1000000001
+#define MAX 100001
 using namespace std;
+long long a[MAX];
 int main(int argc, const char * argv[]) {
-    int n,k, a[MAX], count=0;
-    scanf("%d %d",&n,&k);
+    long long n,k, count=0, flag =0;
+    scanf("%lld %lld",&n,&k);
     for(int i=0;i<n; i++){
-        scanf("%d", &a[i]);
-        if(a[i]>k) {
-            puts("impossible");
-            break;
-        }
+        scanf("%lld", &a[i]);
+        if(a[i]>k) flag=1;
     }
-    int j=n;
     sort(a, a+n);
+    long long j=n-1;
     for(int i=0; i<n/2;i++){
         if(a[i]+a[j]<=k) count++;
         else count +=2;
         j--;
     }
-    printf("%d", count);
-        
-    
-    
+    if(flag) puts("Impossible");
+    else printf("%lld", count);
 }

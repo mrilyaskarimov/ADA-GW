@@ -7,47 +7,37 @@
 
 #include <cstdio>
 #include <algorithm>
-#define MAX 1010
+#include <set>
+#define MAX 100001
+
 using namespace std;
+multiset<long long> cost;
 
-int i, n, t, fine, tests;
-
-class Work
-{
-public:
-  int time, fine, id;
-  Work (int time = 0, int fine = 0, int id = 0) : time(time), fine(fine), id(id) {};
-};
-
-Work *Jobs;
-
-int f(Work a, Work b)
-{
-  //  a.time   b.time
-  //  ------ < ------
-  //  a.fine   b.fine
-  if (a.time * b.fine == b.time * a.fine) return a.id < b.id;
-  return a.time * b.fine < b.time * a.fine;
-}
-
+long long m[MAX];
 int main(void)
 {
-  //freopen("1591.in","r",stdin);
-  while(scanf("%d",&n) == 1)
-  {
-    Jobs = new Work[n];
-    for(i = 0; i < n; i++)
-    {
-      scanf("%d %d",&t, &fine);
-      Jobs[i] = Work(t,fine,i+1);
+    long long  num,el, sum=0;
+    scanf("%lld", &num);
+    for(int i=0;i<num;i++){
+        scanf("%lld", &el);
+        cost.insert(el);
     }
     
-    sort(Jobs,Jobs+n,f);
     
-    printf("%d",Jobs[0].id);
-    for(i = 1; i < n; i++)printf(" %d",Jobs[i].id);
-    printf("\n");
-
-    delete[] Jobs;
-  }
+    
+    for (multiset<long long>:: iterator it=cost.begin(); it!=cost.end(); ){
+        it=cost.begin();
+        long long f = *it;
+        cost.erase(*it);
+        printf("f: %lld\n", f);
+        it=cost.begin();
+        long long s = *it;
+        cost.erase(*it);
+        printf("s: %lld\n", s);
+        printf("s+f: %lld\n", s+f);
+        cost.insert(s+f);
+        sum += s+f;
+        ++it;
+    }
+    printf("%lld", sum);
 }

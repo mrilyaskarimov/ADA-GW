@@ -7,87 +7,92 @@
 		<key>Problem A (Minimum Sum).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>14</integer>
 		</dict>
 		<key>Problem B (Saucepands and lids).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>15</integer>
 		</dict>
 		<key>Problem C (Profit).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Problem D (Cash machine).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>13</integer>
 		</dict>
 		<key>Problem E (Calculator).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Problem F (Chocolate lover).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>18</integer>
 		</dict>
 		<key>Problem G (Gas station).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Problem H (Water).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Problem I (Planting Trees).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>7</integer>
 		</dict>
 		<key>Problem J (Director's visitors).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>8</integer>
 		</dict>
 		<key>Problem J (The Directors’ Visitors).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>16</integer>
 		</dict>
 		<key>Problem K (Segments).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>11</integer>
 		</dict>
 		<key>Problem L (Add All).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>6</integer>
 		</dict>
 		<key>Problem M (Shoemaker Problem).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>12</integer>
 		</dict>
 		<key>Problem N (Elegant permuted su).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>9</integer>
+		</dict>
+		<key>Problem N (Elegant permuted sum).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>Problem O (Knapsack).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Problem P (Knapsack).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Week7.1 (Greedy).xcscheme_^#shared#^_</key>
 		<dict>
@@ -97,7 +102,7 @@
 		<key>Week7.1(Greedy).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>17</integer>
 		</dict>
 	</dict>
 </dict>
