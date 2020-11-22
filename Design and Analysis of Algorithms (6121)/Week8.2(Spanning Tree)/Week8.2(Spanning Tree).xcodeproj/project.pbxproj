@@ -8,10 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		8F29071E2555AF880043582D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F29071D2555AF880043582D /* main.cpp */; };
+		8FE88B25256A5D5800311FA8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE88B24256A5D5800311FA8 /* main.cpp */; };
+		8FE88B32256A5D7200311FA8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE88B31256A5D7200311FA8 /* main.cpp */; };
+		8FE88B40256A5D8700311FA8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE88B3F256A5D8700311FA8 /* main.cpp */; };
+		8FE88B4F256A5DA000311FA8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE88B4E256A5DA000311FA8 /* main.cpp */; };
+		8FE88B5F256A5DAD00311FA8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE88B5E256A5DAD00311FA8 /* main.cpp */; };
+		8FE88B70256A5DBA00311FA8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE88B6F256A5DBA00311FA8 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8F2907182555AF880043582D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FE88B20256A5D5800311FA8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FE88B2D256A5D7200311FA8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FE88B3B256A5D8700311FA8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FE88B4A256A5DA000311FA8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FE88B5A256A5DAD00311FA8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FE88B6B256A5DBA00311FA8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +85,64 @@
 /* Begin PBXFileReference section */
 		8F29071A2555AF880043582D /* Week8.2(Spanning Tree) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Week8.2(Spanning Tree)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F29071D2555AF880043582D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FE88B22256A5D5800311FA8 /* Problem A (Minimum spanning tree) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem A (Minimum spanning tree)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE88B24256A5D5800311FA8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FE88B2F256A5D7200311FA8 /* Problem B (Landline Telephone Network) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Landline Telephone Network)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE88B31256A5D7200311FA8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FE88B3D256A5D8700311FA8 /* Problem C (Road) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem C (Road)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE88B3F256A5D8700311FA8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FE88B4C256A5DA000311FA8 /* Problem D (Unification Day) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem D (Unification Day)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE88B4E256A5DA000311FA8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FE88B5C256A5DAD00311FA8 /* Problem E (Underground Cables) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem E (Underground Cables)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE88B5E256A5DAD00311FA8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FE88B6D256A5DBA00311FA8 /* Problem F (Jurassic Jigsaw) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem F (Jurassic Jigsaw)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE88B6F256A5DBA00311FA8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8F2907172555AF880043582D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE88B1F256A5D5800311FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE88B2C256A5D7200311FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE88B3A256A5D8700311FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE88B49256A5DA000311FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE88B59256A5DAD00311FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE88B6A256A5DBA00311FA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +156,12 @@
 			isa = PBXGroup;
 			children = (
 				8F29071C2555AF880043582D /* Week8.2(Spanning Tree) */,
+				8FE88B23256A5D5800311FA8 /* Problem A (Minimum spanning tree) */,
+				8FE88B30256A5D7200311FA8 /* Problem B (Landline Telephone Network) */,
+				8FE88B3E256A5D8700311FA8 /* Problem C (Road) */,
+				8FE88B4D256A5DA000311FA8 /* Problem D (Unification Day) */,
+				8FE88B5D256A5DAD00311FA8 /* Problem E (Underground Cables) */,
+				8FE88B6E256A5DBA00311FA8 /* Problem F (Jurassic Jigsaw) */,
 				8F29071B2555AF880043582D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +170,12 @@
 			isa = PBXGroup;
 			children = (
 				8F29071A2555AF880043582D /* Week8.2(Spanning Tree) */,
+				8FE88B22256A5D5800311FA8 /* Problem A (Minimum spanning tree) */,
+				8FE88B2F256A5D7200311FA8 /* Problem B (Landline Telephone Network) */,
+				8FE88B3D256A5D8700311FA8 /* Problem C (Road) */,
+				8FE88B4C256A5DA000311FA8 /* Problem D (Unification Day) */,
+				8FE88B5C256A5DAD00311FA8 /* Problem E (Underground Cables) */,
+				8FE88B6D256A5DBA00311FA8 /* Problem F (Jurassic Jigsaw) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +186,54 @@
 				8F29071D2555AF880043582D /* main.cpp */,
 			);
 			path = "Week8.2(Spanning Tree)";
+			sourceTree = "<group>";
+		};
+		8FE88B23256A5D5800311FA8 /* Problem A (Minimum spanning tree) */ = {
+			isa = PBXGroup;
+			children = (
+				8FE88B24256A5D5800311FA8 /* main.cpp */,
+			);
+			path = "Problem A (Minimum spanning tree)";
+			sourceTree = "<group>";
+		};
+		8FE88B30256A5D7200311FA8 /* Problem B (Landline Telephone Network) */ = {
+			isa = PBXGroup;
+			children = (
+				8FE88B31256A5D7200311FA8 /* main.cpp */,
+			);
+			path = "Problem B (Landline Telephone Network)";
+			sourceTree = "<group>";
+		};
+		8FE88B3E256A5D8700311FA8 /* Problem C (Road) */ = {
+			isa = PBXGroup;
+			children = (
+				8FE88B3F256A5D8700311FA8 /* main.cpp */,
+			);
+			path = "Problem C (Road)";
+			sourceTree = "<group>";
+		};
+		8FE88B4D256A5DA000311FA8 /* Problem D (Unification Day) */ = {
+			isa = PBXGroup;
+			children = (
+				8FE88B4E256A5DA000311FA8 /* main.cpp */,
+			);
+			path = "Problem D (Unification Day)";
+			sourceTree = "<group>";
+		};
+		8FE88B5D256A5DAD00311FA8 /* Problem E (Underground Cables) */ = {
+			isa = PBXGroup;
+			children = (
+				8FE88B5E256A5DAD00311FA8 /* main.cpp */,
+			);
+			path = "Problem E (Underground Cables)";
+			sourceTree = "<group>";
+		};
+		8FE88B6E256A5DBA00311FA8 /* Problem F (Jurassic Jigsaw) */ = {
+			isa = PBXGroup;
+			children = (
+				8FE88B6F256A5DBA00311FA8 /* main.cpp */,
+			);
+			path = "Problem F (Jurassic Jigsaw)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +256,108 @@
 			productReference = 8F29071A2555AF880043582D /* Week8.2(Spanning Tree) */;
 			productType = "com.apple.product-type.tool";
 		};
+		8FE88B21256A5D5800311FA8 /* Problem A (Minimum spanning tree) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE88B28256A5D5800311FA8 /* Build configuration list for PBXNativeTarget "Problem A (Minimum spanning tree)" */;
+			buildPhases = (
+				8FE88B1E256A5D5800311FA8 /* Sources */,
+				8FE88B1F256A5D5800311FA8 /* Frameworks */,
+				8FE88B20256A5D5800311FA8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem A (Minimum spanning tree)";
+			productName = "Problem A (Minimum spanning tree)";
+			productReference = 8FE88B22256A5D5800311FA8 /* Problem A (Minimum spanning tree) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FE88B2E256A5D7200311FA8 /* Problem B (Landline Telephone Network) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE88B33256A5D7200311FA8 /* Build configuration list for PBXNativeTarget "Problem B (Landline Telephone Network)" */;
+			buildPhases = (
+				8FE88B2B256A5D7200311FA8 /* Sources */,
+				8FE88B2C256A5D7200311FA8 /* Frameworks */,
+				8FE88B2D256A5D7200311FA8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem B (Landline Telephone Network)";
+			productName = "Problem B (Landline Telephone Network)";
+			productReference = 8FE88B2F256A5D7200311FA8 /* Problem B (Landline Telephone Network) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FE88B3C256A5D8700311FA8 /* Problem C (Road) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE88B41256A5D8700311FA8 /* Build configuration list for PBXNativeTarget "Problem C (Road)" */;
+			buildPhases = (
+				8FE88B39256A5D8700311FA8 /* Sources */,
+				8FE88B3A256A5D8700311FA8 /* Frameworks */,
+				8FE88B3B256A5D8700311FA8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem C (Road)";
+			productName = "Problem C (Road)";
+			productReference = 8FE88B3D256A5D8700311FA8 /* Problem C (Road) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FE88B4B256A5DA000311FA8 /* Problem D (Unification Day) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE88B50256A5DA000311FA8 /* Build configuration list for PBXNativeTarget "Problem D (Unification Day)" */;
+			buildPhases = (
+				8FE88B48256A5DA000311FA8 /* Sources */,
+				8FE88B49256A5DA000311FA8 /* Frameworks */,
+				8FE88B4A256A5DA000311FA8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem D (Unification Day)";
+			productName = "Problem D (Unification Day)";
+			productReference = 8FE88B4C256A5DA000311FA8 /* Problem D (Unification Day) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FE88B5B256A5DAD00311FA8 /* Problem E (Underground Cables) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE88B60256A5DAD00311FA8 /* Build configuration list for PBXNativeTarget "Problem E (Underground Cables)" */;
+			buildPhases = (
+				8FE88B58256A5DAD00311FA8 /* Sources */,
+				8FE88B59256A5DAD00311FA8 /* Frameworks */,
+				8FE88B5A256A5DAD00311FA8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem E (Underground Cables)";
+			productName = "Problem E (Underground Cables)";
+			productReference = 8FE88B5C256A5DAD00311FA8 /* Problem E (Underground Cables) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FE88B6C256A5DBA00311FA8 /* Problem F (Jurassic Jigsaw) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE88B71256A5DBA00311FA8 /* Build configuration list for PBXNativeTarget "Problem F (Jurassic Jigsaw)" */;
+			buildPhases = (
+				8FE88B69256A5DBA00311FA8 /* Sources */,
+				8FE88B6A256A5DBA00311FA8 /* Frameworks */,
+				8FE88B6B256A5DBA00311FA8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem F (Jurassic Jigsaw)";
+			productName = "Problem F (Jurassic Jigsaw)";
+			productReference = 8FE88B6D256A5DBA00311FA8 /* Problem F (Jurassic Jigsaw) */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +368,24 @@
 				TargetAttributes = {
 					8F2907192555AF880043582D = {
 						CreatedOnToolsVersion = 12.1;
+					};
+					8FE88B21256A5D5800311FA8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8FE88B2E256A5D7200311FA8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8FE88B3C256A5D8700311FA8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8FE88B4B256A5DA000311FA8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8FE88B5B256A5DAD00311FA8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8FE88B6C256A5DBA00311FA8 = {
+						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
@@ -109,6 +403,12 @@
 			projectRoot = "";
 			targets = (
 				8F2907192555AF880043582D /* Week8.2(Spanning Tree) */,
+				8FE88B21256A5D5800311FA8 /* Problem A (Minimum spanning tree) */,
+				8FE88B2E256A5D7200311FA8 /* Problem B (Landline Telephone Network) */,
+				8FE88B3C256A5D8700311FA8 /* Problem C (Road) */,
+				8FE88B4B256A5DA000311FA8 /* Problem D (Unification Day) */,
+				8FE88B5B256A5DAD00311FA8 /* Problem E (Underground Cables) */,
+				8FE88B6C256A5DBA00311FA8 /* Problem F (Jurassic Jigsaw) */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +419,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F29071E2555AF880043582D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE88B1E256A5D5800311FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE88B25256A5D5800311FA8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE88B2B256A5D7200311FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE88B32256A5D7200311FA8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE88B39256A5D8700311FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE88B40256A5D8700311FA8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE88B48256A5DA000311FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE88B4F256A5DA000311FA8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE88B58256A5DAD00311FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE88B5F256A5DAD00311FA8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE88B69256A5DBA00311FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE88B70256A5DBA00311FA8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +604,138 @@
 			};
 			name = Release;
 		};
+		8FE88B26256A5D5800311FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FE88B27256A5D5800311FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FE88B34256A5D7200311FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FE88B35256A5D7200311FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FE88B42256A5D8700311FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FE88B43256A5D8700311FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FE88B51256A5DA000311FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FE88B52256A5DA000311FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FE88B61256A5DAD00311FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FE88B62256A5DAD00311FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FE88B72256A5DBA00311FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FE88B73256A5DBA00311FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -273,6 +753,60 @@
 			buildConfigurations = (
 				8F2907222555AF880043582D /* Debug */,
 				8F2907232555AF880043582D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE88B28256A5D5800311FA8 /* Build configuration list for PBXNativeTarget "Problem A (Minimum spanning tree)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE88B26256A5D5800311FA8 /* Debug */,
+				8FE88B27256A5D5800311FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE88B33256A5D7200311FA8 /* Build configuration list for PBXNativeTarget "Problem B (Landline Telephone Network)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE88B34256A5D7200311FA8 /* Debug */,
+				8FE88B35256A5D7200311FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE88B41256A5D8700311FA8 /* Build configuration list for PBXNativeTarget "Problem C (Road)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE88B42256A5D8700311FA8 /* Debug */,
+				8FE88B43256A5D8700311FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE88B50256A5DA000311FA8 /* Build configuration list for PBXNativeTarget "Problem D (Unification Day)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE88B51256A5DA000311FA8 /* Debug */,
+				8FE88B52256A5DA000311FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE88B60256A5DAD00311FA8 /* Build configuration list for PBXNativeTarget "Problem E (Underground Cables)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE88B61256A5DAD00311FA8 /* Debug */,
+				8FE88B62256A5DAD00311FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE88B71256A5DBA00311FA8 /* Build configuration list for PBXNativeTarget "Problem F (Jurassic Jigsaw)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE88B72256A5DBA00311FA8 /* Debug */,
+				8FE88B73256A5DBA00311FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

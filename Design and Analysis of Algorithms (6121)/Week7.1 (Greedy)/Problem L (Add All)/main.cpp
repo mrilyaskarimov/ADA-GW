@@ -25,19 +25,22 @@ int main(void)
     
     
     
-    for (multiset<long long>:: iterator it=cost.begin(); it!=cost.end(); ){
-        it=cost.begin();
+    while(cost.size()!=1){
+        multiset<long long>:: iterator it=cost.begin();
         long long f = *it;
-        cost.erase(*it);
-        printf("f: %lld\n", f);
+        cost.erase(cost.begin());
+//        printf("f: %lld\n", f);
+        
         it=cost.begin();
         long long s = *it;
-        cost.erase(*it);
-        printf("s: %lld\n", s);
-        printf("s+f: %lld\n", s+f);
-        cost.insert(s+f);
+        cost.erase(cost.begin());
+        
+//        printf("s: %lld\n", s);
+//        printf("s+f: %lld\n", s+f);
+        cost.insert(cost.begin(),s+f);
         sum += s+f;
-        ++it;
+        it++;
     }
+    
     printf("%lld", sum);
 }

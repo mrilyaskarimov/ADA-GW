@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F67052A256829E300ABA86D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F670529256829E300ABA86D /* main.cpp */; };
+		8F670538256829F400ABA86D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F670537256829F400ABA86D /* main.cpp */; };
+		8F67054525682D8300ABA86D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F67054425682D8300ABA86D /* main.cpp */; };
+		8F6705532568313C00ABA86D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6705522568313C00ABA86D /* main.cpp */; };
+		8F6705622568326000ABA86D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6705612568326000ABA86D /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F670524256829E300ABA86D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F670533256829F400ABA86D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F67054025682D8300ABA86D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F67054E2568313C00ABA86D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F67055D2568326000ABA86D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8F670526256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Week10.2(Floyd - Warshall + Transitive closure)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F670529256829E300ABA86D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F670535256829F400ABA86D /* Problem B (Floyd) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Floyd)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F670537256829F400ABA86D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F67054225682D8300ABA86D /* Problem C (Floyd - existance) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem C (Floyd - existance)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F67054425682D8300ABA86D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F6705502568313C00ABA86D /* Problem F (Transitive closure) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem F (Transitive closure)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6705522568313C00ABA86D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F67055F2568326000ABA86D /* Problem G (Transivity of a graph) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem G (Transivity of a graph)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6705612568326000ABA86D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F670523256829E300ABA86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F670532256829F400ABA86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F67053F25682D8300ABA86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F67054D2568313C00ABA86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F67055C2568326000ABA86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F67051D256829E300ABA86D = {
+			isa = PBXGroup;
+			children = (
+				8F670528256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */,
+				8F670536256829F400ABA86D /* Problem B (Floyd) */,
+				8F67054325682D8300ABA86D /* Problem C (Floyd - existance) */,
+				8F6705512568313C00ABA86D /* Problem F (Transitive closure) */,
+				8F6705602568326000ABA86D /* Problem G (Transivity of a graph) */,
+				8F670527256829E300ABA86D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F670527256829E300ABA86D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F670526256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */,
+				8F670535256829F400ABA86D /* Problem B (Floyd) */,
+				8F67054225682D8300ABA86D /* Problem C (Floyd - existance) */,
+				8F6705502568313C00ABA86D /* Problem F (Transitive closure) */,
+				8F67055F2568326000ABA86D /* Problem G (Transivity of a graph) */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F670528256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */ = {
+			isa = PBXGroup;
+			children = (
+				8F670529256829E300ABA86D /* main.cpp */,
+			);
+			path = "Week10.2(Floyd - Warshall + Transitive closure)";
+			sourceTree = "<group>";
+		};
+		8F670536256829F400ABA86D /* Problem B (Floyd) */ = {
+			isa = PBXGroup;
+			children = (
+				8F670537256829F400ABA86D /* main.cpp */,
+			);
+			path = "Problem B (Floyd)";
+			sourceTree = "<group>";
+		};
+		8F67054325682D8300ABA86D /* Problem C (Floyd - existance) */ = {
+			isa = PBXGroup;
+			children = (
+				8F67054425682D8300ABA86D /* main.cpp */,
+			);
+			path = "Problem C (Floyd - existance)";
+			sourceTree = "<group>";
+		};
+		8F6705512568313C00ABA86D /* Problem F (Transitive closure) */ = {
+			isa = PBXGroup;
+			children = (
+				8F6705522568313C00ABA86D /* main.cpp */,
+			);
+			path = "Problem F (Transitive closure)";
+			sourceTree = "<group>";
+		};
+		8F6705602568326000ABA86D /* Problem G (Transivity of a graph) */ = {
+			isa = PBXGroup;
+			children = (
+				8F6705612568326000ABA86D /* main.cpp */,
+			);
+			path = "Problem G (Transivity of a graph)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F670525256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F67052D256829E300ABA86D /* Build configuration list for PBXNativeTarget "Week10.2(Floyd - Warshall + Transitive closure)" */;
+			buildPhases = (
+				8F670522256829E300ABA86D /* Sources */,
+				8F670523256829E300ABA86D /* Frameworks */,
+				8F670524256829E300ABA86D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week10.2(Floyd - Warshall + Transitive closure)";
+			productName = "Week10.2(Floyd - Warshall + Transitive closure)";
+			productReference = 8F670526256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F670534256829F400ABA86D /* Problem B (Floyd) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F670539256829F400ABA86D /* Build configuration list for PBXNativeTarget "Problem B (Floyd)" */;
+			buildPhases = (
+				8F670531256829F400ABA86D /* Sources */,
+				8F670532256829F400ABA86D /* Frameworks */,
+				8F670533256829F400ABA86D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem B (Floyd)";
+			productName = "Problem B (Floyd)";
+			productReference = 8F670535256829F400ABA86D /* Problem B (Floyd) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F67054125682D8300ABA86D /* Problem C (Floyd - existance) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F67054625682D8300ABA86D /* Build configuration list for PBXNativeTarget "Problem C (Floyd - existance)" */;
+			buildPhases = (
+				8F67053E25682D8300ABA86D /* Sources */,
+				8F67053F25682D8300ABA86D /* Frameworks */,
+				8F67054025682D8300ABA86D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem C (Floyd - existance)";
+			productName = "Problem C (Floyd - existance)";
+			productReference = 8F67054225682D8300ABA86D /* Problem C (Floyd - existance) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F67054F2568313C00ABA86D /* Problem F (Transitive closure) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6705542568313C00ABA86D /* Build configuration list for PBXNativeTarget "Problem F (Transitive closure)" */;
+			buildPhases = (
+				8F67054C2568313C00ABA86D /* Sources */,
+				8F67054D2568313C00ABA86D /* Frameworks */,
+				8F67054E2568313C00ABA86D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem F (Transitive closure)";
+			productName = "Problem F (Transitive closure)";
+			productReference = 8F6705502568313C00ABA86D /* Problem F (Transitive closure) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F67055E2568326000ABA86D /* Problem G (Transivity of a graph) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6705632568326000ABA86D /* Build configuration list for PBXNativeTarget "Problem G (Transivity of a graph)" */;
+			buildPhases = (
+				8F67055B2568326000ABA86D /* Sources */,
+				8F67055C2568326000ABA86D /* Frameworks */,
+				8F67055D2568326000ABA86D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem G (Transivity of a graph)";
+			productName = "Problem G (Transivity of a graph)";
+			productReference = 8F67055F2568326000ABA86D /* Problem G (Transivity of a graph) */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F67051E256829E300ABA86D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					8F670525256829E300ABA86D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F670534256829F400ABA86D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F67054125682D8300ABA86D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F67054F2568313C00ABA86D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F67055E2568326000ABA86D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 8F670521256829E300ABA86D /* Build configuration list for PBXProject "Week10.2(Floyd - Warshall + Transitive closure)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F67051D256829E300ABA86D;
+			productRefGroup = 8F670527256829E300ABA86D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F670525256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */,
+				8F670534256829F400ABA86D /* Problem B (Floyd) */,
+				8F67054125682D8300ABA86D /* Problem C (Floyd - existance) */,
+				8F67054F2568313C00ABA86D /* Problem F (Transitive closure) */,
+				8F67055E2568326000ABA86D /* Problem G (Transivity of a graph) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F670522256829E300ABA86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F67052A256829E300ABA86D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F670531256829F400ABA86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F670538256829F400ABA86D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F67053E25682D8300ABA86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F67054525682D8300ABA86D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F67054C2568313C00ABA86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6705532568313C00ABA86D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F67055B2568326000ABA86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6705622568326000ABA86D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8F67052B256829E300ABA86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8F67052C256829E300ABA86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8F67052E256829E300ABA86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F67052F256829E300ABA86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F67053A256829F400ABA86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F67053B256829F400ABA86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F67054725682D8300ABA86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F67054825682D8300ABA86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F6705552568313C00ABA86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6705562568313C00ABA86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F6705642568326000ABA86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6705652568326000ABA86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F670521256829E300ABA86D /* Build configuration list for PBXProject "Week10.2(Floyd - Warshall + Transitive closure)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F67052B256829E300ABA86D /* Debug */,
+				8F67052C256829E300ABA86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F67052D256829E300ABA86D /* Build configuration list for PBXNativeTarget "Week10.2(Floyd - Warshall + Transitive closure)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F67052E256829E300ABA86D /* Debug */,
+				8F67052F256829E300ABA86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F670539256829F400ABA86D /* Build configuration list for PBXNativeTarget "Problem B (Floyd)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F67053A256829F400ABA86D /* Debug */,
+				8F67053B256829F400ABA86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F67054625682D8300ABA86D /* Build configuration list for PBXNativeTarget "Problem C (Floyd - existance)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F67054725682D8300ABA86D /* Debug */,
+				8F67054825682D8300ABA86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6705542568313C00ABA86D /* Build configuration list for PBXNativeTarget "Problem F (Transitive closure)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6705552568313C00ABA86D /* Debug */,
+				8F6705562568313C00ABA86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6705632568326000ABA86D /* Build configuration list for PBXNativeTarget "Problem G (Transivity of a graph)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6705642568326000ABA86D /* Debug */,
+				8F6705652568326000ABA86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F67051E256829E300ABA86D /* Project object */;
+}

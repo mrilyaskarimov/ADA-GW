@@ -11,7 +11,7 @@
 using namespace std;
 long long a[MAX];
 int main(int argc, const char * argv[]) {
-    long long n,k, count=0, flag =0;
+    long long n,k, count=0, flag =0, i=0;
     scanf("%lld %lld",&n,&k);
     for(int i=0;i<n; i++){
         scanf("%lld", &a[i]);
@@ -19,10 +19,14 @@ int main(int argc, const char * argv[]) {
     }
     sort(a, a+n);
     long long j=n-1;
-    for(int i=0; i<n/2;i++){
-        if(a[i]+a[j]<=k) count++;
-        else count +=2;
-        j--;
+
+    while(i<=j){
+        if(a[i]+a[j]<=k){
+            i++;
+            j--;
+        }
+        else j--;
+        count++;
     }
     if(flag) puts("Impossible");
     else printf("%lld", count);

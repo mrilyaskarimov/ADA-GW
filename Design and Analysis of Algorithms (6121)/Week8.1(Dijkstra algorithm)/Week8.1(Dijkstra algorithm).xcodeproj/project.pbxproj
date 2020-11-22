@@ -8,10 +8,81 @@
 
 /* Begin PBXBuildFile section */
 		8F29070A2555AF700043582D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F2907092555AF700043582D /* main.cpp */; };
+		8F8CAD9A2566664600486152 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8CAD992566664600486152 /* Cocoa.framework */; };
+		8F8CADBD2566667200486152 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CADBC2566667200486152 /* main.cpp */; };
+		8F8CADCB2566668800486152 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CADCA2566668800486152 /* main.cpp */; };
+		8F8CADDA2566669C00486152 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CADD92566669C00486152 /* main.cpp */; };
+		8F8CADEA256666B500486152 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CADE9256666B500486152 /* main.cpp */; };
+		8F8CADFB256666C800486152 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CADFA256666C800486152 /* main.cpp */; };
+		8F8CAE0D256666DD00486152 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CAE0C256666DD00486152 /* main.cpp */; };
+		8F8CAE202566671400486152 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CAE1F2566671400486152 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8F2907042555AF700043582D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F8CADB82566667200486152 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F8CADC62566668800486152 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F8CADD52566669C00486152 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F8CADE5256666B500486152 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F8CADF6256666C800486152 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F8CAE08256666DD00486152 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F8CAE1B2566671400486152 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +96,83 @@
 /* Begin PBXFileReference section */
 		8F2907062555AF700043582D /* Week8.1(Dijkstra algorithm) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Week8.1(Dijkstra algorithm)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2907092555AF700043582D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8CAD972566664600486152 /* Dijkstra (Problem A).appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dijkstra (Problem A).appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8CAD992566664600486152 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8F8CADBA2566667200486152 /* Dijkstra ( Problem A) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Dijkstra ( Problem A)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8CADBC2566667200486152 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8CADC82566668800486152 /* The Shortest Path (Problem B) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "The Shortest Path (Problem B)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8CADCA2566668800486152 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8CADD72566669C00486152 /* Distance between vertices (Problem C) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Distance between vertices (Problem C)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8CADD92566669C00486152 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8CADE7256666B500486152 /* Petrol Stations (Problem D) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Petrol Stations (Problem D)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8CADE9256666B500486152 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8CADF8256666C800486152 /* Mathematical platforms (Problem E) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Mathematical platforms (Problem E)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8CADFA256666C800486152 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8CAE0A256666DD00486152 /* Distance betweeen the vertices (Problem F) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Distance betweeen the vertices (Problem F)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8CAE0C256666DD00486152 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8CAE1D2566671400486152 /* Distance between the vertices (Problem G) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Distance between the vertices (Problem G)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8CAE1F2566671400486152 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8F2907032555AF700043582D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CAD942566664600486152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8CAD9A2566664600486152 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CADB72566667200486152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CADC52566668800486152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CADD42566669C00486152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CADE4256666B500486152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CADF5256666C800486152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CAE07256666DD00486152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CAE1A2566671400486152 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +186,14 @@
 			isa = PBXGroup;
 			children = (
 				8F2907082555AF700043582D /* Week8.1(Dijkstra algorithm) */,
+				8F8CADBB2566667200486152 /* Dijkstra ( Problem A) */,
+				8F8CADC92566668800486152 /* The Shortest Path (Problem B) */,
+				8F8CADD82566669C00486152 /* Distance between vertices (Problem C) */,
+				8F8CADE8256666B500486152 /* Petrol Stations (Problem D) */,
+				8F8CADF9256666C800486152 /* Mathematical platforms (Problem E) */,
+				8F8CAE0B256666DD00486152 /* Distance betweeen the vertices (Problem F) */,
+				8F8CAE1E2566671400486152 /* Distance between the vertices (Problem G) */,
+				8F8CAD982566664600486152 /* Frameworks */,
 				8F2907072555AF700043582D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +202,14 @@
 			isa = PBXGroup;
 			children = (
 				8F2907062555AF700043582D /* Week8.1(Dijkstra algorithm) */,
+				8F8CAD972566664600486152 /* Dijkstra (Problem A).appex */,
+				8F8CADBA2566667200486152 /* Dijkstra ( Problem A) */,
+				8F8CADC82566668800486152 /* The Shortest Path (Problem B) */,
+				8F8CADD72566669C00486152 /* Distance between vertices (Problem C) */,
+				8F8CADE7256666B500486152 /* Petrol Stations (Problem D) */,
+				8F8CADF8256666C800486152 /* Mathematical platforms (Problem E) */,
+				8F8CAE0A256666DD00486152 /* Distance betweeen the vertices (Problem F) */,
+				8F8CAE1D2566671400486152 /* Distance between the vertices (Problem G) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +220,70 @@
 				8F2907092555AF700043582D /* main.cpp */,
 			);
 			path = "Week8.1(Dijkstra algorithm)";
+			sourceTree = "<group>";
+		};
+		8F8CAD982566664600486152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8CAD992566664600486152 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F8CADBB2566667200486152 /* Dijkstra ( Problem A) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8CADBC2566667200486152 /* main.cpp */,
+			);
+			path = "Dijkstra ( Problem A)";
+			sourceTree = "<group>";
+		};
+		8F8CADC92566668800486152 /* The Shortest Path (Problem B) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8CADCA2566668800486152 /* main.cpp */,
+			);
+			path = "The Shortest Path (Problem B)";
+			sourceTree = "<group>";
+		};
+		8F8CADD82566669C00486152 /* Distance between vertices (Problem C) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8CADD92566669C00486152 /* main.cpp */,
+			);
+			path = "Distance between vertices (Problem C)";
+			sourceTree = "<group>";
+		};
+		8F8CADE8256666B500486152 /* Petrol Stations (Problem D) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8CADE9256666B500486152 /* main.cpp */,
+			);
+			path = "Petrol Stations (Problem D)";
+			sourceTree = "<group>";
+		};
+		8F8CADF9256666C800486152 /* Mathematical platforms (Problem E) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8CADFA256666C800486152 /* main.cpp */,
+			);
+			path = "Mathematical platforms (Problem E)";
+			sourceTree = "<group>";
+		};
+		8F8CAE0B256666DD00486152 /* Distance betweeen the vertices (Problem F) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8CAE0C256666DD00486152 /* main.cpp */,
+			);
+			path = "Distance betweeen the vertices (Problem F)";
+			sourceTree = "<group>";
+		};
+		8F8CAE1E2566671400486152 /* Distance between the vertices (Problem G) */ = {
+			isa = PBXGroup;
+			children = (
+				8F8CAE1F2566671400486152 /* main.cpp */,
+			);
+			path = "Distance between the vertices (Problem G)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,16 +306,177 @@
 			productReference = 8F2907062555AF700043582D /* Week8.1(Dijkstra algorithm) */;
 			productType = "com.apple.product-type.tool";
 		};
+		8F8CAD962566664600486152 /* Dijkstra (Problem A) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8CADB32566664600486152 /* Build configuration list for PBXNativeTarget "Dijkstra (Problem A)" */;
+			buildPhases = (
+				8F8CAD932566664600486152 /* Sources */,
+				8F8CAD942566664600486152 /* Frameworks */,
+				8F8CAD952566664600486152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dijkstra (Problem A)";
+			productName = "Dijkstra (Problem A)";
+			productReference = 8F8CAD972566664600486152 /* Dijkstra (Problem A).appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8F8CADB92566667200486152 /* Dijkstra ( Problem A) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8CADBE2566667200486152 /* Build configuration list for PBXNativeTarget "Dijkstra ( Problem A)" */;
+			buildPhases = (
+				8F8CADB62566667200486152 /* Sources */,
+				8F8CADB72566667200486152 /* Frameworks */,
+				8F8CADB82566667200486152 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dijkstra ( Problem A)";
+			productName = "Dijkstra ( Problem A)";
+			productReference = 8F8CADBA2566667200486152 /* Dijkstra ( Problem A) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F8CADC72566668800486152 /* The Shortest Path (Problem B) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8CADCC2566668800486152 /* Build configuration list for PBXNativeTarget "The Shortest Path (Problem B)" */;
+			buildPhases = (
+				8F8CADC42566668800486152 /* Sources */,
+				8F8CADC52566668800486152 /* Frameworks */,
+				8F8CADC62566668800486152 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Shortest Path (Problem B)";
+			productName = "The Shortest Path (Problem B)";
+			productReference = 8F8CADC82566668800486152 /* The Shortest Path (Problem B) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F8CADD62566669C00486152 /* Distance between vertices (Problem C) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8CADDB2566669C00486152 /* Build configuration list for PBXNativeTarget "Distance between vertices (Problem C)" */;
+			buildPhases = (
+				8F8CADD32566669C00486152 /* Sources */,
+				8F8CADD42566669C00486152 /* Frameworks */,
+				8F8CADD52566669C00486152 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Distance between vertices (Problem C)";
+			productName = "Distance between vertices (Problem C)";
+			productReference = 8F8CADD72566669C00486152 /* Distance between vertices (Problem C) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F8CADE6256666B500486152 /* Petrol Stations (Problem D) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8CADEB256666B500486152 /* Build configuration list for PBXNativeTarget "Petrol Stations (Problem D)" */;
+			buildPhases = (
+				8F8CADE3256666B500486152 /* Sources */,
+				8F8CADE4256666B500486152 /* Frameworks */,
+				8F8CADE5256666B500486152 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Petrol Stations (Problem D)";
+			productName = "Petrol Stations (Problem D)";
+			productReference = 8F8CADE7256666B500486152 /* Petrol Stations (Problem D) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F8CADF7256666C800486152 /* Mathematical platforms (Problem E) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8CADFC256666C800486152 /* Build configuration list for PBXNativeTarget "Mathematical platforms (Problem E)" */;
+			buildPhases = (
+				8F8CADF4256666C800486152 /* Sources */,
+				8F8CADF5256666C800486152 /* Frameworks */,
+				8F8CADF6256666C800486152 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mathematical platforms (Problem E)";
+			productName = "Mathematical platforms (Problem E)";
+			productReference = 8F8CADF8256666C800486152 /* Mathematical platforms (Problem E) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F8CAE09256666DD00486152 /* Distance betweeen the vertices (Problem F) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8CAE0E256666DD00486152 /* Build configuration list for PBXNativeTarget "Distance betweeen the vertices (Problem F)" */;
+			buildPhases = (
+				8F8CAE06256666DD00486152 /* Sources */,
+				8F8CAE07256666DD00486152 /* Frameworks */,
+				8F8CAE08256666DD00486152 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Distance betweeen the vertices (Problem F)";
+			productName = "Distance betweeen the vertices (Problem F)";
+			productReference = 8F8CAE0A256666DD00486152 /* Distance betweeen the vertices (Problem F) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F8CAE1C2566671400486152 /* Distance between the vertices (Problem G) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8CAE212566671400486152 /* Build configuration list for PBXNativeTarget "Distance between the vertices (Problem G)" */;
+			buildPhases = (
+				8F8CAE192566671400486152 /* Sources */,
+				8F8CAE1A2566671400486152 /* Frameworks */,
+				8F8CAE1B2566671400486152 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Distance between the vertices (Problem G)";
+			productName = "Distance between the vertices (Problem G)";
+			productReference = 8F8CAE1D2566671400486152 /* Distance between the vertices (Problem G) */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		8F2906FE2555AF700043582D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					8F2907052555AF700043582D = {
 						CreatedOnToolsVersion = 12.1;
+					};
+					8F8CAD962566664600486152 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F8CADB92566667200486152 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F8CADC72566668800486152 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F8CADD62566669C00486152 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F8CADE6256666B500486152 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F8CADF7256666C800486152 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F8CAE09256666DD00486152 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F8CAE1C2566671400486152 = {
+						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
@@ -109,9 +494,27 @@
 			projectRoot = "";
 			targets = (
 				8F2907052555AF700043582D /* Week8.1(Dijkstra algorithm) */,
+				8F8CAD962566664600486152 /* Dijkstra (Problem A) */,
+				8F8CADB92566667200486152 /* Dijkstra ( Problem A) */,
+				8F8CADC72566668800486152 /* The Shortest Path (Problem B) */,
+				8F8CADD62566669C00486152 /* Distance between vertices (Problem C) */,
+				8F8CADE6256666B500486152 /* Petrol Stations (Problem D) */,
+				8F8CADF7256666C800486152 /* Mathematical platforms (Problem E) */,
+				8F8CAE09256666DD00486152 /* Distance betweeen the vertices (Problem F) */,
+				8F8CAE1C2566671400486152 /* Distance between the vertices (Problem G) */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F8CAD952566664600486152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F2907022555AF700043582D /* Sources */ = {
@@ -119,6 +522,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F29070A2555AF700043582D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CAD932566664600486152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CADB62566667200486152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8CADBD2566667200486152 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CADC42566668800486152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8CADCB2566668800486152 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CADD32566669C00486152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8CADDA2566669C00486152 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CADE3256666B500486152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8CADEA256666B500486152 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CADF4256666C800486152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8CADFB256666C800486152 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CAE06256666DD00486152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8CAE0D256666DD00486152 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CAE192566671400486152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8CAE202566671400486152 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +722,206 @@
 			};
 			name = Release;
 		};
+		8F8CADB12566664600486152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Dijkstra (Problem A)/Dijkstra__Problem_A_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Dijkstra (Problem A)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Algorithsm-6212-.Dijkstra--Problem-A-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8F8CADB22566664600486152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Dijkstra (Problem A)/Dijkstra__Problem_A_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Dijkstra (Problem A)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Algorithsm-6212-.Dijkstra--Problem-A-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8F8CADBF2566667200486152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8CADC02566667200486152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F8CADCD2566668800486152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8CADCE2566668800486152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F8CADDC2566669C00486152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8CADDD2566669C00486152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F8CADEC256666B500486152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8CADED256666B500486152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F8CADFD256666C800486152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8CADFE256666C800486152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F8CAE0F256666DD00486152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8CAE10256666DD00486152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F8CAE222566671400486152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F8CAE232566671400486152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -273,6 +939,78 @@
 			buildConfigurations = (
 				8F29070E2555AF700043582D /* Debug */,
 				8F29070F2555AF700043582D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8CADB32566664600486152 /* Build configuration list for PBXNativeTarget "Dijkstra (Problem A)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8CADB12566664600486152 /* Debug */,
+				8F8CADB22566664600486152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8CADBE2566667200486152 /* Build configuration list for PBXNativeTarget "Dijkstra ( Problem A)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8CADBF2566667200486152 /* Debug */,
+				8F8CADC02566667200486152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8CADCC2566668800486152 /* Build configuration list for PBXNativeTarget "The Shortest Path (Problem B)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8CADCD2566668800486152 /* Debug */,
+				8F8CADCE2566668800486152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8CADDB2566669C00486152 /* Build configuration list for PBXNativeTarget "Distance between vertices (Problem C)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8CADDC2566669C00486152 /* Debug */,
+				8F8CADDD2566669C00486152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8CADEB256666B500486152 /* Build configuration list for PBXNativeTarget "Petrol Stations (Problem D)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8CADEC256666B500486152 /* Debug */,
+				8F8CADED256666B500486152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8CADFC256666C800486152 /* Build configuration list for PBXNativeTarget "Mathematical platforms (Problem E)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8CADFD256666C800486152 /* Debug */,
+				8F8CADFE256666C800486152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8CAE0E256666DD00486152 /* Build configuration list for PBXNativeTarget "Distance betweeen the vertices (Problem F)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8CAE0F256666DD00486152 /* Debug */,
+				8F8CAE10256666DD00486152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F8CAE212566671400486152 /* Build configuration list for PBXNativeTarget "Distance between the vertices (Problem G)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8CAE222566671400486152 /* Debug */,
+				8F8CAE232566671400486152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
