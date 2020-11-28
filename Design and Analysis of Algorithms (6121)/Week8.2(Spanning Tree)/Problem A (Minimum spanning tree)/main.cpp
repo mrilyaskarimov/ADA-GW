@@ -15,7 +15,7 @@ struct Edge
   int u, v, dist;
 } e[MAXE];
 
-int mas[MAXV], _size[MAXV], res;
+int mas[MAXV], size[MAXV], res;
 
 void swap(int &x, int &y)
 {
@@ -33,9 +33,9 @@ int Union(int x,int y)
   x = Repr(x); y = Repr(y);
   if(x == y) return 0;
 
-  if (_size[x] < _size[y]) swap(x,y);
+  if (size[x] < size[y]) swap(x,y);
   mas[y] = x;
-  _size[x] += _size[y];
+  size[x] += size[y];
   return 1;
 }
 
@@ -49,10 +49,10 @@ int main(void)
   //freopen("981.in","r",stdin);
   int i, n, m;
   scanf("%d %d", &n, &m);
-  for(i = 1; i <= n; i++)
+  for(i = 0; i < n; i++)
   {
     mas[i] = i;
-    _size[i] = 1;
+    size[i] = 1;
   }
 
   for(i = 0; i < m; i++)
@@ -62,7 +62,10 @@ int main(void)
   
   res = 0;
   for(i = 0; i < m; i++)
-    if (Union(e[i].u,e[i].v)) res += e[i].dist;
+    if (Union(e[i].u,e[i].v)) {
+        printf("%d %d\n",e[i].u, e[i].v);
+        res += e[i].dist;
+    }
   printf("%d\n",res);
 
   return 0;

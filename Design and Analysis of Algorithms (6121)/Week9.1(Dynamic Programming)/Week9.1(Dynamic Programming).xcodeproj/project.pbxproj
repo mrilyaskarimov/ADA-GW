@@ -7,10 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F27302F256D2C4F002236B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F27302E256D2C4F002236B3 /* main.cpp */; };
+		8F27303C256D384D002236B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F27303B256D384D002236B3 /* main.cpp */; };
+		8F27304A256D43BD002236B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F273049256D43BD002236B3 /* main.cpp */; };
+		8F273059256D4A08002236B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F273058256D4A08002236B3 /* main.cpp */; };
+		8F273069256D7A12002236B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F273068256D7A12002236B3 /* main.cpp */; };
 		8F8C7C5C255C45AC00D76D38 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C7C5B255C45AC00D76D38 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8F27302A256D2C4F002236B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F273037256D384D002236B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F273045256D43BD002236B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F273054256D4A08002236B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F273064256D7A12002236B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8F8C7C56255C45AC00D76D38 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -23,11 +73,56 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8F27302C256D2C4F002236B3 /* Problem A (Correcting Paranthesization) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem A (Correcting Paranthesization)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F27302E256D2C4F002236B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F273039256D384D002236B3 /* Problem B (Cut a string) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Cut a string)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F27303B256D384D002236B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F273047256D43BD002236B3 /* Problem C (Super palindromes) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem C (Super palindromes)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F273049256D43BD002236B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F273056256D4A08002236B3 /* Problem D (Palindromes) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem D (Palindromes)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F273058256D4A08002236B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F273066256D7A12002236B3 /* Problem E (Skyscrapers) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem E (Skyscrapers)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F273068256D7A12002236B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F8C7C58255C45AC00D76D38 /* Week9.1(Dynamic Programming) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Week9.1(Dynamic Programming)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8C7C5B255C45AC00D76D38 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8F273029256D2C4F002236B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F273036256D384D002236B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F273044256D43BD002236B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F273053256D4A08002236B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F273063256D7A12002236B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F8C7C55255C45AC00D76D38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +133,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F27302D256D2C4F002236B3 /* Problem A (Correcting Paranthesization) */ = {
+			isa = PBXGroup;
+			children = (
+				8F27302E256D2C4F002236B3 /* main.cpp */,
+			);
+			path = "Problem A (Correcting Paranthesization)";
+			sourceTree = "<group>";
+		};
+		8F27303A256D384D002236B3 /* Problem B (Cut a string) */ = {
+			isa = PBXGroup;
+			children = (
+				8F27303B256D384D002236B3 /* main.cpp */,
+			);
+			path = "Problem B (Cut a string)";
+			sourceTree = "<group>";
+		};
+		8F273048256D43BD002236B3 /* Problem C (Super palindromes) */ = {
+			isa = PBXGroup;
+			children = (
+				8F273049256D43BD002236B3 /* main.cpp */,
+			);
+			path = "Problem C (Super palindromes)";
+			sourceTree = "<group>";
+		};
+		8F273057256D4A08002236B3 /* Problem D (Palindromes) */ = {
+			isa = PBXGroup;
+			children = (
+				8F273058256D4A08002236B3 /* main.cpp */,
+			);
+			path = "Problem D (Palindromes)";
+			sourceTree = "<group>";
+		};
+		8F273067256D7A12002236B3 /* Problem E (Skyscrapers) */ = {
+			isa = PBXGroup;
+			children = (
+				8F273068256D7A12002236B3 /* main.cpp */,
+			);
+			path = "Problem E (Skyscrapers)";
+			sourceTree = "<group>";
+		};
 		8F8C7C4F255C45AC00D76D38 = {
 			isa = PBXGroup;
 			children = (
 				8F8C7C5A255C45AC00D76D38 /* Week9.1(Dynamic Programming) */,
+				8F27302D256D2C4F002236B3 /* Problem A (Correcting Paranthesization) */,
+				8F27303A256D384D002236B3 /* Problem B (Cut a string) */,
+				8F273048256D43BD002236B3 /* Problem C (Super palindromes) */,
+				8F273057256D4A08002236B3 /* Problem D (Palindromes) */,
+				8F273067256D7A12002236B3 /* Problem E (Skyscrapers) */,
 				8F8C7C59255C45AC00D76D38 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +190,11 @@
 			isa = PBXGroup;
 			children = (
 				8F8C7C58255C45AC00D76D38 /* Week9.1(Dynamic Programming) */,
+				8F27302C256D2C4F002236B3 /* Problem A (Correcting Paranthesization) */,
+				8F273039256D384D002236B3 /* Problem B (Cut a string) */,
+				8F273047256D43BD002236B3 /* Problem C (Super palindromes) */,
+				8F273056256D4A08002236B3 /* Problem D (Palindromes) */,
+				8F273066256D7A12002236B3 /* Problem E (Skyscrapers) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +210,91 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8F27302B256D2C4F002236B3 /* Problem A (Correcting Paranthesization) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F273032256D2C4F002236B3 /* Build configuration list for PBXNativeTarget "Problem A (Correcting Paranthesization)" */;
+			buildPhases = (
+				8F273028256D2C4F002236B3 /* Sources */,
+				8F273029256D2C4F002236B3 /* Frameworks */,
+				8F27302A256D2C4F002236B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem A (Correcting Paranthesization)";
+			productName = "Problem A (Correcting Paranthesization)";
+			productReference = 8F27302C256D2C4F002236B3 /* Problem A (Correcting Paranthesization) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F273038256D384D002236B3 /* Problem B (Cut a string) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F27303D256D384D002236B3 /* Build configuration list for PBXNativeTarget "Problem B (Cut a string)" */;
+			buildPhases = (
+				8F273035256D384D002236B3 /* Sources */,
+				8F273036256D384D002236B3 /* Frameworks */,
+				8F273037256D384D002236B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem B (Cut a string)";
+			productName = "Problem B (Cut a string)";
+			productReference = 8F273039256D384D002236B3 /* Problem B (Cut a string) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F273046256D43BD002236B3 /* Problem C (Super palindromes) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F27304B256D43BD002236B3 /* Build configuration list for PBXNativeTarget "Problem C (Super palindromes)" */;
+			buildPhases = (
+				8F273043256D43BD002236B3 /* Sources */,
+				8F273044256D43BD002236B3 /* Frameworks */,
+				8F273045256D43BD002236B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem C (Super palindromes)";
+			productName = "Problem C (Super palindromes)";
+			productReference = 8F273047256D43BD002236B3 /* Problem C (Super palindromes) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F273055256D4A08002236B3 /* Problem D (Palindromes) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F27305A256D4A08002236B3 /* Build configuration list for PBXNativeTarget "Problem D (Palindromes)" */;
+			buildPhases = (
+				8F273052256D4A08002236B3 /* Sources */,
+				8F273053256D4A08002236B3 /* Frameworks */,
+				8F273054256D4A08002236B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem D (Palindromes)";
+			productName = "Problem D (Palindromes)";
+			productReference = 8F273056256D4A08002236B3 /* Problem D (Palindromes) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F273065256D7A12002236B3 /* Problem E (Skyscrapers) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F27306A256D7A12002236B3 /* Build configuration list for PBXNativeTarget "Problem E (Skyscrapers)" */;
+			buildPhases = (
+				8F273062256D7A12002236B3 /* Sources */,
+				8F273063256D7A12002236B3 /* Frameworks */,
+				8F273064256D7A12002236B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem E (Skyscrapers)";
+			productName = "Problem E (Skyscrapers)";
+			productReference = 8F273066256D7A12002236B3 /* Problem E (Skyscrapers) */;
+			productType = "com.apple.product-type.tool";
+		};
 		8F8C7C57255C45AC00D76D38 /* Week9.1(Dynamic Programming) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F8C7C5F255C45AC00D76D38 /* Build configuration list for PBXNativeTarget "Week9.1(Dynamic Programming)" */;
@@ -90,6 +320,21 @@
 			attributes = {
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
+					8F27302B256D2C4F002236B3 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F273038256D384D002236B3 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F273046256D43BD002236B3 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F273055256D4A08002236B3 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F273065256D7A12002236B3 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					8F8C7C57255C45AC00D76D38 = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -109,11 +354,56 @@
 			projectRoot = "";
 			targets = (
 				8F8C7C57255C45AC00D76D38 /* Week9.1(Dynamic Programming) */,
+				8F27302B256D2C4F002236B3 /* Problem A (Correcting Paranthesization) */,
+				8F273038256D384D002236B3 /* Problem B (Cut a string) */,
+				8F273046256D43BD002236B3 /* Problem C (Super palindromes) */,
+				8F273055256D4A08002236B3 /* Problem D (Palindromes) */,
+				8F273065256D7A12002236B3 /* Problem E (Skyscrapers) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8F273028256D2C4F002236B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F27302F256D2C4F002236B3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F273035256D384D002236B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F27303C256D384D002236B3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F273043256D43BD002236B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F27304A256D43BD002236B3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F273052256D4A08002236B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F273059256D4A08002236B3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F273062256D7A12002236B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F273069256D7A12002236B3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F8C7C54255C45AC00D76D38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,6 +415,116 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8F273030256D2C4F002236B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F273031256D2C4F002236B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F27303E256D384D002236B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F27303F256D384D002236B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F27304C256D43BD002236B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F27304D256D43BD002236B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F27305B256D4A08002236B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F27305C256D4A08002236B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F27306B256D7A12002236B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F27306C256D7A12002236B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8F8C7C5D255C45AC00D76D38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -259,6 +659,51 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8F273032256D2C4F002236B3 /* Build configuration list for PBXNativeTarget "Problem A (Correcting Paranthesization)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F273030256D2C4F002236B3 /* Debug */,
+				8F273031256D2C4F002236B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F27303D256D384D002236B3 /* Build configuration list for PBXNativeTarget "Problem B (Cut a string)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F27303E256D384D002236B3 /* Debug */,
+				8F27303F256D384D002236B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F27304B256D43BD002236B3 /* Build configuration list for PBXNativeTarget "Problem C (Super palindromes)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F27304C256D43BD002236B3 /* Debug */,
+				8F27304D256D43BD002236B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F27305A256D4A08002236B3 /* Build configuration list for PBXNativeTarget "Problem D (Palindromes)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F27305B256D4A08002236B3 /* Debug */,
+				8F27305C256D4A08002236B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F27306A256D7A12002236B3 /* Build configuration list for PBXNativeTarget "Problem E (Skyscrapers)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F27306B256D7A12002236B3 /* Debug */,
+				8F27306C256D7A12002236B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8F8C7C53255C45AC00D76D38 /* Build configuration list for PBXProject "Week9.1(Dynamic Programming)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

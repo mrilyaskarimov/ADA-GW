@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FF2D9A8256FAED8008A68CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FF2D9A7256FAED8008A68CB /* main.cpp */; };
+		8FF2D9B6256FAEE7008A68CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FF2D9B5256FAEE7008A68CB /* main.cpp */; };
+		8FF2D9C3256FB02E008A68CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FF2D9C2256FB02E008A68CB /* main.cpp */; };
+		8FF2D9D1256FB0A5008A68CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FF2D9D0256FB0A5008A68CB /* main.cpp */; };
+		8FF417DD256FD5CA000116C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FF417DC256FD5CA000116C5 /* main.cpp */; };
+		8FF417ED256FD70B000116C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FF417EC256FD70B000116C5 /* main.cpp */; };
+		8FF417FE256FD7DF000116C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FF417FD256FD7DF000116C5 /* main.cpp */; };
+		8FF41810256FD8C0000116C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4180F256FD8C0000116C5 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8FF2D9A2256FAED8008A68CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FF2D9B1256FAEE7008A68CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FF2D9BE256FB02E008A68CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FF2D9CC256FB0A5008A68CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FF417D8256FD5CA000116C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FF417E8256FD70B000116C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FF417F9256FD7DF000116C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8FF4180B256FD8C0000116C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8FF2D9A4256FAED8008A68CB /* Conditionals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Conditionals; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF2D9A7256FAED8008A68CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FF2D9B3256FAEE7008A68CB /* Conditional statement - 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Conditional statement - 1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF2D9B5256FAEE7008A68CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FF2D9C0256FB02E008A68CB /* Problem B (Conditional statement - 2) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Conditional statement - 2)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF2D9C2256FB02E008A68CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FF2D9CE256FB0A5008A68CB /* Problem C (Conditional Statement -3) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem C (Conditional Statement -3)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF2D9D0256FB0A5008A68CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FF417DA256FD5CA000116C5 /* Problem D (Even or Odd) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem D (Even or Odd)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF417DC256FD5CA000116C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FF417EA256FD70B000116C5 /* Problem E (Divisibility) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem E (Divisibility)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF417EC256FD70B000116C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FF417FB256FD7DF000116C5 /* Problem F (Dibivibility by numbers) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem F (Dibivibility by numbers)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF417FD256FD7DF000116C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FF4180D256FD8C0000116C5 /* Problem G (Decomposition of three digit) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem G (Decomposition of three digit)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF4180F256FD8C0000116C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FF2D9A1256FAED8008A68CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF2D9B0256FAEE7008A68CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF2D9BD256FB02E008A68CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF2D9CB256FB0A5008A68CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF417D7256FD5CA000116C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF417E7256FD70B000116C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF417F8256FD7DF000116C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF4180A256FD8C0000116C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FF2D99B256FAED8008A68CB = {
+			isa = PBXGroup;
+			children = (
+				8FF2D9A6256FAED8008A68CB /* Conditionals */,
+				8FF2D9B4256FAEE7008A68CB /* Conditional statement - 1 */,
+				8FF2D9C1256FB02E008A68CB /* Problem B (Conditional statement - 2) */,
+				8FF2D9CF256FB0A5008A68CB /* Problem C (Conditional Statement -3) */,
+				8FF417DB256FD5CA000116C5 /* Problem D (Even or Odd) */,
+				8FF417EB256FD70B000116C5 /* Problem E (Divisibility) */,
+				8FF417FC256FD7DF000116C5 /* Problem F (Dibivibility by numbers) */,
+				8FF4180E256FD8C0000116C5 /* Problem G (Decomposition of three digit) */,
+				8FF2D9A5256FAED8008A68CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FF2D9A5256FAED8008A68CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FF2D9A4256FAED8008A68CB /* Conditionals */,
+				8FF2D9B3256FAEE7008A68CB /* Conditional statement - 1 */,
+				8FF2D9C0256FB02E008A68CB /* Problem B (Conditional statement - 2) */,
+				8FF2D9CE256FB0A5008A68CB /* Problem C (Conditional Statement -3) */,
+				8FF417DA256FD5CA000116C5 /* Problem D (Even or Odd) */,
+				8FF417EA256FD70B000116C5 /* Problem E (Divisibility) */,
+				8FF417FB256FD7DF000116C5 /* Problem F (Dibivibility by numbers) */,
+				8FF4180D256FD8C0000116C5 /* Problem G (Decomposition of three digit) */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FF2D9A6256FAED8008A68CB /* Conditionals */ = {
+			isa = PBXGroup;
+			children = (
+				8FF2D9A7256FAED8008A68CB /* main.cpp */,
+			);
+			path = Conditionals;
+			sourceTree = "<group>";
+		};
+		8FF2D9B4256FAEE7008A68CB /* Conditional statement - 1 */ = {
+			isa = PBXGroup;
+			children = (
+				8FF2D9B5256FAEE7008A68CB /* main.cpp */,
+			);
+			path = "Conditional statement - 1";
+			sourceTree = "<group>";
+		};
+		8FF2D9C1256FB02E008A68CB /* Problem B (Conditional statement - 2) */ = {
+			isa = PBXGroup;
+			children = (
+				8FF2D9C2256FB02E008A68CB /* main.cpp */,
+			);
+			path = "Problem B (Conditional statement - 2)";
+			sourceTree = "<group>";
+		};
+		8FF2D9CF256FB0A5008A68CB /* Problem C (Conditional Statement -3) */ = {
+			isa = PBXGroup;
+			children = (
+				8FF2D9D0256FB0A5008A68CB /* main.cpp */,
+			);
+			path = "Problem C (Conditional Statement -3)";
+			sourceTree = "<group>";
+		};
+		8FF417DB256FD5CA000116C5 /* Problem D (Even or Odd) */ = {
+			isa = PBXGroup;
+			children = (
+				8FF417DC256FD5CA000116C5 /* main.cpp */,
+			);
+			path = "Problem D (Even or Odd)";
+			sourceTree = "<group>";
+		};
+		8FF417EB256FD70B000116C5 /* Problem E (Divisibility) */ = {
+			isa = PBXGroup;
+			children = (
+				8FF417EC256FD70B000116C5 /* main.cpp */,
+			);
+			path = "Problem E (Divisibility)";
+			sourceTree = "<group>";
+		};
+		8FF417FC256FD7DF000116C5 /* Problem F (Dibivibility by numbers) */ = {
+			isa = PBXGroup;
+			children = (
+				8FF417FD256FD7DF000116C5 /* main.cpp */,
+			);
+			path = "Problem F (Dibivibility by numbers)";
+			sourceTree = "<group>";
+		};
+		8FF4180E256FD8C0000116C5 /* Problem G (Decomposition of three digit) */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4180F256FD8C0000116C5 /* main.cpp */,
+			);
+			path = "Problem G (Decomposition of three digit)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FF2D9A3256FAED8008A68CB /* Conditionals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF2D9AB256FAED8008A68CB /* Build configuration list for PBXNativeTarget "Conditionals" */;
+			buildPhases = (
+				8FF2D9A0256FAED8008A68CB /* Sources */,
+				8FF2D9A1256FAED8008A68CB /* Frameworks */,
+				8FF2D9A2256FAED8008A68CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Conditionals;
+			productName = Conditionals;
+			productReference = 8FF2D9A4256FAED8008A68CB /* Conditionals */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FF2D9B2256FAEE7008A68CB /* Conditional statement - 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF2D9B7256FAEE7008A68CB /* Build configuration list for PBXNativeTarget "Conditional statement - 1" */;
+			buildPhases = (
+				8FF2D9AF256FAEE7008A68CB /* Sources */,
+				8FF2D9B0256FAEE7008A68CB /* Frameworks */,
+				8FF2D9B1256FAEE7008A68CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Conditional statement - 1";
+			productName = "Conditional statement - 1";
+			productReference = 8FF2D9B3256FAEE7008A68CB /* Conditional statement - 1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FF2D9BF256FB02E008A68CB /* Problem B (Conditional statement - 2) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF2D9C4256FB02E008A68CB /* Build configuration list for PBXNativeTarget "Problem B (Conditional statement - 2)" */;
+			buildPhases = (
+				8FF2D9BC256FB02E008A68CB /* Sources */,
+				8FF2D9BD256FB02E008A68CB /* Frameworks */,
+				8FF2D9BE256FB02E008A68CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem B (Conditional statement - 2)";
+			productName = "Problem B (Conditional statement - 2)";
+			productReference = 8FF2D9C0256FB02E008A68CB /* Problem B (Conditional statement - 2) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FF2D9CD256FB0A5008A68CB /* Problem C (Conditional Statement -3) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF2D9D2256FB0A5008A68CB /* Build configuration list for PBXNativeTarget "Problem C (Conditional Statement -3)" */;
+			buildPhases = (
+				8FF2D9CA256FB0A5008A68CB /* Sources */,
+				8FF2D9CB256FB0A5008A68CB /* Frameworks */,
+				8FF2D9CC256FB0A5008A68CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem C (Conditional Statement -3)";
+			productName = "Problem C (Conditional Statement -3)";
+			productReference = 8FF2D9CE256FB0A5008A68CB /* Problem C (Conditional Statement -3) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FF417D9256FD5CA000116C5 /* Problem D (Even or Odd) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF417E0256FD5CA000116C5 /* Build configuration list for PBXNativeTarget "Problem D (Even or Odd)" */;
+			buildPhases = (
+				8FF417D6256FD5CA000116C5 /* Sources */,
+				8FF417D7256FD5CA000116C5 /* Frameworks */,
+				8FF417D8256FD5CA000116C5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem D (Even or Odd)";
+			productName = "Problem D (Even or Odd)";
+			productReference = 8FF417DA256FD5CA000116C5 /* Problem D (Even or Odd) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FF417E9256FD70B000116C5 /* Problem E (Divisibility) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF417EE256FD70B000116C5 /* Build configuration list for PBXNativeTarget "Problem E (Divisibility)" */;
+			buildPhases = (
+				8FF417E6256FD70B000116C5 /* Sources */,
+				8FF417E7256FD70B000116C5 /* Frameworks */,
+				8FF417E8256FD70B000116C5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem E (Divisibility)";
+			productName = "Problem E (Divisibility)";
+			productReference = 8FF417EA256FD70B000116C5 /* Problem E (Divisibility) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FF417FA256FD7DF000116C5 /* Problem F (Dibivibility by numbers) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF417FF256FD7DF000116C5 /* Build configuration list for PBXNativeTarget "Problem F (Dibivibility by numbers)" */;
+			buildPhases = (
+				8FF417F7256FD7DF000116C5 /* Sources */,
+				8FF417F8256FD7DF000116C5 /* Frameworks */,
+				8FF417F9256FD7DF000116C5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem F (Dibivibility by numbers)";
+			productName = "Problem F (Dibivibility by numbers)";
+			productReference = 8FF417FB256FD7DF000116C5 /* Problem F (Dibivibility by numbers) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8FF4180C256FD8C0000116C5 /* Problem G (Decomposition of three digit) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF41811256FD8C0000116C5 /* Build configuration list for PBXNativeTarget "Problem G (Decomposition of three digit)" */;
+			buildPhases = (
+				8FF41809256FD8C0000116C5 /* Sources */,
+				8FF4180A256FD8C0000116C5 /* Frameworks */,
+				8FF4180B256FD8C0000116C5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem G (Decomposition of three digit)";
+			productName = "Problem G (Decomposition of three digit)";
+			productReference = 8FF4180D256FD8C0000116C5 /* Problem G (Decomposition of three digit) */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FF2D99C256FAED8008A68CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					8FF2D9A3256FAED8008A68CB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8FF2D9B2256FAEE7008A68CB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8FF2D9BF256FB02E008A68CB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8FF2D9CD256FB0A5008A68CB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8FF417D9256FD5CA000116C5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8FF417E9256FD70B000116C5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8FF417FA256FD7DF000116C5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8FF4180C256FD8C0000116C5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 8FF2D99F256FAED8008A68CB /* Build configuration list for PBXProject "Conditionals" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FF2D99B256FAED8008A68CB;
+			productRefGroup = 8FF2D9A5256FAED8008A68CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FF2D9A3256FAED8008A68CB /* Conditionals */,
+				8FF2D9B2256FAEE7008A68CB /* Conditional statement - 1 */,
+				8FF2D9BF256FB02E008A68CB /* Problem B (Conditional statement - 2) */,
+				8FF2D9CD256FB0A5008A68CB /* Problem C (Conditional Statement -3) */,
+				8FF417D9256FD5CA000116C5 /* Problem D (Even or Odd) */,
+				8FF417E9256FD70B000116C5 /* Problem E (Divisibility) */,
+				8FF417FA256FD7DF000116C5 /* Problem F (Dibivibility by numbers) */,
+				8FF4180C256FD8C0000116C5 /* Problem G (Decomposition of three digit) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FF2D9A0256FAED8008A68CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF2D9A8256FAED8008A68CB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF2D9AF256FAEE7008A68CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF2D9B6256FAEE7008A68CB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF2D9BC256FB02E008A68CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF2D9C3256FB02E008A68CB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF2D9CA256FB0A5008A68CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF2D9D1256FB0A5008A68CB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF417D6256FD5CA000116C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF417DD256FD5CA000116C5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF417E6256FD70B000116C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF417ED256FD70B000116C5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF417F7256FD7DF000116C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF417FE256FD7DF000116C5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF41809256FD8C0000116C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF41810256FD8C0000116C5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8FF2D9A9256FAED8008A68CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8FF2D9AA256FAED8008A68CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8FF2D9AC256FAED8008A68CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FF2D9AD256FAED8008A68CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FF2D9B8256FAEE7008A68CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FF2D9B9256FAEE7008A68CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FF2D9C5256FB02E008A68CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FF2D9C6256FB02E008A68CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FF2D9D3256FB0A5008A68CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FF2D9D4256FB0A5008A68CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FF417DE256FD5CA000116C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FF417DF256FD5CA000116C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FF417EF256FD70B000116C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FF417F0256FD70B000116C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FF41800256FD7DF000116C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FF41801256FD7DF000116C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FF41812256FD8C0000116C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FF41813256FD8C0000116C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FF2D99F256FAED8008A68CB /* Build configuration list for PBXProject "Conditionals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF2D9A9256FAED8008A68CB /* Debug */,
+				8FF2D9AA256FAED8008A68CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF2D9AB256FAED8008A68CB /* Build configuration list for PBXNativeTarget "Conditionals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF2D9AC256FAED8008A68CB /* Debug */,
+				8FF2D9AD256FAED8008A68CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF2D9B7256FAEE7008A68CB /* Build configuration list for PBXNativeTarget "Conditional statement - 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF2D9B8256FAEE7008A68CB /* Debug */,
+				8FF2D9B9256FAEE7008A68CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF2D9C4256FB02E008A68CB /* Build configuration list for PBXNativeTarget "Problem B (Conditional statement - 2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF2D9C5256FB02E008A68CB /* Debug */,
+				8FF2D9C6256FB02E008A68CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF2D9D2256FB0A5008A68CB /* Build configuration list for PBXNativeTarget "Problem C (Conditional Statement -3)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF2D9D3256FB0A5008A68CB /* Debug */,
+				8FF2D9D4256FB0A5008A68CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF417E0256FD5CA000116C5 /* Build configuration list for PBXNativeTarget "Problem D (Even or Odd)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF417DE256FD5CA000116C5 /* Debug */,
+				8FF417DF256FD5CA000116C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF417EE256FD70B000116C5 /* Build configuration list for PBXNativeTarget "Problem E (Divisibility)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF417EF256FD70B000116C5 /* Debug */,
+				8FF417F0256FD70B000116C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF417FF256FD7DF000116C5 /* Build configuration list for PBXNativeTarget "Problem F (Dibivibility by numbers)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF41800256FD7DF000116C5 /* Debug */,
+				8FF41801256FD7DF000116C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF41811256FD8C0000116C5 /* Build configuration list for PBXNativeTarget "Problem G (Decomposition of three digit)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF41812256FD8C0000116C5 /* Debug */,
+				8FF41813256FD8C0000116C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FF2D99C256FAED8008A68CB /* Project object */;
+}
