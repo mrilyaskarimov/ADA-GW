@@ -31,22 +31,28 @@ int main(int argc, const char * argv[]) {
           if ((m[i][j] == 0) && (i != j)) m[i][j] = INF;
         }
     floyd();
+    for(i = 0; i < n; i++){
+        for(j = 0; j < n; j++)
+        {
+            printf("%d ", m[i][j]);
+        }
+        puts("\n");
+    }
+    
     for(i = 0; i < n; i++)
         for(j = 0; j < n; j++)
         {
        if (m[i][j] == INF) res[i][j] = 0;
        else{
-           res[i][j]=1;
-           for(k = 0; k < n; k++)
-                     if ((m[k][k] < 0) && (m[i][k] < INF) && (m[k][j] < INF))
+               res[i][j] = 1;
+                for(k = 0; k < n; k++)
+                if ((m[k][k] < 0) && (m[i][k] < INF) && (m[k][j] < INF))
                        res[i][k] = res[i][j] = res[k][j] = 2;
            }
         }
-       }
-for(i = 0; i < n; i++)
-   {
-     for(j = 0; j < n; j++)
-       printf("%d ",res[i][j]);
-     printf("\n");
-   }    
+    for(i = 0; i < n; i++){
+            for(j = 0; j < n; j++)
+            printf("%d ",res[i][j]);
+        printf("\n");
+    }
 }

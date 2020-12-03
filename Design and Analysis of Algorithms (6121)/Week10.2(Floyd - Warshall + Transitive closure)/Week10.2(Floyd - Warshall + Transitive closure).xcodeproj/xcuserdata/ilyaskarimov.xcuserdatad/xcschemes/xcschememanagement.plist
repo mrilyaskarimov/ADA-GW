@@ -14,20 +14,25 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>Problem F (Transitive closure).xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>Problem G (Transivity of a graph).xcscheme_^#shared#^_</key>
+		<key>Problem D (Detonating cord).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>Week10.2(Floyd - Warshall + Transitive closure).xcscheme_^#shared#^_</key>
+		<key>Problem F (Transitive closure).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Problem G (Transivity of a graph).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>Week10.2(Floyd - Warshall + Transitive closure).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>

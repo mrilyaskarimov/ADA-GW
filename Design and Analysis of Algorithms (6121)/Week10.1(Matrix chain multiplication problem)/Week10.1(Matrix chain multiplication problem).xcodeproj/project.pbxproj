@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F67052A256829E300ABA86D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F670529256829E300ABA86D /* main.cpp */; };
-		8F670538256829F400ABA86D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F670537256829F400ABA86D /* main.cpp */; };
-		8F67054525682D8300ABA86D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F67054425682D8300ABA86D /* main.cpp */; };
-		8F6705532568313C00ABA86D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6705522568313C00ABA86D /* main.cpp */; };
-		8F6705622568326000ABA86D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6705612568326000ABA86D /* main.cpp */; };
-		8F9490522577CB3500445CC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F9490512577CB3500445CC5 /* main.cpp */; };
+		8F8429232572F033005CE4A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8429222572F033005CE4A6 /* main.cpp */; };
+		8F8429312572F051005CE4A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8429302572F051005CE4A6 /* main.cpp */; };
+		8F84293E2572F709005CE4A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F84293D2572F709005CE4A6 /* main.cpp */; };
+		8F84294C2572FA03005CE4A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F84294B2572FA03005CE4A6 /* main.cpp */; };
+		8F84295B2572FA4A005CE4A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F84295A2572FA4A005CE4A6 /* main.cpp */; };
+		8F90EA8E2573C37300FF08A4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F90EA8D2573C37300FF08A4 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8F670524256829E300ABA86D /* CopyFiles */ = {
+		8F84291D2572F032005CE4A6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,7 +25,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		8F670533256829F400ABA86D /* CopyFiles */ = {
+		8F84292C2572F051005CE4A6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -34,7 +34,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		8F67054025682D8300ABA86D /* CopyFiles */ = {
+		8F8429392572F709005CE4A6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -43,7 +43,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		8F67054E2568313C00ABA86D /* CopyFiles */ = {
+		8F8429472572FA03005CE4A6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -52,7 +52,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		8F67055D2568326000ABA86D /* CopyFiles */ = {
+		8F8429562572FA4A005CE4A6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -61,7 +61,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		8F94904D2577CB3500445CC5 /* CopyFiles */ = {
+		8F90EA892573C37300FF08A4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -73,57 +73,57 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8F670526256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Week10.2(Floyd - Warshall + Transitive closure)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F670529256829E300ABA86D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		8F670535256829F400ABA86D /* Problem B (Floyd) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Floyd)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F670537256829F400ABA86D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		8F67054225682D8300ABA86D /* Problem C (Floyd - existance) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem C (Floyd - existance)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F67054425682D8300ABA86D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		8F6705502568313C00ABA86D /* Problem F (Transitive closure) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem F (Transitive closure)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F6705522568313C00ABA86D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		8F67055F2568326000ABA86D /* Problem G (Transivity of a graph) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem G (Transivity of a graph)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F6705612568326000ABA86D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		8F94904F2577CB3500445CC5 /* Problem D (Detonating cord) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem D (Detonating cord)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F9490512577CB3500445CC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F84291F2572F033005CE4A6 /* Week10.1(Matrix chain multiplication problem) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Week10.1(Matrix chain multiplication problem)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8429222572F033005CE4A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F84292E2572F051005CE4A6 /* Problem A (Matrix Multiplication) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem A (Matrix Multiplication)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8429302572F051005CE4A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F84293B2572F709005CE4A6 /* Problem B (Catalan number) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Catalan number)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F84293D2572F709005CE4A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8429492572FA03005CE4A6 /* Problem C (Optional Matrix Multiplication) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem C (Optional Matrix Multiplication)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F84294B2572FA03005CE4A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F8429582572FA4A005CE4A6 /* Problem D (Optional Matrix Multiplication-2) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem D (Optional Matrix Multiplication-2)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F84295A2572FA4A005CE4A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F90EA8B2573C37300FF08A4 /* Problem E (Optimal Binary Search) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem E (Optimal Binary Search)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F90EA8D2573C37300FF08A4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8F670523256829E300ABA86D /* Frameworks */ = {
+		8F84291C2572F032005CE4A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F670532256829F400ABA86D /* Frameworks */ = {
+		8F84292B2572F051005CE4A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F67053F25682D8300ABA86D /* Frameworks */ = {
+		8F8429382572F709005CE4A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F67054D2568313C00ABA86D /* Frameworks */ = {
+		8F8429462572FA03005CE4A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F67055C2568326000ABA86D /* Frameworks */ = {
+		8F8429552572FA4A005CE4A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F94904C2577CB3500445CC5 /* Frameworks */ = {
+		8F90EA882573C37300FF08A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -133,214 +133,214 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8F67051D256829E300ABA86D = {
+		8F8429162572F032005CE4A6 = {
 			isa = PBXGroup;
 			children = (
-				8F670528256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */,
-				8F670536256829F400ABA86D /* Problem B (Floyd) */,
-				8F67054325682D8300ABA86D /* Problem C (Floyd - existance) */,
-				8F6705512568313C00ABA86D /* Problem F (Transitive closure) */,
-				8F6705602568326000ABA86D /* Problem G (Transivity of a graph) */,
-				8F9490502577CB3500445CC5 /* Problem D (Detonating cord) */,
-				8F670527256829E300ABA86D /* Products */,
+				8F8429212572F033005CE4A6 /* Week10.1(Matrix chain multiplication problem) */,
+				8F84292F2572F051005CE4A6 /* Problem A (Matrix Multiplication) */,
+				8F84293C2572F709005CE4A6 /* Problem B (Catalan number) */,
+				8F84294A2572FA03005CE4A6 /* Problem C (Optional Matrix Multiplication) */,
+				8F8429592572FA4A005CE4A6 /* Problem D (Optional Matrix Multiplication-2) */,
+				8F90EA8C2573C37300FF08A4 /* Problem E (Optimal Binary Search) */,
+				8F8429202572F033005CE4A6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8F670527256829E300ABA86D /* Products */ = {
+		8F8429202572F033005CE4A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F670526256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */,
-				8F670535256829F400ABA86D /* Problem B (Floyd) */,
-				8F67054225682D8300ABA86D /* Problem C (Floyd - existance) */,
-				8F6705502568313C00ABA86D /* Problem F (Transitive closure) */,
-				8F67055F2568326000ABA86D /* Problem G (Transivity of a graph) */,
-				8F94904F2577CB3500445CC5 /* Problem D (Detonating cord) */,
+				8F84291F2572F033005CE4A6 /* Week10.1(Matrix chain multiplication problem) */,
+				8F84292E2572F051005CE4A6 /* Problem A (Matrix Multiplication) */,
+				8F84293B2572F709005CE4A6 /* Problem B (Catalan number) */,
+				8F8429492572FA03005CE4A6 /* Problem C (Optional Matrix Multiplication) */,
+				8F8429582572FA4A005CE4A6 /* Problem D (Optional Matrix Multiplication-2) */,
+				8F90EA8B2573C37300FF08A4 /* Problem E (Optimal Binary Search) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8F670528256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */ = {
+		8F8429212572F033005CE4A6 /* Week10.1(Matrix chain multiplication problem) */ = {
 			isa = PBXGroup;
 			children = (
-				8F670529256829E300ABA86D /* main.cpp */,
+				8F8429222572F033005CE4A6 /* main.cpp */,
 			);
-			path = "Week10.2(Floyd - Warshall + Transitive closure)";
+			path = "Week10.1(Matrix chain multiplication problem)";
 			sourceTree = "<group>";
 		};
-		8F670536256829F400ABA86D /* Problem B (Floyd) */ = {
+		8F84292F2572F051005CE4A6 /* Problem A (Matrix Multiplication) */ = {
 			isa = PBXGroup;
 			children = (
-				8F670537256829F400ABA86D /* main.cpp */,
+				8F8429302572F051005CE4A6 /* main.cpp */,
 			);
-			path = "Problem B (Floyd)";
+			path = "Problem A (Matrix Multiplication)";
 			sourceTree = "<group>";
 		};
-		8F67054325682D8300ABA86D /* Problem C (Floyd - existance) */ = {
+		8F84293C2572F709005CE4A6 /* Problem B (Catalan number) */ = {
 			isa = PBXGroup;
 			children = (
-				8F67054425682D8300ABA86D /* main.cpp */,
+				8F84293D2572F709005CE4A6 /* main.cpp */,
 			);
-			path = "Problem C (Floyd - existance)";
+			path = "Problem B (Catalan number)";
 			sourceTree = "<group>";
 		};
-		8F6705512568313C00ABA86D /* Problem F (Transitive closure) */ = {
+		8F84294A2572FA03005CE4A6 /* Problem C (Optional Matrix Multiplication) */ = {
 			isa = PBXGroup;
 			children = (
-				8F6705522568313C00ABA86D /* main.cpp */,
+				8F84294B2572FA03005CE4A6 /* main.cpp */,
 			);
-			path = "Problem F (Transitive closure)";
+			path = "Problem C (Optional Matrix Multiplication)";
 			sourceTree = "<group>";
 		};
-		8F6705602568326000ABA86D /* Problem G (Transivity of a graph) */ = {
+		8F8429592572FA4A005CE4A6 /* Problem D (Optional Matrix Multiplication-2) */ = {
 			isa = PBXGroup;
 			children = (
-				8F6705612568326000ABA86D /* main.cpp */,
+				8F84295A2572FA4A005CE4A6 /* main.cpp */,
 			);
-			path = "Problem G (Transivity of a graph)";
+			path = "Problem D (Optional Matrix Multiplication-2)";
 			sourceTree = "<group>";
 		};
-		8F9490502577CB3500445CC5 /* Problem D (Detonating cord) */ = {
+		8F90EA8C2573C37300FF08A4 /* Problem E (Optimal Binary Search) */ = {
 			isa = PBXGroup;
 			children = (
-				8F9490512577CB3500445CC5 /* main.cpp */,
+				8F90EA8D2573C37300FF08A4 /* main.cpp */,
 			);
-			path = "Problem D (Detonating cord)";
+			path = "Problem E (Optimal Binary Search)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F670525256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */ = {
+		8F84291E2572F032005CE4A6 /* Week10.1(Matrix chain multiplication problem) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F67052D256829E300ABA86D /* Build configuration list for PBXNativeTarget "Week10.2(Floyd - Warshall + Transitive closure)" */;
+			buildConfigurationList = 8F8429262572F033005CE4A6 /* Build configuration list for PBXNativeTarget "Week10.1(Matrix chain multiplication problem)" */;
 			buildPhases = (
-				8F670522256829E300ABA86D /* Sources */,
-				8F670523256829E300ABA86D /* Frameworks */,
-				8F670524256829E300ABA86D /* CopyFiles */,
+				8F84291B2572F032005CE4A6 /* Sources */,
+				8F84291C2572F032005CE4A6 /* Frameworks */,
+				8F84291D2572F032005CE4A6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Week10.2(Floyd - Warshall + Transitive closure)";
-			productName = "Week10.2(Floyd - Warshall + Transitive closure)";
-			productReference = 8F670526256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */;
+			name = "Week10.1(Matrix chain multiplication problem)";
+			productName = "Week10.1(Matrix chain multiplication problem)";
+			productReference = 8F84291F2572F033005CE4A6 /* Week10.1(Matrix chain multiplication problem) */;
 			productType = "com.apple.product-type.tool";
 		};
-		8F670534256829F400ABA86D /* Problem B (Floyd) */ = {
+		8F84292D2572F051005CE4A6 /* Problem A (Matrix Multiplication) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F670539256829F400ABA86D /* Build configuration list for PBXNativeTarget "Problem B (Floyd)" */;
+			buildConfigurationList = 8F8429322572F051005CE4A6 /* Build configuration list for PBXNativeTarget "Problem A (Matrix Multiplication)" */;
 			buildPhases = (
-				8F670531256829F400ABA86D /* Sources */,
-				8F670532256829F400ABA86D /* Frameworks */,
-				8F670533256829F400ABA86D /* CopyFiles */,
+				8F84292A2572F051005CE4A6 /* Sources */,
+				8F84292B2572F051005CE4A6 /* Frameworks */,
+				8F84292C2572F051005CE4A6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Problem B (Floyd)";
-			productName = "Problem B (Floyd)";
-			productReference = 8F670535256829F400ABA86D /* Problem B (Floyd) */;
+			name = "Problem A (Matrix Multiplication)";
+			productName = "Problem A (Matrix Multiplication)";
+			productReference = 8F84292E2572F051005CE4A6 /* Problem A (Matrix Multiplication) */;
 			productType = "com.apple.product-type.tool";
 		};
-		8F67054125682D8300ABA86D /* Problem C (Floyd - existance) */ = {
+		8F84293A2572F709005CE4A6 /* Problem B (Catalan number) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F67054625682D8300ABA86D /* Build configuration list for PBXNativeTarget "Problem C (Floyd - existance)" */;
+			buildConfigurationList = 8F84293F2572F709005CE4A6 /* Build configuration list for PBXNativeTarget "Problem B (Catalan number)" */;
 			buildPhases = (
-				8F67053E25682D8300ABA86D /* Sources */,
-				8F67053F25682D8300ABA86D /* Frameworks */,
-				8F67054025682D8300ABA86D /* CopyFiles */,
+				8F8429372572F709005CE4A6 /* Sources */,
+				8F8429382572F709005CE4A6 /* Frameworks */,
+				8F8429392572F709005CE4A6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Problem C (Floyd - existance)";
-			productName = "Problem C (Floyd - existance)";
-			productReference = 8F67054225682D8300ABA86D /* Problem C (Floyd - existance) */;
+			name = "Problem B (Catalan number)";
+			productName = "Problem B (Catalan number)";
+			productReference = 8F84293B2572F709005CE4A6 /* Problem B (Catalan number) */;
 			productType = "com.apple.product-type.tool";
 		};
-		8F67054F2568313C00ABA86D /* Problem F (Transitive closure) */ = {
+		8F8429482572FA03005CE4A6 /* Problem C (Optional Matrix Multiplication) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F6705542568313C00ABA86D /* Build configuration list for PBXNativeTarget "Problem F (Transitive closure)" */;
+			buildConfigurationList = 8F84294D2572FA03005CE4A6 /* Build configuration list for PBXNativeTarget "Problem C (Optional Matrix Multiplication)" */;
 			buildPhases = (
-				8F67054C2568313C00ABA86D /* Sources */,
-				8F67054D2568313C00ABA86D /* Frameworks */,
-				8F67054E2568313C00ABA86D /* CopyFiles */,
+				8F8429452572FA03005CE4A6 /* Sources */,
+				8F8429462572FA03005CE4A6 /* Frameworks */,
+				8F8429472572FA03005CE4A6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Problem F (Transitive closure)";
-			productName = "Problem F (Transitive closure)";
-			productReference = 8F6705502568313C00ABA86D /* Problem F (Transitive closure) */;
+			name = "Problem C (Optional Matrix Multiplication)";
+			productName = "Problem C (Optional Matrix Multiplication)";
+			productReference = 8F8429492572FA03005CE4A6 /* Problem C (Optional Matrix Multiplication) */;
 			productType = "com.apple.product-type.tool";
 		};
-		8F67055E2568326000ABA86D /* Problem G (Transivity of a graph) */ = {
+		8F8429572572FA4A005CE4A6 /* Problem D (Optional Matrix Multiplication-2) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F6705632568326000ABA86D /* Build configuration list for PBXNativeTarget "Problem G (Transivity of a graph)" */;
+			buildConfigurationList = 8F84295C2572FA4A005CE4A6 /* Build configuration list for PBXNativeTarget "Problem D (Optional Matrix Multiplication-2)" */;
 			buildPhases = (
-				8F67055B2568326000ABA86D /* Sources */,
-				8F67055C2568326000ABA86D /* Frameworks */,
-				8F67055D2568326000ABA86D /* CopyFiles */,
+				8F8429542572FA4A005CE4A6 /* Sources */,
+				8F8429552572FA4A005CE4A6 /* Frameworks */,
+				8F8429562572FA4A005CE4A6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Problem G (Transivity of a graph)";
-			productName = "Problem G (Transivity of a graph)";
-			productReference = 8F67055F2568326000ABA86D /* Problem G (Transivity of a graph) */;
+			name = "Problem D (Optional Matrix Multiplication-2)";
+			productName = "Problem D (Optional Matrix Multiplication-2)";
+			productReference = 8F8429582572FA4A005CE4A6 /* Problem D (Optional Matrix Multiplication-2) */;
 			productType = "com.apple.product-type.tool";
 		};
-		8F94904E2577CB3500445CC5 /* Problem D (Detonating cord) */ = {
+		8F90EA8A2573C37300FF08A4 /* Problem E (Optimal Binary Search) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F9490552577CB3500445CC5 /* Build configuration list for PBXNativeTarget "Problem D (Detonating cord)" */;
+			buildConfigurationList = 8F90EA912573C37300FF08A4 /* Build configuration list for PBXNativeTarget "Problem E (Optimal Binary Search)" */;
 			buildPhases = (
-				8F94904B2577CB3500445CC5 /* Sources */,
-				8F94904C2577CB3500445CC5 /* Frameworks */,
-				8F94904D2577CB3500445CC5 /* CopyFiles */,
+				8F90EA872573C37300FF08A4 /* Sources */,
+				8F90EA882573C37300FF08A4 /* Frameworks */,
+				8F90EA892573C37300FF08A4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Problem D (Detonating cord)";
-			productName = "Problem D (Detonating cord)";
-			productReference = 8F94904F2577CB3500445CC5 /* Problem D (Detonating cord) */;
+			name = "Problem E (Optimal Binary Search)";
+			productName = "Problem E (Optimal Binary Search)";
+			productReference = 8F90EA8B2573C37300FF08A4 /* Problem E (Optimal Binary Search) */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8F67051E256829E300ABA86D /* Project object */ = {
+		8F8429172572F032005CE4A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					8F670525256829E300ABA86D = {
+					8F84291E2572F032005CE4A6 = {
 						CreatedOnToolsVersion = 12.2;
 					};
-					8F670534256829F400ABA86D = {
+					8F84292D2572F051005CE4A6 = {
 						CreatedOnToolsVersion = 12.2;
 					};
-					8F67054125682D8300ABA86D = {
+					8F84293A2572F709005CE4A6 = {
 						CreatedOnToolsVersion = 12.2;
 					};
-					8F67054F2568313C00ABA86D = {
+					8F8429482572FA03005CE4A6 = {
 						CreatedOnToolsVersion = 12.2;
 					};
-					8F67055E2568326000ABA86D = {
+					8F8429572572FA4A005CE4A6 = {
 						CreatedOnToolsVersion = 12.2;
 					};
-					8F94904E2577CB3500445CC5 = {
+					8F90EA8A2573C37300FF08A4 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
-			buildConfigurationList = 8F670521256829E300ABA86D /* Build configuration list for PBXProject "Week10.2(Floyd - Warshall + Transitive closure)" */;
+			buildConfigurationList = 8F84291A2572F032005CE4A6 /* Build configuration list for PBXProject "Week10.1(Matrix chain multiplication problem)" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -348,74 +348,74 @@
 				en,
 				Base,
 			);
-			mainGroup = 8F67051D256829E300ABA86D;
-			productRefGroup = 8F670527256829E300ABA86D /* Products */;
+			mainGroup = 8F8429162572F032005CE4A6;
+			productRefGroup = 8F8429202572F033005CE4A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F670525256829E300ABA86D /* Week10.2(Floyd - Warshall + Transitive closure) */,
-				8F670534256829F400ABA86D /* Problem B (Floyd) */,
-				8F67054125682D8300ABA86D /* Problem C (Floyd - existance) */,
-				8F67054F2568313C00ABA86D /* Problem F (Transitive closure) */,
-				8F67055E2568326000ABA86D /* Problem G (Transivity of a graph) */,
-				8F94904E2577CB3500445CC5 /* Problem D (Detonating cord) */,
+				8F84291E2572F032005CE4A6 /* Week10.1(Matrix chain multiplication problem) */,
+				8F84292D2572F051005CE4A6 /* Problem A (Matrix Multiplication) */,
+				8F84293A2572F709005CE4A6 /* Problem B (Catalan number) */,
+				8F8429482572FA03005CE4A6 /* Problem C (Optional Matrix Multiplication) */,
+				8F8429572572FA4A005CE4A6 /* Problem D (Optional Matrix Multiplication-2) */,
+				8F90EA8A2573C37300FF08A4 /* Problem E (Optimal Binary Search) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8F670522256829E300ABA86D /* Sources */ = {
+		8F84291B2572F032005CE4A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F67052A256829E300ABA86D /* main.cpp in Sources */,
+				8F8429232572F033005CE4A6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F670531256829F400ABA86D /* Sources */ = {
+		8F84292A2572F051005CE4A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F670538256829F400ABA86D /* main.cpp in Sources */,
+				8F8429312572F051005CE4A6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F67053E25682D8300ABA86D /* Sources */ = {
+		8F8429372572F709005CE4A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F67054525682D8300ABA86D /* main.cpp in Sources */,
+				8F84293E2572F709005CE4A6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F67054C2568313C00ABA86D /* Sources */ = {
+		8F8429452572FA03005CE4A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6705532568313C00ABA86D /* main.cpp in Sources */,
+				8F84294C2572FA03005CE4A6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F67055B2568326000ABA86D /* Sources */ = {
+		8F8429542572FA4A005CE4A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6705622568326000ABA86D /* main.cpp in Sources */,
+				8F84295B2572FA4A005CE4A6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F94904B2577CB3500445CC5 /* Sources */ = {
+		8F90EA872573C37300FF08A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9490522577CB3500445CC5 /* main.cpp in Sources */,
+				8F90EA8E2573C37300FF08A4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8F67052B256829E300ABA86D /* Debug */ = {
+		8F8429242572F033005CE4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -474,7 +474,7 @@
 			};
 			name = Debug;
 		};
-		8F67052C256829E300ABA86D /* Release */ = {
+		8F8429252572F033005CE4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -526,7 +526,7 @@
 			};
 			name = Release;
 		};
-		8F67052E256829E300ABA86D /* Debug */ = {
+		8F8429272572F033005CE4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -536,7 +536,7 @@
 			};
 			name = Debug;
 		};
-		8F67052F256829E300ABA86D /* Release */ = {
+		8F8429282572F033005CE4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -546,7 +546,7 @@
 			};
 			name = Release;
 		};
-		8F67053A256829F400ABA86D /* Debug */ = {
+		8F8429332572F051005CE4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -556,7 +556,7 @@
 			};
 			name = Debug;
 		};
-		8F67053B256829F400ABA86D /* Release */ = {
+		8F8429342572F051005CE4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -566,7 +566,7 @@
 			};
 			name = Release;
 		};
-		8F67054725682D8300ABA86D /* Debug */ = {
+		8F8429402572F709005CE4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -576,7 +576,7 @@
 			};
 			name = Debug;
 		};
-		8F67054825682D8300ABA86D /* Release */ = {
+		8F8429412572F709005CE4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -586,7 +586,7 @@
 			};
 			name = Release;
 		};
-		8F6705552568313C00ABA86D /* Debug */ = {
+		8F84294E2572FA03005CE4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -596,7 +596,7 @@
 			};
 			name = Debug;
 		};
-		8F6705562568313C00ABA86D /* Release */ = {
+		8F84294F2572FA03005CE4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -606,7 +606,7 @@
 			};
 			name = Release;
 		};
-		8F6705642568326000ABA86D /* Debug */ = {
+		8F84295D2572FA4A005CE4A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -616,7 +616,7 @@
 			};
 			name = Debug;
 		};
-		8F6705652568326000ABA86D /* Release */ = {
+		8F84295E2572FA4A005CE4A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -626,7 +626,7 @@
 			};
 			name = Release;
 		};
-		8F9490532577CB3500445CC5 /* Debug */ = {
+		8F90EA8F2573C37300FF08A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -636,7 +636,7 @@
 			};
 			name = Debug;
 		};
-		8F9490542577CB3500445CC5 /* Release */ = {
+		8F90EA902573C37300FF08A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -649,70 +649,70 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F670521256829E300ABA86D /* Build configuration list for PBXProject "Week10.2(Floyd - Warshall + Transitive closure)" */ = {
+		8F84291A2572F032005CE4A6 /* Build configuration list for PBXProject "Week10.1(Matrix chain multiplication problem)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F67052B256829E300ABA86D /* Debug */,
-				8F67052C256829E300ABA86D /* Release */,
+				8F8429242572F033005CE4A6 /* Debug */,
+				8F8429252572F033005CE4A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F67052D256829E300ABA86D /* Build configuration list for PBXNativeTarget "Week10.2(Floyd - Warshall + Transitive closure)" */ = {
+		8F8429262572F033005CE4A6 /* Build configuration list for PBXNativeTarget "Week10.1(Matrix chain multiplication problem)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F67052E256829E300ABA86D /* Debug */,
-				8F67052F256829E300ABA86D /* Release */,
+				8F8429272572F033005CE4A6 /* Debug */,
+				8F8429282572F033005CE4A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F670539256829F400ABA86D /* Build configuration list for PBXNativeTarget "Problem B (Floyd)" */ = {
+		8F8429322572F051005CE4A6 /* Build configuration list for PBXNativeTarget "Problem A (Matrix Multiplication)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F67053A256829F400ABA86D /* Debug */,
-				8F67053B256829F400ABA86D /* Release */,
+				8F8429332572F051005CE4A6 /* Debug */,
+				8F8429342572F051005CE4A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F67054625682D8300ABA86D /* Build configuration list for PBXNativeTarget "Problem C (Floyd - existance)" */ = {
+		8F84293F2572F709005CE4A6 /* Build configuration list for PBXNativeTarget "Problem B (Catalan number)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F67054725682D8300ABA86D /* Debug */,
-				8F67054825682D8300ABA86D /* Release */,
+				8F8429402572F709005CE4A6 /* Debug */,
+				8F8429412572F709005CE4A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F6705542568313C00ABA86D /* Build configuration list for PBXNativeTarget "Problem F (Transitive closure)" */ = {
+		8F84294D2572FA03005CE4A6 /* Build configuration list for PBXNativeTarget "Problem C (Optional Matrix Multiplication)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F6705552568313C00ABA86D /* Debug */,
-				8F6705562568313C00ABA86D /* Release */,
+				8F84294E2572FA03005CE4A6 /* Debug */,
+				8F84294F2572FA03005CE4A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F6705632568326000ABA86D /* Build configuration list for PBXNativeTarget "Problem G (Transivity of a graph)" */ = {
+		8F84295C2572FA4A005CE4A6 /* Build configuration list for PBXNativeTarget "Problem D (Optional Matrix Multiplication-2)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F6705642568326000ABA86D /* Debug */,
-				8F6705652568326000ABA86D /* Release */,
+				8F84295D2572FA4A005CE4A6 /* Debug */,
+				8F84295E2572FA4A005CE4A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F9490552577CB3500445CC5 /* Build configuration list for PBXNativeTarget "Problem D (Detonating cord)" */ = {
+		8F90EA912573C37300FF08A4 /* Build configuration list for PBXNativeTarget "Problem E (Optimal Binary Search)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F9490532577CB3500445CC5 /* Debug */,
-				8F9490542577CB3500445CC5 /* Release */,
+				8F90EA8F2573C37300FF08A4 /* Debug */,
+				8F90EA902573C37300FF08A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8F67051E256829E300ABA86D /* Project object */;
+	rootObject = 8F8429172572F032005CE4A6 /* Project object */;
 }

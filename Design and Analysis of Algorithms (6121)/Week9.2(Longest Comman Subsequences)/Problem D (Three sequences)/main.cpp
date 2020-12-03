@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+#include <algorithm>
 #define SIZE 101
 
 using namespace std;
