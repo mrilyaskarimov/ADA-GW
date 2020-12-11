@@ -19,11 +19,17 @@ int main(int argc, const char * argv[]) {
         g[a][b] = g[b][a] = true;
         
     }
+    for(int i =1; i<=n; i++){
+        for(int j = 1; j<=n;j++){
+            printf("%d ", g[i][j]);
+        }
+        puts("");
+    }
     for (k = 1; k <= n; k++)
         for (i = k+1; i <= n; i++)
             for (j = i+1; j <= n; j++){
                 if(k==i || i == j) continue;
-                if(g[i][k] && g[k][j] ) flag &= g[i][j];
+                if(g[i][k] && g[k][j] && !g[i][j] && (n>=m)) flag &= g[i][j];
             }
                 
     if(flag) puts("YES");

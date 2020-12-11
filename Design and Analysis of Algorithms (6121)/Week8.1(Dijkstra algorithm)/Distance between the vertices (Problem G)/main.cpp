@@ -67,7 +67,6 @@ int main(void)
     for(i = 0; i < m; i++){
       scanf("%d %d %d",&b,&e,&w);
       g[b].push_back(edge(e,w));
-      g[e].push_back(edge(b,w));
     }
 
       Dijkstra(g,dist,start);
@@ -86,6 +85,7 @@ int main(void)
           for(int i= ptr ; i>= 0; i--){
               printf("%d ", path[i]);
           }
+          
       }
   return 0;
 }

@@ -7,47 +7,52 @@
 		<key>Dijkstra ( Problem A).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Dijkstra (Problem A).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Distance betweeen the vertices (Problem F).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Distance between the vertices (Problem G).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Distance between vertices (Problem C).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>6</integer>
 		</dict>
 		<key>Mathematical platforms (Problem E).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Petrol Stations (Problem D).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>7</integer>
 		</dict>
 		<key>The Shortest Path (Problem B).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>8</integer>
 		</dict>
 		<key>Week8.1(Dijkstra algorithm).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
+		</dict>
+		<key>test.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 	</dict>
 </dict>

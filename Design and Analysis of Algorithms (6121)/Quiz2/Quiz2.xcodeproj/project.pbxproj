@@ -11,6 +11,7 @@
 		8F9490B52579091000445CC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F9490B42579091000445CC5 /* main.cpp */; };
 		8F9490C22579092700445CC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F9490C12579092700445CC5 /* main.cpp */; };
 		8F9490D0257909D800445CC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F9490CF257909D800445CC5 /* main.cpp */; };
+		8FA717EF257D70170069D0B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FA717EE257D70170069D0B9 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8FA717EA257D70170069D0B9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +71,8 @@
 		8F9490C12579092700445CC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F9490CD257909D800445CC5 /* Problem I (Almost Shorted Path) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem I (Almost Shorted Path)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9490CF257909D800445CC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FA717EC257D70170069D0B9 /* calalin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = calalin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA717EE257D70170069D0B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FA717E9257D70170069D0B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,6 +121,7 @@
 				8F9490B32579091000445CC5 /* Problem C (Mutation) */,
 				8F9490C02579092700445CC5 /* Problem G (Cow contest) */,
 				8F9490CE257909D800445CC5 /* Problem I (Almost Shorted Path) */,
+				8FA717ED257D70170069D0B9 /* calalin */,
 				8F9490A4257908E900445CC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +133,7 @@
 				8F9490B22579091000445CC5 /* Problem C (Mutation) */,
 				8F9490BF2579092700445CC5 /* Problem G (Cow contest) */,
 				8F9490CD257909D800445CC5 /* Problem I (Almost Shorted Path) */,
+				8FA717EC257D70170069D0B9 /* calalin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +168,14 @@
 				8F9490CF257909D800445CC5 /* main.cpp */,
 			);
 			path = "Problem I (Almost Shorted Path)";
+			sourceTree = "<group>";
+		};
+		8FA717ED257D70170069D0B9 /* calalin */ = {
+			isa = PBXGroup;
+			children = (
+				8FA717EE257D70170069D0B9 /* main.cpp */,
+			);
+			path = calalin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +249,23 @@
 			productReference = 8F9490CD257909D800445CC5 /* Problem I (Almost Shorted Path) */;
 			productType = "com.apple.product-type.tool";
 		};
+		8FA717EB257D70170069D0B9 /* calalin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA717F2257D70170069D0B9 /* Build configuration list for PBXNativeTarget "calalin" */;
+			buildPhases = (
+				8FA717E8257D70170069D0B9 /* Sources */,
+				8FA717E9257D70170069D0B9 /* Frameworks */,
+				8FA717EA257D70170069D0B9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calalin;
+			productName = calalin;
+			productReference = 8FA717EC257D70170069D0B9 /* calalin */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -238,6 +284,9 @@
 						CreatedOnToolsVersion = 12.2;
 					};
 					8F9490CC257909D800445CC5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8FA717EB257D70170069D0B9 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -259,6 +308,7 @@
 				8F9490B12579091000445CC5 /* Problem C (Mutation) */,
 				8F9490BE2579092700445CC5 /* Problem G (Cow contest) */,
 				8F9490CC257909D800445CC5 /* Problem I (Almost Shorted Path) */,
+				8FA717EB257D70170069D0B9 /* calalin */,
 			);
 		};
 /* End PBXProject section */
@@ -293,6 +343,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F9490D0257909D800445CC5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA717E8257D70170069D0B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA717EF257D70170069D0B9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +548,26 @@
 			};
 			name = Release;
 		};
+		8FA717F0257D70170069D0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FA717F1257D70170069D0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -534,6 +612,15 @@
 			buildConfigurations = (
 				8F9490D2257909D800445CC5 /* Debug */,
 				8F9490D3257909D800445CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA717F2257D70170069D0B9 /* Build configuration list for PBXNativeTarget "calalin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA717F0257D70170069D0B9 /* Debug */,
+				8FA717F1257D70170069D0B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

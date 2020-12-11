@@ -28,25 +28,25 @@ int main(int argc, const char * argv[]) {
         g[ai][bi]=g[bi][ai]=ti;
     }
 
-    for(int i = 1; i <= m; i++)
-    for(int j = 1; j <= m; j++)
+    for(int i = 1; i <= n; i++)
+    for(int j = 1; j <= n; j++)
     {
       if ((g[i][j] == 0) && (i != j)) g[i][j] = INF;
     }
     floyd();
     
  
-    for (int i = 1; i <= m; i++){
-        int max =-1;
-        for (int j = 1; j <= m; j++){
+    for (int i = 1; i <= n; i++){
+        int max =-1000;
+        for (int j = 1; j <= n; j++){
             if((g[i][j]> max) && (g[i][j] < INF)) max = g[i][j];
-            printf("%d ", g[i][j]);
+//            printf("%d ", g[i][j]);
         }
         a[i]= max;
-        puts("\n");
+//        puts("\n");
     }
-    int min = 800;
-    for (int i = 1; i <= m; i++ )
+    int min = 800000;
+    for (int i = 1; i <= n; i++ )
     if(min > a[i]){
         min = a[i];
         tup =  make_tuple(i, min);

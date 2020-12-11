@@ -12,6 +12,7 @@
 		8F67054525682D8300ABA86D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F67054425682D8300ABA86D /* main.cpp */; };
 		8F6705532568313C00ABA86D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6705522568313C00ABA86D /* main.cpp */; };
 		8F6705622568326000ABA86D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6705612568326000ABA86D /* main.cpp */; };
+		8F94083D257A8A2400AB2D68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F94083C257A8A2400AB2D68 /* main.cpp */; };
 		8F9490522577CB3500445CC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F9490512577CB3500445CC5 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8F940838257A8A2400AB2D68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8F94904D2577CB3500445CC5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,6 +93,8 @@
 		8F6705522568313C00ABA86D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F67055F2568326000ABA86D /* Problem G (Transivity of a graph) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem G (Transivity of a graph)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6705612568326000ABA86D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F94083A257A8A2400AB2D68 /* Problem E (Diameter of the graph) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem E (Diameter of the graph)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F94083C257A8A2400AB2D68 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F94904F2577CB3500445CC5 /* Problem D (Detonating cord) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem D (Detonating cord)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9490512577CB3500445CC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +135,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F940837257A8A2400AB2D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F94904C2577CB3500445CC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +161,7 @@
 				8F6705512568313C00ABA86D /* Problem F (Transitive closure) */,
 				8F6705602568326000ABA86D /* Problem G (Transivity of a graph) */,
 				8F9490502577CB3500445CC5 /* Problem D (Detonating cord) */,
+				8F94083B257A8A2400AB2D68 /* Problem E (Diameter of the graph) */,
 				8F670527256829E300ABA86D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +175,7 @@
 				8F6705502568313C00ABA86D /* Problem F (Transitive closure) */,
 				8F67055F2568326000ABA86D /* Problem G (Transivity of a graph) */,
 				8F94904F2577CB3500445CC5 /* Problem D (Detonating cord) */,
+				8F94083A257A8A2400AB2D68 /* Problem E (Diameter of the graph) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +218,14 @@
 				8F6705612568326000ABA86D /* main.cpp */,
 			);
 			path = "Problem G (Transivity of a graph)";
+			sourceTree = "<group>";
+		};
+		8F94083B257A8A2400AB2D68 /* Problem E (Diameter of the graph) */ = {
+			isa = PBXGroup;
+			children = (
+				8F94083C257A8A2400AB2D68 /* main.cpp */,
+			);
+			path = "Problem E (Diameter of the graph)";
 			sourceTree = "<group>";
 		};
 		8F9490502577CB3500445CC5 /* Problem D (Detonating cord) */ = {
@@ -295,6 +324,23 @@
 			productReference = 8F67055F2568326000ABA86D /* Problem G (Transivity of a graph) */;
 			productType = "com.apple.product-type.tool";
 		};
+		8F940839257A8A2400AB2D68 /* Problem E (Diameter of the graph) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F940840257A8A2400AB2D68 /* Build configuration list for PBXNativeTarget "Problem E (Diameter of the graph)" */;
+			buildPhases = (
+				8F940836257A8A2400AB2D68 /* Sources */,
+				8F940837257A8A2400AB2D68 /* Frameworks */,
+				8F940838257A8A2400AB2D68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem E (Diameter of the graph)";
+			productName = "Problem E (Diameter of the graph)";
+			productReference = 8F94083A257A8A2400AB2D68 /* Problem E (Diameter of the graph) */;
+			productType = "com.apple.product-type.tool";
+		};
 		8F94904E2577CB3500445CC5 /* Problem D (Detonating cord) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F9490552577CB3500445CC5 /* Build configuration list for PBXNativeTarget "Problem D (Detonating cord)" */;
@@ -335,6 +381,9 @@
 					8F67055E2568326000ABA86D = {
 						CreatedOnToolsVersion = 12.2;
 					};
+					8F940839257A8A2400AB2D68 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					8F94904E2577CB3500445CC5 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -359,6 +408,7 @@
 				8F67054F2568313C00ABA86D /* Problem F (Transitive closure) */,
 				8F67055E2568326000ABA86D /* Problem G (Transivity of a graph) */,
 				8F94904E2577CB3500445CC5 /* Problem D (Detonating cord) */,
+				8F940839257A8A2400AB2D68 /* Problem E (Diameter of the graph) */,
 			);
 		};
 /* End PBXProject section */
@@ -401,6 +451,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F6705622568326000ABA86D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F940836257A8A2400AB2D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F94083D257A8A2400AB2D68 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,6 +684,26 @@
 			};
 			name = Release;
 		};
+		8F94083E257A8A2400AB2D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F94083F257A8A2400AB2D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8F9490532577CB3500445CC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -699,6 +777,15 @@
 			buildConfigurations = (
 				8F6705642568326000ABA86D /* Debug */,
 				8F6705652568326000ABA86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F940840257A8A2400AB2D68 /* Build configuration list for PBXNativeTarget "Problem E (Diameter of the graph)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F94083E257A8A2400AB2D68 /* Debug */,
+				8F94083F257A8A2400AB2D68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

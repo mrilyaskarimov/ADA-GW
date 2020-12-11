@@ -16,6 +16,7 @@
 		8F8CADFB256666C800486152 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CADFA256666C800486152 /* main.cpp */; };
 		8F8CAE0D256666DD00486152 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CAE0C256666DD00486152 /* main.cpp */; };
 		8F8CAE202566671400486152 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CAE1F2566671400486152 /* main.cpp */; };
+		8FA717DA257D20310069D0B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FA717D9257D20310069D0B9 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -91,6 +92,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8FA717D5257D20310069D0B9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +122,8 @@
 		8F8CAE0C256666DD00486152 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F8CAE1D2566671400486152 /* Distance between the vertices (Problem G) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Distance between the vertices (Problem G)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8CAE1F2566671400486152 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FA717D7257D20310069D0B9 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA717D9257D20310069D0B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +191,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FA717D4257D20310069D0B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -193,6 +212,7 @@
 				8F8CADF9256666C800486152 /* Mathematical platforms (Problem E) */,
 				8F8CAE0B256666DD00486152 /* Distance betweeen the vertices (Problem F) */,
 				8F8CAE1E2566671400486152 /* Distance between the vertices (Problem G) */,
+				8FA717D8257D20310069D0B9 /* test */,
 				8F8CAD982566664600486152 /* Frameworks */,
 				8F2907072555AF700043582D /* Products */,
 			);
@@ -210,6 +230,7 @@
 				8F8CADF8256666C800486152 /* Mathematical platforms (Problem E) */,
 				8F8CAE0A256666DD00486152 /* Distance betweeen the vertices (Problem F) */,
 				8F8CAE1D2566671400486152 /* Distance between the vertices (Problem G) */,
+				8FA717D7257D20310069D0B9 /* test */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -284,6 +305,14 @@
 				8F8CAE1F2566671400486152 /* main.cpp */,
 			);
 			path = "Distance between the vertices (Problem G)";
+			sourceTree = "<group>";
+		};
+		8FA717D8257D20310069D0B9 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				8FA717D9257D20310069D0B9 /* main.cpp */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,6 +471,23 @@
 			productReference = 8F8CAE1D2566671400486152 /* Distance between the vertices (Problem G) */;
 			productType = "com.apple.product-type.tool";
 		};
+		8FA717D6257D20310069D0B9 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA717DD257D20310069D0B9 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				8FA717D3257D20310069D0B9 /* Sources */,
+				8FA717D4257D20310069D0B9 /* Frameworks */,
+				8FA717D5257D20310069D0B9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = 8FA717D7257D20310069D0B9 /* test */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -478,6 +524,9 @@
 					8F8CAE1C2566671400486152 = {
 						CreatedOnToolsVersion = 12.2;
 					};
+					8FA717D6257D20310069D0B9 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 				};
 			};
 			buildConfigurationList = 8F2907012555AF700043582D /* Build configuration list for PBXProject "Week8.1(Dijkstra algorithm)" */;
@@ -502,6 +551,7 @@
 				8F8CADF7256666C800486152 /* Mathematical platforms (Problem E) */,
 				8F8CAE09256666DD00486152 /* Distance betweeen the vertices (Problem F) */,
 				8F8CAE1C2566671400486152 /* Distance between the vertices (Problem G) */,
+				8FA717D6257D20310069D0B9 /* test */,
 			);
 		};
 /* End PBXProject section */
@@ -585,6 +635,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F8CAE202566671400486152 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA717D3257D20310069D0B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA717DA257D20310069D0B9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -922,6 +980,28 @@
 			};
 			name = Release;
 		};
+		8FA717DB257D20310069D0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FA717DC257D20310069D0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1011,6 +1091,15 @@
 			buildConfigurations = (
 				8F8CAE222566671400486152 /* Debug */,
 				8F8CAE232566671400486152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA717DD257D20310069D0B9 /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA717DB257D20310069D0B9 /* Debug */,
+				8FA717DC257D20310069D0B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
