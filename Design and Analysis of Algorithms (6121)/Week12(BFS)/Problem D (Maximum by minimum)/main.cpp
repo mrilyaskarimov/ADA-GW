@@ -1,18 +1,19 @@
 //
 //  main.cpp
-//  Problem C (Complete graph - 2)
+//  Problem D (Maximum by minimum)
 //
-//  Created by Ilyas Karimov on 02.12.20.
+//  Created by Ilyas Karimov on 16.12.20.
 //
+
 
 #include <iostream>
 #include <cstdio>
 #include <vector>
 #include <queue>
 #include <cstring>
-#define MAX 101
+#define MAX 1001
 using namespace std;
-int i, j, n, s, f;
+int i, j, n, m, f, s, el, el2;
 int g[MAX][MAX], dist[MAX];
 
 // breadth first search dtarts from the vertex `start`
@@ -49,17 +50,21 @@ void bfs(int start)
 {
 // freopen("bfs.in", "r", stdin);
 // read number of vertices n, starting s and final f vertex
-        scanf("%d %d %d", &n, &s, &f);
+    scanf("%d %d %d", &n, &m, &s);
 // read adjacency matrix
-        for (i = 1; i <= n; i++)
-        for (j = 1; j <= n; j++)
-        scanf("%d", &g[i][j]);
-      // call bfs from the vertex s
-        bfs(s);
+    for (i = 1; i <= m; i++){
+        scanf("%d %d", &el, &el2);
+        g[el2][el] = 1;
+    }
+        
+    // call bfs from the vertex s
+    bfs(s);
       // if dist[f] = -1, path is not found, set dist[f] = 0
-        if (dist[f] < 0) dist[f] = 0;
-      // print the answer
-        printf("%d\n", dist[f]);
+    int m = -1;
+    for(i = 1; i<=n; i++)
+    if(dist[i] > m) m = dist[i];
+
+    printf("%d", m);
     return 0;
     
 }

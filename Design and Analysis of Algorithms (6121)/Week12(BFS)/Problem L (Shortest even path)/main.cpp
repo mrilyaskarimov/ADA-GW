@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  Problem A (Breadth First Search)
+//  Problem L (Shortest even path)
 //
-//  Created by Ilyas Karimov on 02.12.20.
+//  Created by Ilyas Karimov on 16.12.20.
 //
 
 #include <iostream>

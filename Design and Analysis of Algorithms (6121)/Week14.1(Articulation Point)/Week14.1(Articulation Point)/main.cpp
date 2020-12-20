@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  Problem A (Breadth First Search)
+//  Week14.1(Articulation Point)
 //
 //  Created by Ilyas Karimov on 16.12.20.
 //

@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <string.h>
 #define MAX 102
-int n, i, j, res, m, count = 0, a, b;
+int n, i, j, res, m, count = 0, g, b;
 int g[MAX][MAX], used[MAX];
 
 void dfs(int v)
@@ -21,8 +21,8 @@ void dfs(int v)
 int main(void){
     scanf("%d %d",&n,&m);
        for( i = 0 ; i < m; i++){
-           scanf("%d %d",&a,&b);
-           g[a][b]=g[b][a] = 1;
+           scanf("%d %d",&g,&b);
+           g[g][b]=g[b][g] = 1;
        }
        dfs(1);
     

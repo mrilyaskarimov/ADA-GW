@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  Problem B (The Shortest Distance)
+//  Problem C (Complete graph-2)
 //
 //  Created by Ilyas Karimov on 16.12.20.
 //
@@ -12,7 +12,7 @@
 #include <cstring>
 #define MAX 1001
 using namespace std;
-int i, j, n, m, f;
+int i, j, n, m, f, a, finish, start;
 int g[MAX][MAX], dist[MAX];
 
 // breadth first search dtarts from the vertex `start`
@@ -49,16 +49,19 @@ void bfs(int start)
 {
 // freopen("bfs.in", "r", stdin);
 // read number of vertices n, starting s and final f vertex
-        scanf("%d %d", &n, &m);
+    scanf("%d", &n);
 // read adjacency matrix
-        for (i = 1; i <= n; i++)
-        for (j = 1; j <= n; j++)
-        scanf("%d", &g[i][j]);
-      // call bfs from the vertex s
-        bfs(m);
-      // if dist[f] = -1, path is not found, set dist[f] = 0
-    for(i = 1; i<=n; i++)
-        printf("%d ", dist[i]);
+    for (i = 1; i <= n; i++)
+    for (j = 1; j <= n; j++){
+        scanf("%d", &a);
+        g[i][j] = g[j][i] = a;
+    }
+       
+    scanf("%d %d", &start, &finish);
+    bfs(start);
+  // if dist[f] = -1, path is not found, set dist[f] = 0
+    printf("%d", dist[finish]);
     return 0;
     
 }
+

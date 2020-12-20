@@ -7,7 +7,7 @@
 
 #include <iostream>
 using namespace std;
-int c = 0, n, m, v, a, b;
+int c = 0, n, m, v, g, b;
 int g[101][101], used[101];
 void dfs(int v){
     used[v] = 1;
@@ -24,8 +24,8 @@ int main(int argc, const char * argv[]) {
         memset(g,0,sizeof(g));
         memset(used,0,sizeof(used));
         for(int i=0;i<m;i++){
-            scanf("%d %d",&a,&b);
-            g[a][b]=g[b][a] =1;
+            scanf("%d %d",&g,&b);
+            g[g][b]=g[b][g] =1;
         }
 //        for(int i=0;i<n;i++){
 //            for(int j = 0; j<n;j++){

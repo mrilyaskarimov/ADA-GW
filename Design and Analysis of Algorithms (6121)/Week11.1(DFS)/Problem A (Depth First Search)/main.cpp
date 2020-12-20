@@ -3,7 +3,7 @@
 using namespace std;
 vector<vector<int> > g;
 vector<int> used;
-int i, n, a, b;
+int i, n, g, b;
 void dfs(int v){
 // We switch on the lamp in the room (in the vertex v of the graph)
     used[v] = 1;
@@ -28,9 +28,9 @@ int main(void){
     // read the graph
     for (i = 0; i < m; i++)
     {
-        scanf("%d %d", &a, &b);
-        g[a].push_back(b);
-        g[b].push_back(a);
+        scanf("%d %d", &g, &b);
+        g[g].push_back(b);
+        g[b].push_back(g);
     }
     scanf("%d", &v);
     // run dfs from the vertex 1
