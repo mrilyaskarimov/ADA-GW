@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F30D687255472B4001355C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F30D686255472B4001355C7 /* main.cpp */; };
+		8F61DEEA259F19BE008ABF98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F61DEE9259F19BE008ABF98 /* main.cpp */; };
 		8F6A86C92552DD6500169B70 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6A86C82552DD6500169B70 /* main.cpp */; };
 		8F6A86D92552EB8E00169B70 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6A86D82552EB8E00169B70 /* main.cpp */; };
 		8FFBD1F5253B0BC50065D0ED /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FFBD1F4253B0BC50065D0ED /* main.cpp */; };
@@ -17,6 +18,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8F30D682255472B4001355C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F61DEE5259F19BE008ABF98 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -84,6 +94,8 @@
 /* Begin PBXFileReference section */
 		8F30D684255472B4001355C7 /* Problem J (Cookie Selection) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem J (Cookie Selection)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F30D686255472B4001355C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F61DEE7259F19BE008ABF98 /* Problem A (Cleaning the dished) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem A (Cleaning the dished)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F61DEE9259F19BE008ABF98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F6A86B32552DB6A00169B70 /* Problem B (Minimum in the stack) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Minimum in the stack)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6A86C62552DD6500169B70 /* Problem B (Minimum in the Stack) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Minimum in the Stack)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6A86C82552DD6500169B70 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -99,6 +111,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8F30D681255472B4001355C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F61DEE4259F19BE008ABF98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -158,6 +177,14 @@
 			path = "Problem J (Cookie Selection)";
 			sourceTree = "<group>";
 		};
+		8F61DEE8259F19BE008ABF98 /* Problem A (Cleaning the dished) */ = {
+			isa = PBXGroup;
+			children = (
+				8F61DEE9259F19BE008ABF98 /* main.cpp */,
+			);
+			path = "Problem A (Cleaning the dished)";
+			sourceTree = "<group>";
+		};
 		8F6A86C72552DD6500169B70 /* Problem B (Minimum in the Stack) */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +210,7 @@
 				8F6A86C72552DD6500169B70 /* Problem B (Minimum in the Stack) */,
 				8F6A86D72552EB8E00169B70 /* Problem I (Find the mean-2) */,
 				8F30D685255472B4001355C7 /* Problem J (Cookie Selection) */,
+				8F61DEE8259F19BE008ABF98 /* Problem A (Cleaning the dished) */,
 				8FFBD1F2253B0BC50065D0ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,6 +225,7 @@
 				8F6A86C62552DD6500169B70 /* Problem B (Minimum in the Stack) */,
 				8F6A86D62552EB8E00169B70 /* Problem I (Find the mean-2) */,
 				8F30D684255472B4001355C7 /* Problem J (Cookie Selection) */,
+				8F61DEE7259F19BE008ABF98 /* Problem A (Cleaning the dished) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -243,6 +272,23 @@
 			name = "Problem J (Cookie Selection)";
 			productName = "Problem J (Cookie Selection)";
 			productReference = 8F30D684255472B4001355C7 /* Problem J (Cookie Selection) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F61DEE6259F19BE008ABF98 /* Problem A (Cleaning the dished) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F61DEED259F19BE008ABF98 /* Build configuration list for PBXNativeTarget "Problem A (Cleaning the dished)" */;
+			buildPhases = (
+				8F61DEE3259F19BE008ABF98 /* Sources */,
+				8F61DEE4259F19BE008ABF98 /* Frameworks */,
+				8F61DEE5259F19BE008ABF98 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem A (Cleaning the dished)";
+			productName = "Problem A (Cleaning the dished)";
+			productReference = 8F61DEE7259F19BE008ABF98 /* Problem A (Cleaning the dished) */;
 			productType = "com.apple.product-type.tool";
 		};
 		8F6A86B22552DB6A00169B70 /* Problem B (Minimum in the stack) */ = {
@@ -359,6 +405,9 @@
 					8F30D683255472B4001355C7 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					8F61DEE6259F19BE008ABF98 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					8F6A86B22552DB6A00169B70 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -399,6 +448,7 @@
 				8F6A86C52552DD6500169B70 /* Problem B (Minimum in the Stack) */,
 				8F6A86D52552EB8E00169B70 /* Problem I (Find the mean-2) */,
 				8F30D683255472B4001355C7 /* Problem J (Cookie Selection) */,
+				8F61DEE6259F19BE008ABF98 /* Problem A (Cleaning the dished) */,
 			);
 		};
 /* End PBXProject section */
@@ -409,6 +459,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F30D687255472B4001355C7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F61DEE3259F19BE008ABF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F61DEEA259F19BE008ABF98 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +536,28 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55394Y5CD2;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F61DEEB259F19BE008ABF98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F61DEEC259F19BE008ABF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -727,6 +807,15 @@
 			buildConfigurations = (
 				8F30D688255472B4001355C7 /* Debug */,
 				8F30D689255472B4001355C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F61DEED259F19BE008ABF98 /* Build configuration list for PBXNativeTarget "Problem A (Cleaning the dished)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F61DEEB259F19BE008ABF98 /* Debug */,
+				8F61DEEC259F19BE008ABF98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

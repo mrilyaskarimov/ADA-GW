@@ -10,6 +10,8 @@
 		8F00FE09258A78F50067BA31 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F00FE08258A78F50067BA31 /* main.cpp */; };
 		8F00FE17258A79150067BA31 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F00FE16258A79150067BA31 /* main.cpp */; };
 		8F00FE24258A79340067BA31 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F00FE23258A79340067BA31 /* main.cpp */; };
+		8F279EE42590CDD8008997A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F279EE32590CDD8008997A0 /* main.cpp */; };
+		8F279EF32590CF47008997A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F279EF22590CF47008997A0 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +42,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8F279EDF2590CDD8008997A0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8F279EEE2590CF47008997A0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +69,10 @@
 		8F00FE16258A79150067BA31 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8F00FE21258A79340067BA31 /* Problem B (Articulation points - Timestamps) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem B (Articulation points - Timestamps)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F00FE23258A79340067BA31 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F279EE12590CDD8008997A0 /* Problem C (Bridges) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem C (Bridges)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F279EE32590CDD8008997A0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8F279EF02590CF47008997A0 /* Problem D (Reliable Network) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem D (Reliable Network)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F279EF22590CF47008997A0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +97,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F279EDE2590CDD8008997A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F279EED2590CF47008997A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +120,8 @@
 				8F00FE07258A78F50067BA31 /* Week14.1(Articulation Point) */,
 				8F00FE15258A79150067BA31 /* Problem A (Articulation Points) */,
 				8F00FE22258A79340067BA31 /* Problem B (Articulation points - Timestamps) */,
+				8F279EE22590CDD8008997A0 /* Problem C (Bridges) */,
+				8F279EF12590CF47008997A0 /* Problem D (Reliable Network) */,
 				8F00FE06258A78F50067BA31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +132,8 @@
 				8F00FE05258A78F50067BA31 /* Week14.1(Articulation Point) */,
 				8F00FE14258A79150067BA31 /* Problem A (Articulation Points) */,
 				8F00FE21258A79340067BA31 /* Problem B (Articulation points - Timestamps) */,
+				8F279EE12590CDD8008997A0 /* Problem C (Bridges) */,
+				8F279EF02590CF47008997A0 /* Problem D (Reliable Network) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +160,22 @@
 				8F00FE23258A79340067BA31 /* main.cpp */,
 			);
 			path = "Problem B (Articulation points - Timestamps)";
+			sourceTree = "<group>";
+		};
+		8F279EE22590CDD8008997A0 /* Problem C (Bridges) */ = {
+			isa = PBXGroup;
+			children = (
+				8F279EE32590CDD8008997A0 /* main.cpp */,
+			);
+			path = "Problem C (Bridges)";
+			sourceTree = "<group>";
+		};
+		8F279EF12590CF47008997A0 /* Problem D (Reliable Network) */ = {
+			isa = PBXGroup;
+			children = (
+				8F279EF22590CF47008997A0 /* main.cpp */,
+			);
+			path = "Problem D (Reliable Network)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +232,40 @@
 			productReference = 8F00FE21258A79340067BA31 /* Problem B (Articulation points - Timestamps) */;
 			productType = "com.apple.product-type.tool";
 		};
+		8F279EE02590CDD8008997A0 /* Problem C (Bridges) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F279EE72590CDD8008997A0 /* Build configuration list for PBXNativeTarget "Problem C (Bridges)" */;
+			buildPhases = (
+				8F279EDD2590CDD8008997A0 /* Sources */,
+				8F279EDE2590CDD8008997A0 /* Frameworks */,
+				8F279EDF2590CDD8008997A0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem C (Bridges)";
+			productName = "Problem C (Bridges)";
+			productReference = 8F279EE12590CDD8008997A0 /* Problem C (Bridges) */;
+			productType = "com.apple.product-type.tool";
+		};
+		8F279EEF2590CF47008997A0 /* Problem D (Reliable Network) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F279EF42590CF47008997A0 /* Build configuration list for PBXNativeTarget "Problem D (Reliable Network)" */;
+			buildPhases = (
+				8F279EEC2590CF47008997A0 /* Sources */,
+				8F279EED2590CF47008997A0 /* Frameworks */,
+				8F279EEE2590CF47008997A0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem D (Reliable Network)";
+			productName = "Problem D (Reliable Network)";
+			productReference = 8F279EF02590CF47008997A0 /* Problem D (Reliable Network) */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,6 +281,12 @@
 						CreatedOnToolsVersion = 12.2;
 					};
 					8F00FE20258A79340067BA31 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F279EE02590CDD8008997A0 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					8F279EEF2590CF47008997A0 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -209,6 +307,8 @@
 				8F00FE04258A78F50067BA31 /* Week14.1(Articulation Point) */,
 				8F00FE13258A79150067BA31 /* Problem A (Articulation Points) */,
 				8F00FE20258A79340067BA31 /* Problem B (Articulation points - Timestamps) */,
+				8F279EE02590CDD8008997A0 /* Problem C (Bridges) */,
+				8F279EEF2590CF47008997A0 /* Problem D (Reliable Network) */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +335,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F00FE24258A79340067BA31 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F279EDD2590CDD8008997A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F279EE42590CDD8008997A0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F279EEC2590CF47008997A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F279EF32590CF47008997A0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +528,46 @@
 			};
 			name = Release;
 		};
+		8F279EE52590CDD8008997A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F279EE62590CDD8008997A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F279EF52590CF47008997A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F279EF62590CF47008997A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55394Y5CD2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -447,6 +603,24 @@
 			buildConfigurations = (
 				8F00FE26258A79340067BA31 /* Debug */,
 				8F00FE27258A79340067BA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F279EE72590CDD8008997A0 /* Build configuration list for PBXNativeTarget "Problem C (Bridges)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F279EE52590CDD8008997A0 /* Debug */,
+				8F279EE62590CDD8008997A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F279EF42590CF47008997A0 /* Build configuration list for PBXNativeTarget "Problem D (Reliable Network)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F279EF52590CF47008997A0 /* Debug */,
+				8F279EF62590CF47008997A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -53,5 +53,5 @@ void bfs(int start){
      for (i = 0; i < dist.size(); i++)
             dist[i] = -1;
      bfs(2*s-1);
-     printf("%d", dist[2*f-1]);
+     printf("%d", dist[2*f-1] - m);
 }

@@ -1,57 +1,58 @@
-//
-//  main.cpp
-//  Problem A (Breadth First Search)
-//
-//  Created by Ilyas Karimov on 02.12.20.
-//
-
-#include <iostream>
+#include <cstdio>
 #include <vector>
 #include <queue>
+#include <cstring>
 #define MAX 100001
-
 using namespace std;
-int i, j, u, v, u1, u2, v1, v2, n, m, s, f;
+int i, j, a, b, n, m, s, f, optDistance, res = 0;
+vector<int> distS, distF;
 vector<vector<int>> g;
-vector<int>dist;
-
-void bfs(int start){
+void bfs(int start, vector<int> &dist)
+{
     dist[start] = 0;
-    queue<int>q;
+    queue<int> q;
     q.push(start);
-    while (!q.empty()){
+    while (!q.empty())
+    {
         int v = q.front(); q.pop();
-        for (int i = 0; i < g[v].size(); i++){
-           int to = g[v][i];
-           if (dist[to] == -1){
-               q.push(to);
-               dist[to] = dist[v] + 1;
-           }
-         }
+        for (int i = 0; i < g[v].size(); i++)
+        {
+            int to = g[v][i];
+            if (dist[to] == -1)
+            {
+                q.push(to);
+                dist[to] = dist[v] + 1;
+            }
+        }
     }
 }
-
- int main(void){
-     scanf("%d %d %d %d", &n,&m, &s, &f);
-     
-     g.resize(2*n+1);
-     dist.resize(2*n+1);
-     
-     for(i = 1; i<=m; i++){
-         scanf("%d %d", &u, &v);
-         u1 = u*2 - 1;
-         u2 = u*2;
-         v1 = v*2 - 1;
-         v2 = v*2;
-         
-         g[u1].push_back(v2);
-         g[v2].push_back(u1);
-         
-         g[u2].push_back(v1);
-         g[v1].push_back(u2);
-     }
-     for (i = 0; i < dist.size(); i++)
-            dist[i] = -1;
-     bfs(2*s-1);
-     printf("%d", dist[2*f-1]);
+int main(void)
+{
+    scanf("%d %d %d %d", &n, &m, &s, &f);
+    g.resize(n + 1);
+    for (i = 1; i <= m; i++)
+    {
+        scanf("%d %d", &a, &b);
+        g[a].push_back(b);
+        g[b].push_back(a);
+    }
+    distS.resize(n + 1);
+    distF.resize(n + 1);
+    for (i = 0; i < distS.size(); i++)
+    {
+        distS[i] = -1;
+        distF[i] = -1;
+    }
+    bfs(s, distS);
+    bfs(f, distF);
+    optDistance = distS[f];
+    for (i = 1; i <= n; i++)
+    {
+        for (j = i + 1; j <= n; j++)
+        {
+            if (!(distS[i] + 1 + distF[j] < optDistance || distS[j] + 1 + distF[i] < optDistance)) res++;
+        }
+    }
+    res = res - m;
+    printf("%d ", res);
 }

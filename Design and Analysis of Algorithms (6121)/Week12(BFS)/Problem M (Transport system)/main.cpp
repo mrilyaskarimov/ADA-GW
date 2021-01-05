@@ -57,15 +57,13 @@ int main(int argc, const char * argv[]) {
 //    for(i = 1; i<=n; i++)
 //        printf("%d ", distF[i]);
 //    puts("");
-    for(int k = 1; k<=n; k++){
-        for(int p = 1; p<=n; p++){
-            if(k == p) continue;
-            printf("S: %d F: %d\n", distS[k], distF[p]);
-            if((distS[k] + distF[p] + 1) > optDistance)
-                cnt++;
+    for(i = 1; i<=n; i++){
+        for(j = i+1; j<=n; j++){
+//            if(k == p) continue;
+//            printf("S: %d F: %d\n", distS[i], distF[j]);
+            if (!(distS[i] + 1 + distF[j] < optDistance || distS[j] + 1 + distF[i] < optDistance)) cnt++;
         }
     }
-    
-        
-    printf("%d", cnt);
+
+    printf("%d", cnt - m);
 }
