@@ -31,9 +31,9 @@ WAV_PATH = "generated/wav"
 SAMPLE_RATE = 22050
 DURATION = 30 # in seconds
 SAMPLES_PER_TRACK = SAMPLE_RATE*DURATION # 22050 * 30
-NUM_SEGMENTS = 30
+NUM_SEGMENTS = 15
 
-MODEL_PATH = "static/model(75,75).pkl"
+MODEL_PATH = "static/model(72,71).pkl"
 
 
 def __write_as_wav(new_songs_path, wav_songs_path, genre="empty."):
@@ -50,7 +50,7 @@ def __write_as_wav(new_songs_path, wav_songs_path, genre="empty."):
             print(xpath)
             new = os.path.join(os.path.join(wav_songs_path), genre + str(numb).zfill(5) + ".wav")
             aud_seg = AudioSegment.from_mp3(xpath)
-            aud_seg = aud_seg[0:audio_length]
+            # aud_seg = aud_seg[20: (20 +audio_length)]
             aud_seg = aud_seg.set_frame_rate(22050)
             aud_seg.export(new, format="wav")
             numb = numb + 1
@@ -158,9 +158,9 @@ def __test_song(current_song_path, next_path, genre, object_file):
 
     result_dict = {x: results.count(x) for x in results}
     print(result_dict)
-    
+
     __clear_files(genre)
-    
+
     genre = max(result_dict, key=lambda x: result_dict[x])
 
     print("Genre is: ", genre)
